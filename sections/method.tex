@@ -1,2 +1,63 @@
 % !TEX root = ../main.tex
-Method
+
+\subsection{Length-weighted spiral arms}
+
+A common method used to obtain a pitch angle of a galaxy is by identifying all
+
+\subsection{Bayesian modelling of spiral arms in \textit{Galaxy Builder}}
+
+We fit a number of models, including various priors on the global pitch angle distribution. We make use of PYMC3\footnote{\url{https://docs.pymc.io/}}, an open source probabilistic programming framework written in python.
+
+\subsubsection{Spiral arms from \textit{Galaxy Builder}}
+
+Clustered, cleaned points in polar coordinates
+
+$$ r_\mathrm{arm} = \exp\left[\theta\tan(\phi_\mathrm{arm}) + c_\mathrm{arm}\right] + \sigma_r.$$
+
+\subsubsection{Cot-Uniform model}
+
+Assume the pitch angle of a galaxy's spiral arms are drawn from a Normal distribution, truncated between 0 and 90, centred on the galaxy's ``pitch angle'', $\phi_\mathrm{gal}$ with some measure of spread, $\sigma_\mathrm{gal}$, common to all galaxies:
+
+\begin{equation}
+\phi_\mathrm{arm} \sim \mathrm{TruncatedNormal}(\phi_\mathrm{gal}, \sigma_\mathrm{gal}, \mathrm{min}=0, \mathrm{max}=90).
+\end{equation}
+
+We choose a prior on $\phi_\mathrm{gal}$ such that
+
+\begin{equation}
+\cot\left(\phi_\mathrm{gal}\right) \sim \mathrm{Uniform}(\mathrm{min}=1, \mathrm{max}=4),
+\end{equation}
+
+and $\sigma_\mathrm{gal}$ of
+
+\begin{equation}
+\sigma_\mathrm{gal} \sim \mathrm{InverseGamma}(\alpha=2,\,\beta=20).
+\end{equation}
+
+We model point
+
+\begin{equation}
+c_\mathrm{arm} \sim \mathrm{Cauchy}(\alpha=0,\,\beta=10).
+\end{equation}
+
+\begin{equation}
+\sigma_r \sim \mathrm{HalfCauchy}(\beta=0.2)
+\end{equation}
+
+\subsubsection{Hierarchial Normal Model}
+
+Instead of the above model, assume
+
+\begin{equation}
+\phi_\mathrm{gal} \sim \mathrm{TruncatedNormal}(\mu_\mathrm{global}, \sigma_\mathrm{global}, \mathrm{min}=0, \mathrm{max}=90),
+\end{equation}
+
+Hyperpriors used are as follows:
+
+\begin{equation}
+\mu_\phi \sim \mathrm{Uniform}(0, 90)
+\end{equation}
+
+\begin{equation}
+\sigma_\mathrm{global} \sim \mathrm{InverseGamma}(\alpha=1,\,\beta=10)
+\end{equation}
