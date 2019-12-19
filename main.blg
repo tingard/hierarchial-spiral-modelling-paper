@@ -6,45 +6,47 @@ Database file #1: bibliography.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty publisher in 1987gady.book.....B
+Warning--can't use both author and editor fields in 1989gadv.book..151B
+Warning--empty publisher in 1989gadv.book..151B
 You've used 19 entries,
             2881 wiz_defined-function locations,
-            892 strings with 12741 characters,
-and the built_in function-call counts, 10182 in all, are:
-= -- 923
-> -- 619
-< -- 51
-+ -- 276
-- -- 81
-* -- 1144
-:= -- 1456
+            895 strings with 12751 characters,
+and the built_in function-call counts, 9918 in all, are:
+= -- 842
+> -- 651
+< -- 55
++ -- 288
+- -- 91
+* -- 1141
+:= -- 1470
 add.period$ -- 0
 call.type$ -- 19
 change.case$ -- 38
 chr.to.int$ -- 19
-cite$ -- 20
-duplicate$ -- 539
-empty$ -- 508
-format.name$ -- 161
-if$ -- 1896
+cite$ -- 22
+duplicate$ -- 515
+empty$ -- 500
+format.name$ -- 169
+if$ -- 1804
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 19
-newline$ -- 70
-num.names$ -- 134
-pop$ -- 105
+missing$ -- 20
+newline$ -- 71
+num.names$ -- 136
+pop$ -- 109
 preamble$ -- 1
 purify$ -- 76
 quote$ -- 0
-skip$ -- 404
+skip$ -- 367
 stack$ -- 0
-substring$ -- 685
-swap$ -- 347
+substring$ -- 600
+swap$ -- 322
 text.length$ -- 80
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 168
-warning$ -- 1
-while$ -- 140
+type$ -- 165
+warning$ -- 3
+while$ -- 142
 width$ -- 0
 write$ -- 201
-(There was 1 warning)
+(There were 3 warnings)

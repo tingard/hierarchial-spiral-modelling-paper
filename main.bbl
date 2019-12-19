@@ -21,6 +21,10 @@
   {Tremaine}}{1987}]{1987gady.book.....B}
 {Binney} J.,  {Tremaine} S.,  1987, {Galactic dynamics}
 
+\bibitem[\protect\citeauthoryear{{Buta}}{{Buta}}{1989}]{1989gadv.book..151B}
+{Buta} R.,  1989, {Galaxy Morphology}.
+p.~151
+
 \bibitem[\protect\citeauthoryear{{Buta} et~al.,}{{Buta}
   et~al.}{2015}]{2015yCat..22170032B}
 {Buta} R.~J.,  et~al., 2015, VizieR Online Data Catalog, \href
@@ -35,22 +39,23 @@
   {10.1088/0004-637X/790/2/87}, \href
   {https://ui.adsabs.harvard.edu/abs/2014ApJ...790...87D} {790, 87}
 
-\bibitem[\protect\citeauthoryear{{D{\'\i}az-Garc{\'\i}a}, {Salo}, {Knapen}  \&
-  {Herrera-Endoqui}}{{D{\'\i}az-Garc{\'\i}a}
-  et~al.}{2019}]{2019arXiv190804246D}
-{D{\'\i}az-Garc{\'\i}a} S.,  {Salo} H.,  {Knapen} J.~H.,   {Herrera-Endoqui}
-  M.,  2019, arXiv e-prints, \href
-  {https://ui.adsabs.harvard.edu/abs/2019arXiv190804246D} {p. arXiv:1908.04246}
-
-\bibitem[\protect\citeauthoryear{{Dobbs} \& {Baba}}{{Dobbs} \&
-  {Baba}}{2014}]{2014PASA...31...35D}
-{Dobbs} C.,  {Baba} J.,  2014, \mn@doi [\pasa] {10.1017/pasa.2014.31}, \href
-  {https://ui.adsabs.harvard.edu/abs/2014PASA...31...35D} {31, e035}
+\bibitem[\protect\citeauthoryear{{Davis}, {Berrier}, {Shields}, {Kennefick},
+  {Kennefick}, {Seigar}, {Lacy}  \& {Puerari}}{{Davis}
+  et~al.}{2012}]{2012ApJS..199...33D}
+{Davis} B.~L.,  {Berrier} J.~C.,  {Shields} D.~W.,  {Kennefick} J.,
+  {Kennefick} D.,  {Seigar} M.~S.,  {Lacy} C. H.~S.,   {Puerari} I.,  2012,
+  \mn@doi [\apjs] {10.1088/0067-0049/199/2/33}, \href
+  {https://ui.adsabs.harvard.edu/abs/2012ApJS..199...33D} {199, 33}
 
 \bibitem[\protect\citeauthoryear{{Elmegreen} et~al.,}{{Elmegreen}
   et~al.}{2011}]{2011ApJ...737...32E}
 {Elmegreen} D.~M.,  et~al., 2011, \mn@doi [\apj] {10.1088/0004-637X/737/1/32},
   \href {https://ui.adsabs.harvard.edu/abs/2011ApJ...737...32E} {737, 32}
+
+\bibitem[\protect\citeauthoryear{{Gao} \& {Ho}}{{Gao} \&
+  {Ho}}{2017}]{Gao2017:1709.00746v1}
+{Gao} H.,  {Ho} L.~C.,  2017, \mn@doi [\apj] {10.3847/1538-4357/aa7da4}, \href
+  {https://ui.adsabs.harvard.edu/abs/2017ApJ...845..114G} {845, 114}
 
 \bibitem[\protect\citeauthoryear{{Hart} et~al.,}{{Hart}
   et~al.}{2017}]{2017MNRAS.472.2263H}
@@ -85,11 +90,6 @@
 {Lintott} C.~J.,  et~al., 2008, \mn@doi [\mnras]
   {10.1111/j.1365-2966.2008.13689.x}, \href
   {https://ui.adsabs.harvard.edu/abs/2008MNRAS.389.1179L} {389, 1179}
-
-\bibitem[\protect\citeauthoryear{{Masters} et~al.,}{{Masters}
-  et~al.}{2019}]{2019MNRAS.487.1808M}
-{Masters} K.~L.,  et~al., 2019, \mn@doi [\mnras] {10.1093/mnras/stz1153}, \href
-  {https://ui.adsabs.harvard.edu/abs/2019MNRAS.487.1808M} {487, 1808}
 
 \bibitem[\protect\citeauthoryear{{Peng}, {Ho}, {Impey}  \& {Rix}}{{Peng}
   et~al.}{2010}]{2010AJ....139.2097P}
