@@ -8,45 +8,52 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty publisher in 1987gady.book.....B
 Warning--can't use both author and editor fields in 1989gadv.book..151B
 Warning--empty publisher in 1989gadv.book..151B
-You've used 19 entries,
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Willett2013:1308.3496v2
+while executing---line 1822 of file mnras.bst
+Warning--empty journal in Willett2013:1308.3496v2
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Willett2013:1308.3496v2
+while executing---line 1822 of file mnras.bst
+You've used 26 entries,
             2881 wiz_defined-function locations,
-            895 strings with 12751 characters,
-and the built_in function-call counts, 9918 in all, are:
-= -- 842
-> -- 651
-< -- 55
-+ -- 288
-- -- 91
-* -- 1141
-:= -- 1470
+            953 strings with 15432 characters,
+and the built_in function-call counts, 13172 in all, are:
+= -- 1156
+> -- 826
+< -- 66
++ -- 373
+- -- 105
+* -- 1523
+:= -- 1913
 add.period$ -- 0
-call.type$ -- 19
-change.case$ -- 38
-chr.to.int$ -- 19
-cite$ -- 22
-duplicate$ -- 515
-empty$ -- 500
-format.name$ -- 169
-if$ -- 1804
+call.type$ -- 26
+change.case$ -- 52
+chr.to.int$ -- 26
+cite$ -- 30
+duplicate$ -- 697
+empty$ -- 669
+format.name$ -- 213
+if$ -- 2407
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 20
-newline$ -- 71
-num.names$ -- 136
-pop$ -- 109
+missing$ -- 27
+newline$ -- 92
+num.names$ -- 176
+pop$ -- 144
 preamble$ -- 1
-purify$ -- 76
+purify$ -- 104
 quote$ -- 0
-skip$ -- 367
+skip$ -- 501
 stack$ -- 0
-substring$ -- 600
-swap$ -- 322
-text.length$ -- 80
+substring$ -- 829
+swap$ -- 419
+text.length$ -- 109
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 165
-warning$ -- 3
-while$ -- 142
+type$ -- 228
+warning$ -- 4
+while$ -- 186
 width$ -- 0
-write$ -- 201
-(There were 3 warnings)
+write$ -- 269
+(There were 2 error messages)
