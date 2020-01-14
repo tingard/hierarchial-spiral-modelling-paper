@@ -1,4 +1,6 @@
 % !TEX root = ../main.tex
+\subsection{Constraints on Galaxy Pitch angle}
+Our hierarchical model can predict individual arm pitch angle with a hich degree of certainty, however it returns a large spread of potential values for the pitch angles of arms
 
 \subsection{Spiral Winding}
 \label{section:spiral_winding}
@@ -8,22 +10,22 @@ We perform the marginalized Anderson-Darling test for a potential source distrib
 
 \begin{figure*}
   \includegraphics[width=17.7cm]{plots/cot_uniform_marginalized_tests.pdf}
-  \caption{The results of a marginalized Anderson-Darling test (top panel), with confidence intervals shown, and marginalized Kolmogorov-Smirnov test p-values (lower panel). Moving rightwards on the x-axis implies greater confidence in rejecting the null hypothesis.}
+  \caption{The results of a marginalized Anderson-Darling test (top panel), with values corresponding to various confidence intervals shown, and marginalized Kolmogorov-Smirnov test p-values (lower panel). Moving rightwards on the x-axis implies greater confidence in rejecting the null hypothesis.}
   \label{fig:ad-cot-test}
 \end{figure*}
 
 \subsection{Dependence of pitch angle on Galaxy Morphology}
 \label{section:morphology_comparision}
 \subsubsection{Pitch angle vs. Bulge size}
-We see no correlation between galaxy pitch angle derived from the \textit{hierarchial normal model} and Galaxy Zoo 2's debiased \citep{Willett2013:1308.3496v2} \textit{pbulge}, which has been shown to be a good measure of bulge size.
+We see no correlation between galaxy pitch angle derived from the \textit{hierarchical normal model} and Galaxy Zoo 2's debiased \citep{Willett2013:1308.3496v2} \textit{pbulge}, which has been shown to be a good measure of bulge size.
 
 We separate our sample into ``disc-dominated galaxies'' and ``obvious bulge galaxies'' using the debiased fractions from Galaxy Zoo 2 following \citet{2017MNRAS.469.3363K}, defining \textit{no bulge + just noticeable $>$ obvious + dominant} for the former and the converse for the latter. A marginalized two-sample Anderson-Darling test \citep{doi:10.1080/01621459.1987.10478517} does not find strong evidence that the samples were drawn from different distributions; we reject the null hypothesis at the 1\% level for only 8\% of the samples.
 
 
 \subsubsection{Pitch angle vs. Bar Strength}
-We see no correlation between galaxy pitch angle derived from the \textit{hierarchial normal model} and Galaxy Zoo 2's debiased \textit{pbar}, which is widely viewed as a good measure of bar strength, and therefore a measure of the torque applied on the disc gas.
+We see no correlation between galaxy pitch angle derived from the \textit{hierarchical normal model} and Galaxy Zoo 2's debiased \textit{pbar}, which is widely viewed as a good measure of bar strength, and therefore a measure of the torque applied on the disc gas.
 
-Separating the sample based off of $\mathrm{\textit{pbar}} > 0.5$, and restricting to galaxies with more than 10 classifications for \textit{pbar} (as performed by \citealt{2011MNRAS.411.2026M} and \citealt{2017MNRAS.469.3363K}) and performing a marginalized two-sample Anderson-Darling test does not find that the samples were drawn from different distributions.
+Separating the sample based off of $\mathrm{\textit{pbar}} > 0.5$, and restricting to galaxies with more than 10 classifications for \textit{pbar} (as performed by \citealt{2011MNRAS.411.2026M} and \citealt{2017MNRAS.469.3363K}) and performing a marginalized two-sample Anderson-Darling test does not find that the samples were drawn from different distributions. \comment{Talk about number of galaxies in each sub-sample?}
 
 
 \begin{figure*}

@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex main"] 1577980961 "main.aux" "main.bbl" "main" 1577980967
+["bibtex main"] 1578478193 "main.aux" "main.bbl" "main" 1578484878
   "./mnras.bst" 1569414143 43376 8463aa2cc1948e346d5641ca59bb4619 ""
   "bibliography.bib" 1577970796 22123 0a622a7c7061c0ce38f1aee77ac889f2 ""
-  "main.aux" 1577980962 7666 9a72ef64216d3b094d9f34c5f6c0406c ""
+  "main.aux" 1578484032 7730 cbf3a1b3604e2e468903e1326e9b9668 ""
   "main.bcf" 0 -1 0 ""
   (generated)
   "main.blg"
   "main.bbl"
-["pdflatex"] 1577980961 "main.tex" "main.pdf" "main" 1577980967
+["pdflatex"] 1578484031 "main.tex" "main.pdf" "main" 1578484878
   "/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc" 1422827479 2083 60e36f8eac802fcaf19eabe2633b406e ""
@@ -246,22 +246,22 @@
   "/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1486052417 1888048 f2c5faed5981a516f406b2ccc20bff71 ""
   "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1486052463 3873396 e46673161f712a56df5b0cf95926fdd1 ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
-  "main.aux" 1577980962 7666 9a72ef64216d3b094d9f34c5f6c0406c ""
-  "main.bbl" 1577980961 7635 90b215e9144e57b657bc01a7d2a26c0b "bibtex main"
+  "main.aux" 1578484032 7730 cbf3a1b3604e2e468903e1326e9b9668 ""
+  "main.bbl" 1578478193 7635 90b215e9144e57b657bc01a7d2a26c0b "bibtex main"
   "main.tex" 1576754968 5318 e44d4f5cbedb96c82a7892d81c27e303 ""
   "mnras.cls" 1569414143 62270 584b1996e2ad3b6232713ae7357cb18e ""
-  "plots/bulge_bar_test_results.pdf" 1577182523 17917 8533d3222af6450ad8cf141077518323 ""
-  "plots/cot_uniform_marginalized_tests.pdf" 1577980297 19073 47f77445801f8187f2174aa314d2ed3b ""
+  "plots/bulge_bar_test_results.pdf" 1578042247 17917 88dafb43934a30ce27f29100945674e5 ""
+  "plots/cot_uniform_marginalized_tests.pdf" 1578042200 18382 c681102603b6cab72c8bae0efb5ae0d1 ""
   "plots/plots_n109d1000t500/model.pdf" 1576688770 16986 14210480d15036c41b39ea921342f444 ""
   "sections/abstract.tex" 1569415121 35 d596b3f4d8def0e9bc699058a9d03dea ""
   "sections/acknowledgements.tex" 1569415075 611 6522ffcbc46997456942e524644896d2 ""
   "sections/appendix.tex" 1569415124 35 f055c6d20d98925dcf228b1d39c5f44e ""
-  "sections/discussion.tex" 1577980950 1753 d665aafb2645554c278cdfac40812ace ""
+  "sections/discussion.tex" 1578484025 1776 1449cbe9e09b594aa5df73a89010d070 ""
   "sections/introduction.tex" 1577975864 6981 4a1e2b99fc8bfd4e274a9260595159b3 ""
-  "sections/method.tex" 1577977607 2422 352e310ec7ea440e270ac1f890e7e8cf ""
-  "sections/results.tex" 1577977652 3514 636d0c9ac40bd032203157ccc6c364d2 ""
+  "sections/method.tex" 1578398936 2622 0d4dfeed5bbda6ad40b17d661319a28c ""
+  "sections/results.tex" 1578478188 3606 0a1b0a254f35713585fdeb819cee218a ""
   "subfiles.sty" 1569414143 651 24cb2017a923f4735b1190eecb80faeb ""
   (generated)
-  "main.pdf"
   "main.aux"
   "main.log"
+  "main.pdf"

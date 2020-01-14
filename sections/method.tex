@@ -1,6 +1,8 @@
 % !TEX root = ../main.tex
 \subsection{The Galaxy Sample}
-The galaxies selected analysed in this paper are the 198 galaxies from \comment{Lingard et al, in prep.}. We combine classifications of galaxies which were repeated in the \textit{validation subset} with the original classifications, and perform clustering and point cleaning as detailed in \comment{Lingard et al, in prep.}. We remove any galaxies for which no arms were identified. This results in a hierarchiacal data structure of 109 galaxies, 250 spiral arms and 307,861 points in polar coordinates. We apply a scaling to the radius to unit variance (which does not impact log spiral pitch angle due to its scale invariance).
+The galaxies selected analysed in this paper are the 198 galaxies from \comment{Lingard et al, in prep.}. We combine classifications of galaxies which were repeated in the \textit{validation subset} with the original classifications. Clustering of drawn spiral arms and cleaning of points was then performed as detailed in \comment{Lingard et al, in prep.}. We remove any galaxies for which no arms were identified. This results in a hierarchiacal data structure of 109 galaxies, 250 spiral arms and 307,861 points.
+
+Spiral arm points are deprojected to a face-on orientation using the position angle \textsc{PETRO\_PHI90} and axis ratio \textsc{PETRO\_BA90} keywords from the NASA-Sloan Atlas \comment{citation}. We scale the radii to have unit variance (which does not impact log spiral pitch angle due to its scale invariance).
 
 \comment{Should I elaborate more on the sample?}
 
