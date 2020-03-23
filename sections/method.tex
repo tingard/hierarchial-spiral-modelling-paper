@@ -1,10 +1,10 @@
 % !TEX root = ../main.tex
 \subsection{The Galaxy Sample}
-The galaxies selected analysed in this paper are the 198 galaxies from \comment{Lingard et al, in prep.}. We combine classifications of galaxies which were repeated in the \textit{validation subset} with the original classifications. Clustering of drawn spiral arms and cleaning of points was then performed as detailed in \comment{Lingard et al, in prep.}. We remove any galaxies for which no arms were identified. This results in a hierarchiacal data structure of 109 galaxies, 250 spiral arms and 307,861 points.
+The galaxies selected analysed in this paper are the 198 galaxies from \Lingard. These are a subset of the \textit{stellar mass-complete sample} in \citet{2017MNRAS.472.2263H}, a sample of low-redshift face-on spiral galaxies selected using data from the NASA-Sloan Atlas \citep{2011AJ....142...31B} and Galaxy Zoo 2 \citep{Willett2013:1308.3496v2}.
 
-Spiral arm points are deprojected to a face-on orientation using the position angle \textsc{PETRO\_PHI90} and axis ratio \textsc{PETRO\_BA90} keywords from the NASA-Sloan Atlas \comment{citation}. We scale the radii to have unit variance (which does not impact log spiral pitch angle due to its scale invariance).
+We combine classifications of galaxies which were repeated in the \textit{validation subset} with the original classifications. Clustering of drawn spiral arms and cleaning of points was then performed as detailed in \Lingard. We remove any galaxies for which fewer than two spiral arms were identified \comment{why exclude one-armed?}. This results in a hierarchical data structure of 91 galaxies, 211 spiral arms and 215,678 points.
 
-\comment{Should I elaborate more on the sample?}
+Spiral arm points are deprojected to a face-on orientation using the disk inclination and position angle obtained through photometric model fitting performed in \Lingard. We scale the deprojected point radii to have unit variance, to aid chain convergence.
 
 \subsection{Bayesian modelling of spiral arms in \textit{Galaxy Builder}}
 
@@ -34,10 +34,10 @@ We also have the offset parameter $c$, and a measure of radial uncertainty $\sig
   \sigma_r &\sim \mathrm{HalfCauchy}(\beta=0.2).
 \end{align}
 
-\begin{figure}
-  \includegraphics[width=8cm]{plots/plots_n109d1000t500/model.pdf}
-  \caption{The model used for galaxy pitch angle measurement for the sample.}
-  \label{fig:pymc3-model}
-\end{figure}
+% \begin{figure}
+%   \includegraphics[width=8cm]{plots/plots_n109d1000t500/model.pdf}
+%   \caption{The model used for galaxy pitch angle measurement for the sample.}
+%   \label{fig:pymc3-model}
+% \end{figure}
 
 To perform inference, we make use of the No-U-Turn-Sampler (NUTS, \citealt{2011arXiv1111.4246H}), implemented in PYMC3\footnote{\url{https://docs.pymc.io/}}, an open source probabilistic programming framework written in python \citep{pymc3_paper}.

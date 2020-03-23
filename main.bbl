@@ -17,9 +17,37 @@
   {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
   mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
 
+\bibitem[\protect\citeauthoryear{{Athanassoula}, {Romero-G{\'o}mez}  \&
+  {Masdemont}}{{Athanassoula} et~al.}{2009a}]{2009MNRAS.394...67A}
+{Athanassoula} E.,  {Romero-G{\'o}mez} M.,   {Masdemont} J.~J.,  2009a, \mn@doi
+  [\mnras] {10.1111/j.1365-2966.2008.14273.x}, \href
+  {https://ui.adsabs.harvard.edu/abs/2009MNRAS.394...67A} {394, 67}
+
+\bibitem[\protect\citeauthoryear{{Athanassoula}, {Romero-G{\'o}mez}, {Bosma}
+  \& {Masdemont}}{{Athanassoula} et~al.}{2009b}]{2009MNRAS.400.1706A}
+{Athanassoula} E.,  {Romero-G{\'o}mez} M.,  {Bosma} A.,   {Masdemont} J.~J.,
+  2009b, \mn@doi [\mnras] {10.1111/j.1365-2966.2009.15583.x}, \href
+  {https://ui.adsabs.harvard.edu/abs/2009MNRAS.400.1706A} {400, 1706}
+
+\bibitem[\protect\citeauthoryear{{Baba}, {Saitoh}  \& {Wada}}{{Baba}
+  et~al.}{2013}]{2013ApJ...763...46B}
+{Baba} J.,  {Saitoh} T.~R.,   {Wada} K.,  2013, \mn@doi [\apj]
+  {10.1088/0004-637X/763/1/46}, \href
+  {https://ui.adsabs.harvard.edu/abs/2013ApJ...763...46B} {763, 46}
+
 \bibitem[\protect\citeauthoryear{{Binney} \& {Tremaine}}{{Binney} \&
   {Tremaine}}{1987}]{1987gady.book.....B}
 {Binney} J.,  {Tremaine} S.,  1987, {Galactic dynamics}
+
+\bibitem[\protect\citeauthoryear{{Blanton}, {Kazin}, {Muna}, {Weaver}  \&
+  {Price-Whelan}}{{Blanton} et~al.}{2011}]{2011AJ....142...31B}
+{Blanton} M.~R.,  {Kazin} E.,  {Muna} D.,  {Weaver} B.~A.,   {Price-Whelan} A.,
+   2011, \mn@doi [\aj] {10.1088/0004-6256/142/1/31}, \href
+  {http://adsabs.harvard.edu/abs/2011AJ....142...31B} {142, 31}
+
+\bibitem[\protect\citeauthoryear{{Bottema}}{{Bottema}}{2003}]{2003MNRAS.344..358B}
+{Bottema} R.,  2003, \mn@doi [\mnras] {10.1046/j.1365-8711.2003.06613.x}, \href
+  {https://ui.adsabs.harvard.edu/abs/2003MNRAS.344..358B} {344, 358}
 
 \bibitem[\protect\citeauthoryear{{Buta}}{{Buta}}{1989}]{1989gadv.book..151B}
 {Buta} R.,  1989, {Galaxy Morphology}.
@@ -47,6 +75,24 @@ p.~151
   \mn@doi [\apjs] {10.1088/0067-0049/199/2/33}, \href
   {https://ui.adsabs.harvard.edu/abs/2012ApJS..199...33D} {199, 33}
 
+\bibitem[\protect\citeauthoryear{{Davis}, {Graham}  \& {Seigar}}{{Davis}
+  et~al.}{2017}]{2017MNRAS.471.2187D}
+{Davis} B.~L.,  {Graham} A.~W.,   {Seigar} M.~S.,  2017, \mn@doi [\mnras]
+  {10.1093/mnras/stx1794}, \href
+  {https://ui.adsabs.harvard.edu/abs/2017MNRAS.471.2187D} {471, 2187}
+
+\bibitem[\protect\citeauthoryear{{D{\'\i}az-Garc{\'\i}a}, {Salo}, {Knapen}  \&
+  {Herrera-Endoqui}}{{D{\'\i}az-Garc{\'\i}a}
+  et~al.}{2019}]{2019arXiv190804246D}
+{D{\'\i}az-Garc{\'\i}a} S.,  {Salo} H.,  {Knapen} J.~H.,   {Herrera-Endoqui}
+  M.,  2019, arXiv e-prints, \href
+  {https://ui.adsabs.harvard.edu/abs/2019arXiv190804246D} {p. arXiv:1908.04246}
+
+\bibitem[\protect\citeauthoryear{{Dobbs} \& {Baba}}{{Dobbs} \&
+  {Baba}}{2014}]{2014PASA...31...35D}
+{Dobbs} C.,  {Baba} J.,  2014, \mn@doi [\pasa] {10.1017/pasa.2014.31}, \href
+  {https://ui.adsabs.harvard.edu/abs/2014PASA...31...35D} {31, e035}
+
 \bibitem[\protect\citeauthoryear{{Elmegreen} et~al.,}{{Elmegreen}
   et~al.}{2011}]{2011ApJ...737...32E}
 {Elmegreen} D.~M.,  et~al., 2011, \mn@doi [\apj] {10.1088/0004-637X/737/1/32},
@@ -56,6 +102,18 @@ p.~151
   {Ho}}{2017}]{Gao2017:1709.00746v1}
 {Gao} H.,  {Ho} L.~C.,  2017, \mn@doi [\apj] {10.3847/1538-4357/aa7da4}, \href
   {https://ui.adsabs.harvard.edu/abs/2017ApJ...845..114G} {845, 114}
+
+\bibitem[\protect\citeauthoryear{{Goldreich} \& {Lynden-Bell}}{{Goldreich} \&
+  {Lynden-Bell}}{1965}]{1965MNRAS.130..125G}
+{Goldreich} P.,  {Lynden-Bell} D.,  1965, \mn@doi [\mnras]
+  {10.1093/mnras/130.2.125}, \href
+  {https://ui.adsabs.harvard.edu/abs/1965MNRAS.130..125G} {130, 125}
+
+\bibitem[\protect\citeauthoryear{{Grand}, {Kawata}  \& {Cropper}}{{Grand}
+  et~al.}{2012}]{2012MNRAS.426..167G}
+{Grand} R. J.~J.,  {Kawata} D.,   {Cropper} M.,  2012, \mn@doi [\mnras]
+  {10.1111/j.1365-2966.2012.21733.x}, \href
+  {https://ui.adsabs.harvard.edu/abs/2012MNRAS.426..167G} {426, 167}
 
 \bibitem[\protect\citeauthoryear{{Hart} et~al.,}{{Hart}
   et~al.}{2017}]{2017MNRAS.472.2263H}
@@ -68,6 +126,12 @@ p.~151
 {Herrera-Endoqui} M.,  {D{\'\i}az-Garc{\'\i}a} S.,  {Laurikainen} E.,   {Salo}
   H.,  2015, \mn@doi [\aap] {10.1051/0004-6361/201526047}, \href
   {https://ui.adsabs.harvard.edu/abs/2015A&A...582A..86H} {582, A86}
+
+\bibitem[\protect\citeauthoryear{{Hewitt} \& {Treuthardt}}{{Hewitt} \&
+  {Treuthardt}}{2020}]{2020MNRAS.493.3854H}
+{Hewitt} I.~B.,  {Treuthardt} P.,  2020, \mn@doi [\mnras]
+  {10.1093/mnras/staa354}, \href
+  {https://ui.adsabs.harvard.edu/abs/2020MNRAS.493.3854H} {493, 3854}
 
 \bibitem[\protect\citeauthoryear{{Hoffman} \& {Gelman}}{{Hoffman} \&
   {Gelman}}{2011}]{2011arXiv1111.4246H}
@@ -101,6 +165,10 @@ p.~151
   {10.1111/j.1365-2966.2008.13689.x}, \href
   {https://ui.adsabs.harvard.edu/abs/2008MNRAS.389.1179L} {389, 1179}
 
+\bibitem[\protect\citeauthoryear{{Mark}}{{Mark}}{1976}]{1976ApJ...205..363M}
+{Mark} J. W.~K.,  1976, \mn@doi [\apj] {10.1086/154287}, \href
+  {https://ui.adsabs.harvard.edu/abs/1976ApJ...205..363M} {205, 363}
+
 \bibitem[\protect\citeauthoryear{{Masters} et~al.,}{{Masters}
   et~al.}{2011}]{2011MNRAS.411.2026M}
 {Masters} K.~L.,  et~al., 2011, \mn@doi [\mnras]
@@ -111,6 +179,14 @@ p.~151
   et~al.}{2019}]{2019MNRAS.487.1808M}
 {Masters} K.~L.,  et~al., 2019, \mn@doi [\mnras] {10.1093/mnras/stz1153}, \href
   {https://ui.adsabs.harvard.edu/abs/2019MNRAS.487.1808M} {487, 1808}
+
+\bibitem[\protect\citeauthoryear{{Mutlu-Pakdil}, {Seigar}, {Hewitt},
+  {Treuthardt}, {Berrier}  \& {Koval}}{{Mutlu-Pakdil}
+  et~al.}{2018}]{2018MNRAS.474.2594M}
+{Mutlu-Pakdil} B.,  {Seigar} M.~S.,  {Hewitt} I.~B.,  {Treuthardt} P.,
+  {Berrier} J.~C.,   {Koval} L.~E.,  2018, \mn@doi [\mnras]
+  {10.1093/mnras/stx2935}, \href
+  {https://ui.adsabs.harvard.edu/abs/2018MNRAS.474.2594M} {474, 2594}
 
 \bibitem[\protect\citeauthoryear{{Peng}, {Ho}, {Impey}  \& {Rix}}{{Peng}
   et~al.}{2010}]{2010AJ....139.2097P}
@@ -123,17 +199,35 @@ p.~151
 {Pringle} J.~E.,  {Dobbs} C.~L.,  2019, arXiv e-prints, \href
   {https://ui.adsabs.harvard.edu/abs/2019arXiv190910291P} {p. arXiv:1909.10291}
 
-\bibitem[\protect\citeauthoryear{{Romero-Gomez}, {Athanassoula}, {Antoja}  \&
-  {Figueras}}{{Romero-Gomez} et~al.}{2011}]{2011hsa6.conf..548R}
-{Romero-Gomez} M.,  {Athanassoula} E.,  {Antoja} T.,   {Figueras} F.,  2011, in
-  {Zapatero Osorio} M.~R.,  {Gorgas} J.,  {Ma{\'\i}z Apell{\'a}niz} J.,
-  {Pardo} J.~R.,   {Gil de Paz} A.,  eds, Highlights of Spanish Astrophysics
-  VI. pp 548--548
+\bibitem[\protect\citeauthoryear{{Rodriguez-Fernandez} \&
+  {Combes}}{{Rodriguez-Fernandez} \& {Combes}}{2008}]{2008A&A...489..115R}
+{Rodriguez-Fernandez} N.~J.,  {Combes} F.,  2008, \mn@doi [\aap]
+  {10.1051/0004-6361:200809644}, \href
+  {https://ui.adsabs.harvard.edu/abs/2008A&A...489..115R} {489, 115}
+
+\bibitem[\protect\citeauthoryear{{Romero-G{\'o}mez}, {Masdemont},
+  {Athanassoula}  \& {Garc{\'\i}a-G{\'o}mez}}{{Romero-G{\'o}mez}
+  et~al.}{2006}]{2006A&A...453...39R}
+{Romero-G{\'o}mez} M.,  {Masdemont} J.~J.,  {Athanassoula} E.,
+  {Garc{\'\i}a-G{\'o}mez} C.,  2006, \mn@doi [\aap]
+  {10.1051/0004-6361:20054653}, \href
+  {https://ui.adsabs.harvard.edu/abs/2006A&A...453...39R} {453, 39}
 
 \bibitem[\protect\citeauthoryear{{Salvatier}, {Wiecki}  \&
   {Fonnesbeck}}{{Salvatier} et~al.}{2016}]{pymc3_paper}
 {Salvatier} J.,  {Wiecki} T.~V.,   {Fonnesbeck} C.,  2016, \mn@doi [PeerJ
   Computer Science] {10.7717/peerj-cs.55}, 55
+
+\bibitem[\protect\citeauthoryear{{Sanders} \& {Huntley}}{{Sanders} \&
+  {Huntley}}{1976}]{1976ApJ...209...53S}
+{Sanders} R.~H.,  {Huntley} J.~M.,  1976, \mn@doi [\apj] {10.1086/154692},
+  \href {https://ui.adsabs.harvard.edu/abs/1976ApJ...209...53S} {209, 53}
+
+\bibitem[\protect\citeauthoryear{{Savchenko} \& {Reshetnikov}}{{Savchenko} \&
+  {Reshetnikov}}{2013}]{2013MNRAS.436.1074S}
+{Savchenko} S.~S.,  {Reshetnikov} V.~P.,  2013, \mn@doi [\mnras]
+  {10.1093/mnras/stt1627}, \href
+  {https://ui.adsabs.harvard.edu/abs/2013MNRAS.436.1074S} {436, 1074}
 
 \bibitem[\protect\citeauthoryear{Scholz \& Stephens}{Scholz \&
   Stephens}{1987}]{doi:10.1080/01621459.1987.10478517}
@@ -149,6 +243,11 @@ Scholz F.~W.,  Stephens M.~A.,  1987, \mn@doi [Journal of the American
 \bibitem[\protect\citeauthoryear{Willett et~al.,}{Willett
   et~al.}{2013}]{Willett2013:1308.3496v2}
 Willett K.~W.,  et~al., 2013
+
+\bibitem[\protect\citeauthoryear{{Yoshizawa} \& {Wakamatsu}}{{Yoshizawa} \&
+  {Wakamatsu}}{1975}]{1975A&A....44..363Y}
+{Yoshizawa} M.,  {Wakamatsu} K.,  1975, \aap, \href
+  {https://ui.adsabs.harvard.edu/abs/1975A&A....44..363Y} {44, 363}
 
 \bibitem[\protect\citeauthoryear{{Yu} \& {Ho}}{{Yu} \&
   {Ho}}{2019}]{2019ApJ...871..194Y}
