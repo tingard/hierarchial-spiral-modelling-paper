@@ -1,20 +1,20 @@
 % !TEX root = ../main.tex
 \subsection{The Galaxy Sample}
-The galaxies selected analysed in this paper are the 198 galaxies from \Lingard. These are a subset of the \textit{stellar mass-complete sample} in \citet{2017MNRAS.472.2263H}, a sample of low-redshift face-on spiral galaxies selected using data from the NASA-Sloan Atlas \citep{2011AJ....142...31B} and Galaxy Zoo 2 \citep{Willett2013:1308.3496v2}.
+The galaxies analysed in this paper are the 198 galaxies from \Lingard. These are a subset of the \textit{stellar mass-complete sample} in \citet{2017MNRAS.472.2263H}, a sample of low-redshift face-on spiral galaxies selected using data from the NASA-Sloan Atlas \citep{2011AJ....142...31B} and Galaxy Zoo 2 \citep{Willett2013:1308.3496v2}.
 
-We combine classifications of galaxies which were repeated in the \textit{validation subset} with the original classifications. Clustering of drawn spiral arms and cleaning of points was then performed as detailed in \Lingard. We remove any galaxies for which fewer than two spiral arms were identified \comment{why exclude one-armed?}. This results in a hierarchical data structure of 91 galaxies, 211 spiral arms and 215,678 points.
+Some galaxies in \Lingard were shown to volunteers again in a repeat \textit{validation subset} in order to create a second aggregate model used to test internal consistency. We combine the classifications of galaxies in this \textit{validation subset} with the original classifications. Clustering of drawn spiral arms and cleaning of points was then performed as detailed in \Lingard. We remove any galaxies for which fewer than two spiral arms were identified \comment{why exclude one-armed?}. This results in a hierarchical data structure of 91 galaxies, 211 spiral arms and 215,678 points.
 
-Spiral arm points are deprojected to a face-on orientation using the disk inclination and position angle obtained through photometric model fitting performed in \Lingard. We scale the deprojected point radii to have unit variance, to aid chain convergence.
+Spiral arm points are deprojected to a face-on orientation using the disk inclination and position angle obtained through photometric model fitting performed in \Lingard.
 
 \subsection{Bayesian modelling of spiral arms in \textit{Galaxy Builder}}
 
 We model a spiral arm as a logarithmic spiral, described by
 
 \begin{equation}
-r_\mathrm{arm} = \exp\left[\theta_\mathrm{arm}\tan\phi_\mathrm{arm} + c_\mathrm{arm}\right].
+r_\mathrm{arm} \sim \mathcal{N}\left(\exp\left[\theta_\mathrm{arm}\tan\phi_\mathrm{arm} + c_\mathrm{arm}\right], \sigma_r\right).
 \end{equation}
 
-Assume the pitch angle of a galaxy's spiral arms are drawn from a Normal distribution, truncated between 0 and 90 degrees, centred on some value we will call the galaxy's pitch angle, $\phi_\mathrm{gal}$. This dispersion in arm pitch angle has some measure of spread, $\sigma_\mathrm{gal}$, which we will assume is the same in galaxies:
+Assume the pitch angle of a galaxy's spiral arms are drawn from a Normal distribution, truncated between 0 and 90 degrees, centred on some value we will call the galaxy's pitch angle, $\phi_\mathrm{gal}$. This dispersion in arm pitch angle has some measure of spread, $\sigma_\mathrm{gal}$, which we will assume is the same in all galaxies:
 
 \begin{equation}
 \phi_\mathrm{arm} \sim \mathrm{TruncatedNormal}(\phi_\mathrm{gal}, \sigma_\mathrm{gal}, \mathrm{min}=0, \mathrm{max}=90).
@@ -40,4 +40,11 @@ We also have the offset parameter $c$, and a measure of radial uncertainty $\sig
 %   \label{fig:pymc3-model}
 % \end{figure}
 
-To perform inference, we make use of the No-U-Turn-Sampler (NUTS, \citealt{2011arXiv1111.4246H}), implemented in PYMC3\footnote{\url{https://docs.pymc.io/}}, an open source probabilistic programming framework written in python \citep{pymc3_paper}.
+Our likelihood function is therefore
+
+\begin{equation}
+\mathcal{L} \sim \mathcal{N}\left(\exp\left[\theta_\mathrm{arm}\tan\phi_\mathrm{arm} + c_\mathrm{arm}\right], \sigma_r\right).
+\end{equation}
+
+
+To perform inference, we make use of the No-U-Turn-Sampler (NUTS, \citealt{2011arXiv1111.4246H}), implemented in PYMC3\footnote{\url{https://docs.pymc.io/}}, an open source probabilistic programming framework written in python \citep{pymc3_paper}. We scale the radii of deprojected points to have unit variance, to aid the convergence of MC chains.

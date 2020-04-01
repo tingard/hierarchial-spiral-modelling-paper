@@ -418,10 +418,6 @@ INPUT sections/results.tex
 INPUT plots/cot_uniform_marginalized_tests.pdf
 INPUT ./plots/cot_uniform_marginalized_tests.pdf
 INPUT ./plots/cot_uniform_marginalized_tests.pdf
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/ae/aer7.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/ae/aeti7.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/ae/aer5.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/ae/aeti7.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/public/ae/aebxti10.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbxsl10.tfm
@@ -429,6 +425,10 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/public/newtx/ntxsy.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/txfonts/txsy.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/public/ae/aett8.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/ae/aer7.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/ae/aeti7.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/ae/aer5.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/ae/aeti7.tfm
 INPUT plots/bulge_bar_test_results.pdf
 INPUT ./plots/bulge_bar_test_results.pdf
 INPUT ./plots/bulge_bar_test_results.pdf
@@ -437,10 +437,10 @@ INPUT sections/discussion.tex
 INPUT sections/acknowledgements.tex
 INPUT sections/acknowledgements.tex
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/ae/aett9.tfm
-INPUT main.bbl
-INPUT main.bbl
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/public/ae/aett9.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmtt9.tfm
+INPUT main.bbl
+INPUT main.bbl
 INPUT sections/appendix.tex
 INPUT sections/appendix.tex
 INPUT main.aux
