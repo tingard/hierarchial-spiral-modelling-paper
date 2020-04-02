@@ -8,6 +8,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty publisher in 1987gady.book.....B
 Warning--can't use both author and editor fields in 1989gadv.book..151B
 Warning--empty publisher in 1989gadv.book..151B
+Warning--empty publisher in 1961hag..book.....S
 "ArXiv e-prints" is a string literal, `journal' is a missing field
 ---they aren't the same literal types for entry Willett2013:1308.3496v2
 while executing---line 1822 of file mnras.bst
@@ -15,45 +16,46 @@ Warning--empty journal in Willett2013:1308.3496v2
 "ArXiv e-prints" is a string literal, `journal' is a missing field
 ---they aren't the same literal types for entry Willett2013:1308.3496v2
 while executing---line 1822 of file mnras.bst
-You've used 42 entries,
+Warning--empty publisher in 1991rc3..book.....D
+You've used 45 entries,
             2881 wiz_defined-function locations,
-            1097 strings with 19524 characters,
-and the built_in function-call counts, 21193 in all, are:
-= -- 1852
-> -- 1391
-< -- 113
-+ -- 610
-- -- 192
-* -- 2503
-:= -- 3149
+            1118 strings with 20115 characters,
+and the built_in function-call counts, 22550 in all, are:
+= -- 1928
+> -- 1506
+< -- 123
++ -- 667
+- -- 208
+* -- 2663
+:= -- 3379
 add.period$ -- 0
-call.type$ -- 42
-change.case$ -- 84
-chr.to.int$ -- 41
-cite$ -- 46
-duplicate$ -- 1080
-empty$ -- 1013
-format.name$ -- 360
-if$ -- 3812
+call.type$ -- 45
+change.case$ -- 90
+chr.to.int$ -- 44
+cite$ -- 51
+duplicate$ -- 1153
+empty$ -- 1099
+format.name$ -- 382
+if$ -- 4034
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 43
-newline$ -- 140
-num.names$ -- 298
-pop$ -- 196
+missing$ -- 48
+newline$ -- 149
+num.names$ -- 318
+pop$ -- 231
 preamble$ -- 1
-purify$ -- 168
+purify$ -- 180
 quote$ -- 0
-skip$ -- 764
+skip$ -- 801
 stack$ -- 0
-substring$ -- 1315
-swap$ -- 688
-text.length$ -- 173
+substring$ -- 1359
+swap$ -- 716
+text.length$ -- 185
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 372
-warning$ -- 4
-while$ -- 312
+type$ -- 393
+warning$ -- 6
+while$ -- 332
 width$ -- 0
-write$ -- 429
+write$ -- 457
 (There were 2 error messages)

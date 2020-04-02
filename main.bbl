@@ -134,6 +134,10 @@ p.~151
 {Hoffman} M.~D.,  {Gelman} A.,  2011, arXiv e-prints, \href
   {https://ui.adsabs.harvard.edu/abs/2011arXiv1111.4246H} {p. arXiv:1111.4246}
 
+\bibitem[\protect\citeauthoryear{{Hubble}}{{Hubble}}{1926}]{1926ApJ....64..321H}
+{Hubble} E.~P.,  1926, \mn@doi [\apj] {10.1086/143018}, \href
+  {https://ui.adsabs.harvard.edu/abs/1926ApJ....64..321H} {64, 321}
+
 \bibitem[\protect\citeauthoryear{{Julian} \& {Toomre}}{{Julian} \&
   {Toomre}}{1966}]{1966ApJ...146..810J}
 {Julian} W.~H.,  {Toomre} A.,  1966, \mn@doi [\apj] {10.1086/148957}, \href
@@ -214,6 +218,9 @@ p.~151
 {Salvatier} J.,  {Wiecki} T.~V.,   {Fonnesbeck} C.,  2016, \mn@doi [PeerJ
   Computer Science] {10.7717/peerj-cs.55}, 55
 
+\bibitem[\protect\citeauthoryear{{Sandage}}{{Sandage}}{1961}]{1961hag..book.....S}
+{Sandage} A.,  1961, {The Hubble Atlas of Galaxies}
+
 \bibitem[\protect\citeauthoryear{{Sanders} \& {Huntley}}{{Sanders} \&
   {Huntley}}{1976}]{1976ApJ...209...53S}
 {Sanders} R.~H.,  {Huntley} J.~M.,  1976, \mn@doi [\apj] {10.1086/154692},
@@ -249,6 +256,13 @@ Willett K.~W.,  et~al., 2013
   {Ho}}{2019}]{2019ApJ...871..194Y}
 {Yu} S.-Y.,  {Ho} L.~C.,  2019, \mn@doi [\apj] {10.3847/1538-4357/aaf895},
   \href {https://ui.adsabs.harvard.edu/abs/2019ApJ...871..194Y} {871, 194}
+
+\bibitem[\protect\citeauthoryear{{de Vaucouleurs}, {de Vaucouleurs}, {Corwin},
+  {Buta}, {Paturel}  \& {Fouque}}{{de Vaucouleurs}
+  et~al.}{1991}]{1991rc3..book.....D}
+{de Vaucouleurs} G.,  {de Vaucouleurs} A.,  {Corwin} Herold~G. J.,  {Buta}
+  R.~J.,  {Paturel} G.,   {Fouque} P.,  1991, {Third Reference Catalogue of
+  Bright Galaxies}
 
 \makeatother
 \end{thebibliography}

@@ -1,8 +1,30 @@
 % !TEX root = ../main.tex
+\subsection{Measuring galaxy pitch angle}
+
+Many methodologies have been proposed and implemented to measure spiral arm properties, including visual inspection (\citealt{2015A&A...582A..86H}), fourier analysis (i.e. \textsc{2DFFT}, \citealt{2012ApJS..199...33D}), texture analysis (i.e. SpArcFiRe, \citealt{2014ApJ...790...87D}), and combinations of automated methods and human classifiers (\citealt{2017MNRAS.472.2263H}, \citealt{2020MNRAS.493.3854H}). One potentially underused method of obtaining measurements of spirals is through photometric fitting of spiral structure, as possible using tools such as \textsc{GALFIT} \citep{2010AJ....139.2097P} and \textit{Galaxy Builder} (\Lingard). These methods attempt to localize light from an image of a galaxy into distinct subcomponents, such as a galaxy disc, bulge, bar and spiral arms, generally finding the optimum solution using computational optimization. This optimization process, however, is often not robust for complex, many-component models and requires significant supervision to converge to a physically meaningful result \citep{Gao2017:1709.00746v1}. \Lingard propose a solution to this problem through the use of citizen science to provide priors on parameters used in computational fitting.
+
+A common assumption when measuring galaxy pitch angle is that observed spiral arms have a constant pitch angle. Spirals of this kind are known as logarithmic spirals and are described by
+
+\begin{equation}
+r = A\,e^{\theta\tan\phi},
+\end{equation}
+
+where $\phi$ is the arm's pitch angle. One method used to obtain a pitch angle of a galaxy is to fit logarithmic spirals to individually identified arm segments and take the weighted mean of their pitch angles (which often vary by upwards of $10^\circ$, \citealt{2014ApJ...790...87D}). Weighting is determined by the length of the arc segment, with longer being assigned higher weights, i.e. for a galaxy where we have identified $N$ arm segments, each with length $L_i$ and pitch angle $\phi_i$
+
+\begin{equation}
+  \phi_\mathrm{gal} = \left(\sum_{i=1}^{N}L_i\right)^{-1}\sum_{i=1}^{N}L_i \phi_i.
+\end{equation}
+
+The most commonly used measurement of uncertainty of length-weighted pitch angles is the unweighted sample variance between the arm segments identified.
+
+A notable drawback of length-weighted pitch angle is sensitivity to the number and quality of the spiral arm segments identified; \citet{2017MNRAS.472.2263H} found that only 15\% of the arm segments identified by a leading algorithm (\textsc{SpArcFiRe}) were identified as ``good'' matches to real spiral arms by citizen science classifiers.
+
+Fourier analysis in one- and two-dimensions (as performed by \citealt{2019arXiv190804246D}, \citealt{2012ApJS..199...33D}, \citealt{2018MNRAS.474.2594M}) is another widely used method of computationally obtaining galaxy pitch angles. Two-dimensional fourier methods generally decompose a deprojected image of a galaxy into a superpositions of logarithmic spirals between inner and outer annuli \citep{2012ApJS..199...33D}, and reports the pitch angle with the highest amplitude as the galaxy's pitch angle. \citet{2020MNRAS.493.3854H} combined fourier analysis of spiral galaxies with human tracing of spiral arms, to great effect. It is uncertain how variation between pitch angles of individual arms impacts this measurement.
+
 \subsection{The Galaxy Sample}
 The galaxies analysed in this paper are the 198 galaxies from \Lingard. These are a subset of the \textit{stellar mass-complete sample} in \citet{2017MNRAS.472.2263H}, a sample of low-redshift face-on spiral galaxies selected using data from the NASA-Sloan Atlas \citep{2011AJ....142...31B} and Galaxy Zoo 2 \citep{Willett2013:1308.3496v2}.
 
-Some galaxies in \Lingard were shown to volunteers again in a repeat \textit{validation subset} in order to create a second aggregate model used to test internal consistency. We combine the classifications of galaxies in this \textit{validation subset} with the original classifications. Clustering of drawn spiral arms and cleaning of points was then performed as detailed in \Lingard. We remove any galaxies for which fewer than two spiral arms were identified \comment{why exclude one-armed?}. This results in a hierarchical data structure of 91 galaxies, 211 spiral arms and 215,678 points.
+Some galaxies in \Lingard were shown to volunteers again in a repeat \textit{validation subset} in order to create a second aggregate model used to test internal consistency. We combine the classifications of galaxies in this \textit{validation subset} with the original classifications. Clustering of drawn spiral arms and cleaning of points was then performed as detailed in \Lingard. We remove any galaxies for which fewer than two spiral arms were identified, as these do not provide our model with any information about inter-arm scatter. This results in a hierarchical data structure of 91 galaxies, 211 spiral arms and 215,678 points.
 
 Spiral arm points are deprojected to a face-on orientation using the disk inclination and position angle obtained through photometric model fitting performed in \Lingard.
 
@@ -11,7 +33,7 @@ Spiral arm points are deprojected to a face-on orientation using the disk inclin
 We model a spiral arm as a logarithmic spiral, described by
 
 \begin{equation}
-r_\mathrm{arm} \sim \mathcal{N}\left(\exp\left[\theta_\mathrm{arm}\tan\phi_\mathrm{arm} + c_\mathrm{arm}\right], \sigma_r\right).
+r_\mathrm{arm} \sim \mathrm{Normal}\left(\exp\left[\theta_\mathrm{arm}\tan\phi_\mathrm{arm} + c_\mathrm{arm}\right], \sigma_r\right).
 \end{equation}
 
 Assume the pitch angle of a galaxy's spiral arms are drawn from a Normal distribution, truncated between 0 and 90 degrees, centred on some value we will call the galaxy's pitch angle, $\phi_\mathrm{gal}$. This dispersion in arm pitch angle has some measure of spread, $\sigma_\mathrm{gal}$, which we will assume is the same in all galaxies:
@@ -34,17 +56,10 @@ We also have the offset parameter $c$, and a measure of radial uncertainty $\sig
   \sigma_r &\sim \mathrm{HalfCauchy}(\beta=0.2).
 \end{align}
 
-% \begin{figure}
-%   \includegraphics[width=8cm]{plots/plots_n109d1000t500/model.pdf}
-%   \caption{The model used for galaxy pitch angle measurement for the sample.}
-%   \label{fig:pymc3-model}
-% \end{figure}
-
-Our likelihood function is therefore
+The Cauchy distirbution is equivalent to the Student's t-distribution with one degree of freedom, and was chosen due to its fatter tails than the normal distribution. Our likelihood function is therefore
 
 \begin{equation}
-\mathcal{L} \sim \mathcal{N}\left(\exp\left[\theta_\mathrm{arm}\tan\phi_\mathrm{arm} + c_\mathrm{arm}\right], \sigma_r\right).
+\mathcal{L} \sim \mathrm{Normal}\left(\exp\left[\theta_\mathrm{arm}\tan\phi_\mathrm{arm} + c_\mathrm{arm}\right], \sigma_r\right).
 \end{equation}
-
 
 To perform inference, we make use of the No-U-Turn-Sampler (NUTS, \citealt{2011arXiv1111.4246H}), implemented in PYMC3\footnote{\url{https://docs.pymc.io/}}, an open source probabilistic programming framework written in python \citep{pymc3_paper}. We scale the radii of deprojected points to have unit variance, to aid the convergence of MC chains.
