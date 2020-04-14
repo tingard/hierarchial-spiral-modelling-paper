@@ -17,45 +17,45 @@ Warning--empty journal in Willett2013:1308.3496v2
 ---they aren't the same literal types for entry Willett2013:1308.3496v2
 while executing---line 1822 of file mnras.bst
 Warning--empty publisher in 1991rc3..book.....D
-You've used 45 entries,
+You've used 46 entries,
             2881 wiz_defined-function locations,
-            1118 strings with 20115 characters,
-and the built_in function-call counts, 22550 in all, are:
-= -- 1928
-> -- 1506
-< -- 123
-+ -- 667
-- -- 208
-* -- 2663
-:= -- 3379
+            1127 strings with 20309 characters,
+and the built_in function-call counts, 22953 in all, are:
+= -- 1966
+> -- 1528
+< -- 127
++ -- 677
+- -- 210
+* -- 2704
+:= -- 3444
 add.period$ -- 0
-call.type$ -- 45
-change.case$ -- 90
-chr.to.int$ -- 44
-cite$ -- 51
-duplicate$ -- 1153
-empty$ -- 1099
-format.name$ -- 382
-if$ -- 4034
+call.type$ -- 46
+change.case$ -- 92
+chr.to.int$ -- 45
+cite$ -- 52
+duplicate$ -- 1174
+empty$ -- 1121
+format.name$ -- 386
+if$ -- 4106
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 48
-newline$ -- 149
-num.names$ -- 318
-pop$ -- 231
+missing$ -- 49
+newline$ -- 152
+num.names$ -- 324
+pop$ -- 235
 preamble$ -- 1
-purify$ -- 180
+purify$ -- 184
 quote$ -- 0
-skip$ -- 801
+skip$ -- 815
 stack$ -- 0
-substring$ -- 1359
-swap$ -- 716
-text.length$ -- 185
+substring$ -- 1387
+swap$ -- 722
+text.length$ -- 189
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 393
+type$ -- 402
 warning$ -- 6
-while$ -- 332
+while$ -- 340
 width$ -- 0
-write$ -- 457
+write$ -- 467
 (There were 2 error messages)

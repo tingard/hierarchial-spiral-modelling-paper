@@ -26,40 +26,38 @@ The galaxies analysed in this paper are the 198 galaxies from \Lingard. These ar
 
 Some galaxies in \Lingard were shown to volunteers again in a repeat \textit{validation subset} in order to create a second aggregate model used to test internal consistency. We combine the classifications of galaxies in this \textit{validation subset} with the original classifications. Clustering of drawn spiral arms and cleaning of points was then performed as detailed in \Lingard. We remove any galaxies for which fewer than two spiral arms were identified, as these do not provide our model with any information about inter-arm scatter. This results in a hierarchical data structure of 91 galaxies, 211 spiral arms and 215,678 points.
 
-Spiral arm points are deprojected to a face-on orientation using the disk inclination and position angle obtained through photometric model fitting performed in \Lingard.
+Spiral arm points are deprojected to a face-on orientation using the disk inclination and position angle obtained through photometric model fitting performed in \Lingard. Arms are individually corrected to all have the same chirality (a pitch angle greater than or equal to zero) using the logarithmic spiral fit in \Lingard.
 
 \subsection{Bayesian modelling of spiral arms in \textit{Galaxy Builder}}
 
-We model a spiral arm as a logarithmic spiral, described by
-
-\begin{equation}
-r_\mathrm{arm} \sim \mathrm{Normal}\left(\exp\left[\theta_\mathrm{arm}\tan\phi_\mathrm{arm} + c_\mathrm{arm}\right], \sigma_r\right).
-\end{equation}
-
-Assume the pitch angle of a galaxy's spiral arms are drawn from a Normal distribution, truncated between 0 and 90 degrees, centred on some value we will call the galaxy's pitch angle, $\phi_\mathrm{gal}$. This dispersion in arm pitch angle has some measure of spread, $\sigma_\mathrm{gal}$, which we will assume is the same in all galaxies:
+We assume that a galaxy has a single value for pitch angle, $\phi_\mathrm{gal}$, and that the pitch angles of spiral arms in this galaxy, $\phi_\mathrm{arm}$, are constants (giving logarithmic spirals) drawn from a normal distribution centred on $\phi_\mathrm{gal}$, with some spread $\sigma_\mathrm{gal}$ common to all galaxies. We truncate this normal distribution between the physical limits of {0\degree} (a ring) and {90\degree} (a ``spoke''), giving
 
 \begin{equation}
 \phi_\mathrm{arm} \sim \mathrm{TruncatedNormal}(\phi_\mathrm{gal}, \sigma_\mathrm{gal}, \mathrm{min}=0, \mathrm{max}=90).
 \end{equation}
 
-We choose hyperpriors on $\phi_\mathrm{gal}$ and $\sigma_\mathrm{gal}$ of
+Furthermore, we assume that the observed points in a \textit{Galaxy Builder} spiral arm, once deprojected, follow a logarithmic spiral with gaussian radial error $\sigma_r$,
+
+\begin{equation}
+\widetilde{r_\mathrm{arm}} = \exp\left(\widevec{\theta_\mathrm{arm}}\tan\phi_\mathrm{arm} + c_\mathrm{arm}\right).
+\end{equation}
+
+Where $\widetilde{r_\mathrm{arm}}$ is the model's predictions for the radii of the deprojected points in a \textit{Galaxy Builder} arm ($\widevec{r_\mathrm{arm}}$), and $\widevec{\theta_\mathrm{arm}}$ is the polar angles of the points.
+
+We choose hyperpriors over $\phi_\mathrm{gal}$, $\sigma_\mathrm{gal}$, $c_\mathrm{arm}$ and $\sigma_\mathrm{r}$ of
 
 \begin{align}
   \phi_\mathrm{gal} &\sim \mathrm{Uniform}(\mathrm{min}=0, \mathrm{max}=90),\\
-  \sigma_\mathrm{gal} &\sim \mathrm{InverseGamma}(\alpha=2,\,\beta=20).
-\end{align}
-
-We also have the offset parameter $c$, and a measure of radial uncertainty $\sigma_r$:
-
-\begin{align}
+  \sigma_\mathrm{gal} &\sim \mathrm{InverseGamma}(\alpha=2,\,\beta=20),\\
   c_\mathrm{arm} &\sim \mathrm{Cauchy}(\alpha=0,\,\beta=10),\\
-  \sigma_r &\sim \mathrm{HalfCauchy}(\beta=0.2).
+  \sigma_r &\sim \mathrm{InverseGamma}(\alpha=2, \beta=0.5).
 \end{align}
 
-The Cauchy distirbution is equivalent to the Student's t-distribution with one degree of freedom, and was chosen due to its fatter tails than the normal distribution. Our likelihood function is therefore
+The inverse gamma distribution is used to aid the convergence of the Hamiltonian Monte Carlo algorithm used (discussed later). The Cauchy distirbution is equivalent to the Student's t-distribution with one degree of freedom, and was chosen due to its fatter tails than the normal distribution. Our likelihood function for $N$ arms, each of which with $n_\mathrm{arm}$ points is
 
 \begin{equation}
-\mathcal{L} \sim \mathrm{Normal}\left(\exp\left[\theta_\mathrm{arm}\tan\phi_\mathrm{arm} + c_\mathrm{arm}\right], \sigma_r\right).
+  \mathcal{L} = \prod_{\mathrm{arm}=1}^{N}\left(2\pi\sigma_r^2\right)^{-n_\mathrm{arm}/2}
+  \exp\left(\frac{||\widevec{r_\mathrm{arm}}\,-\,\widetilde{r_\mathrm{arm}}||^2}{2\sigma_r^2}\right).
 \end{equation}
 
-To perform inference, we make use of the No-U-Turn-Sampler (NUTS, \citealt{2011arXiv1111.4246H}), implemented in PYMC3\footnote{\url{https://docs.pymc.io/}}, an open source probabilistic programming framework written in python \citep{pymc3_paper}. We scale the radii of deprojected points to have unit variance, to aid the convergence of MC chains.
+To perform inference, we make use of the No-U-Turn-Sampler (NUTS, \citealt{2011arXiv1111.4246H}), implemented in PYMC3\footnote{\url{https://docs.pymc.io/}}, an open source probabilistic programming framework written in python \citep{pymc3_paper}. To aid the convergence of MC chains, we scale the radii of deprojected points to have unit variance.
