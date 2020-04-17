@@ -17,6 +17,13 @@
   {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
   mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
 
+\bibitem[\protect\citeauthoryear{{Al-Baidhany}, {Chiad}, {Jabbar}, {Hussein},
+  {Hussain}  \& {Habubi}}{{Al-Baidhany} et~al.}{2019}]{2019MS&E..571a2118A}
+{Al-Baidhany} I.~A.,  {Chiad} S.~S.,  {Jabbar} W.~A.,  {Hussein} R.~A.,
+  {Hussain} F. F.~K.,   {Habubi} N.~F.,  2019, in Materials Science and
+  Engineering Conference Series. p. 012118,
+  \mn@doi{10.1088/1757-899X/571/1/012118}
+
 \bibitem[\protect\citeauthoryear{{Athanassoula}, {Romero-G{\'o}mez}  \&
   {Masdemont}}{{Athanassoula} et~al.}{2009a}]{2009MNRAS.394...67A}
 {Athanassoula} E.,  {Romero-G{\'o}mez} M.,   {Masdemont} J.~J.,  2009a, \mn@doi
@@ -49,13 +56,14 @@
 {Buta} R.,  1989, {Galaxy Morphology}.
 p.~151
 
+\bibitem[\protect\citeauthoryear{{Buta}}{{Buta}}{2013}]{2013seg..book..155B}
+{Buta} R.~J.,  2013, {Galaxy Morphology}.
+p.~155
+
 \bibitem[\protect\citeauthoryear{{Buta} et~al.,}{{Buta}
   et~al.}{2015}]{2015yCat..22170032B}
 {Buta} R.~J.,  et~al., 2015, VizieR Online Data Catalog, \href
   {https://ui.adsabs.harvard.edu/abs/2015yCat..22170032B} {p. J/ApJS/217/32}
-
-\bibitem[\protect\citeauthoryear{{Davis}}{{Davis}}{2015}]{2015PhDT........14D}
-{Davis} B.,  2015, PhD thesis, University of Arkansas
 
 \bibitem[\protect\citeauthoryear{{Davis} \& {Hayes}}{{Davis} \&
   {Hayes}}{2014}]{2014ApJ...790...87D}
@@ -77,6 +85,12 @@ p.~151
   {10.1093/mnras/stx1794}, \href
   {https://ui.adsabs.harvard.edu/abs/2017MNRAS.471.2187D} {471, 2187}
 
+\bibitem[\protect\citeauthoryear{{Davis}, {Graham}  \& {Cameron}}{{Davis}
+  et~al.}{2019}]{2019ApJ...873...85D}
+{Davis} B.~L.,  {Graham} A.~W.,   {Cameron} E.,  2019, \mn@doi [\apj]
+  {10.3847/1538-4357/aaf3b8}, \href
+  {https://ui.adsabs.harvard.edu/abs/2019ApJ...873...85D} {873, 85}
+
 \bibitem[\protect\citeauthoryear{{D{\'\i}az-Garc{\'\i}a}, {Salo}, {Knapen}  \&
   {Herrera-Endoqui}}{{D{\'\i}az-Garc{\'\i}a}
   et~al.}{2019}]{2019arXiv190804246D}
@@ -94,6 +108,10 @@ p.~151
 {Elmegreen} D.~M.,  et~al., 2011, \mn@doi [\apj] {10.1088/0004-637X/737/1/32},
   \href {https://ui.adsabs.harvard.edu/abs/2011ApJ...737...32E} {737, 32}
 
+\bibitem[\protect\citeauthoryear{{Gadotti}}{{Gadotti}}{2009}]{2009MNRAS.393.1531G}
+{Gadotti} D.~A.,  2009, \mn@doi [\mnras] {10.1111/j.1365-2966.2008.14257.x},
+  \href {https://ui.adsabs.harvard.edu/abs/2009MNRAS.393.1531G} {393, 1531}
+
 \bibitem[\protect\citeauthoryear{{Gao} \& {Ho}}{{Gao} \&
   {Ho}}{2017}]{Gao2017:1709.00746v1}
 {Gao} H.,  {Ho} L.~C.,  2017, \mn@doi [\apj] {10.3847/1538-4357/aa7da4}, \href
@@ -104,6 +122,11 @@ p.~151
 {Goldreich} P.,  {Lynden-Bell} D.,  1965, \mn@doi [\mnras]
   {10.1093/mnras/130.2.125}, \href
   {https://ui.adsabs.harvard.edu/abs/1965MNRAS.130..125G} {130, 125}
+
+\bibitem[\protect\citeauthoryear{{Graham} \& {Driver}}{{Graham} \&
+  {Driver}}{2007}]{2007ApJ...655...77G}
+{Graham} A.~W.,  {Driver} S.~P.,  2007, \mn@doi [\apj] {10.1086/509758}, \href
+  {https://ui.adsabs.harvard.edu/abs/2007ApJ...655...77G} {655, 77}
 
 \bibitem[\protect\citeauthoryear{{Grand}, {Kawata}  \& {Cropper}}{{Grand}
   et~al.}{2012}]{2012MNRAS.426..167G}
@@ -138,6 +161,11 @@ p.~151
 {Hubble} E.~P.,  1926, \mn@doi [\apj] {10.1086/143018}, \href
   {https://ui.adsabs.harvard.edu/abs/1926ApJ....64..321H} {64, 321}
 
+\bibitem[\protect\citeauthoryear{Jones, Oliphant, Peterson  et~al.}{Jones
+  et~al.}{2001}]{scipy-paper}
+Jones E.,  Oliphant T.,  Peterson P.,   et~al., 2001, SciPy: Open source
+  scientific tools for Python, \url {http://www.scipy.org/}
+
 \bibitem[\protect\citeauthoryear{{Julian} \& {Toomre}}{{Julian} \&
   {Toomre}}{1966}]{1966ApJ...146..810J}
 {Julian} W.~H.,  {Toomre} A.,  1966, \mn@doi [\apj] {10.1086/148957}, \href
@@ -148,11 +176,6 @@ p.~151
 {Kormendy} J.,  {Kennicutt} Robert~C. J.,  2004, \mn@doi [\araa]
   {10.1146/annurev.astro.42.053102.134024}, \href
   {https://ui.adsabs.harvard.edu/abs/2004ARA&A..42..603K} {42, 603}
-
-\bibitem[\protect\citeauthoryear{{Kruk} et~al.,}{{Kruk}
-  et~al.}{2017}]{2017MNRAS.469.3363K}
-{Kruk} S.~J.,  et~al., 2017, \mn@doi [\mnras] {10.1093/mnras/stx1026}, \href
-  {https://ui.adsabs.harvard.edu/abs/2017MNRAS.469.3363K} {469, 3363}
 
 \bibitem[\protect\citeauthoryear{{Lin} \& {Shu}}{{Lin} \&
   {Shu}}{1964}]{1964ApJ...140..646L}
@@ -170,10 +193,10 @@ p.~151
   {https://ui.adsabs.harvard.edu/abs/1976ApJ...205..363M} {205, 363}
 
 \bibitem[\protect\citeauthoryear{{Masters} et~al.,}{{Masters}
-  et~al.}{2011}]{2011MNRAS.411.2026M}
-{Masters} K.~L.,  et~al., 2011, \mn@doi [\mnras]
-  {10.1111/j.1365-2966.2010.17834.x}, \href
-  {https://ui.adsabs.harvard.edu/abs/2011MNRAS.411.2026M} {411, 2026}
+  et~al.}{2012}]{2012MNRAS.424.2180M}
+{Masters} K.~L.,  et~al., 2012, \mn@doi [\mnras]
+  {10.1111/j.1365-2966.2012.21377.x}, \href
+  {https://ui.adsabs.harvard.edu/abs/2012MNRAS.424.2180M} {424, 2180}
 
 \bibitem[\protect\citeauthoryear{{Masters} et~al.,}{{Masters}
   et~al.}{2019}]{2019MNRAS.487.1808M}
@@ -221,6 +244,10 @@ p.~151
 \bibitem[\protect\citeauthoryear{{Sandage}}{{Sandage}}{1961}]{1961hag..book.....S}
 {Sandage} A.,  1961, {The Hubble Atlas of Galaxies}
 
+\bibitem[\protect\citeauthoryear{{Sandage}}{{Sandage}}{2005}]{2005ARA&A..43..581S}
+{Sandage} A.,  2005, \mn@doi [\araa] {10.1146/annurev.astro.43.112904.104839},
+  \href {https://ui.adsabs.harvard.edu/abs/2005ARA&A..43..581S} {43, 581}
+
 \bibitem[\protect\citeauthoryear{{Sanders} \& {Huntley}}{{Sanders} \&
   {Huntley}}{1976}]{1976ApJ...209...53S}
 {Sanders} R.~H.,  {Huntley} J.~M.,  1976, \mn@doi [\apj] {10.1086/154692},
@@ -242,6 +269,18 @@ Scholz F.~W.,  Stephens M.~A.,  1987, \mn@doi [Journal of the American
 {Seigar} M.~S.,  {Block} D.~L.,  {Puerari} I.,  {Chorney} N.~E.,   {James}
   P.~A.,  2005, \mn@doi [\mnras] {10.1111/j.1365-2966.2005.08970.x}, \href
   {https://ui.adsabs.harvard.edu/abs/2005MNRAS.359.1065S} {359, 1065}
+
+\bibitem[\protect\citeauthoryear{{Seigar}, {Kennefick}, {Kennefick}  \&
+  {Lacy}}{{Seigar} et~al.}{2008}]{2008ApJ...678L..93S}
+{Seigar} M.~S.,  {Kennefick} D.,  {Kennefick} J.,   {Lacy} C. H.~S.,  2008,
+  \mn@doi [\apjl] {10.1086/588727}, \href
+  {https://ui.adsabs.harvard.edu/abs/2008ApJ...678L..93S} {678, L93}
+
+\bibitem[\protect\citeauthoryear{{Skibba} et~al.,}{{Skibba}
+  et~al.}{2012}]{2012MNRAS.423.1485S}
+{Skibba} R.~A.,  et~al., 2012, \mn@doi [\mnras]
+  {10.1111/j.1365-2966.2012.20972.x}, \href
+  {https://ui.adsabs.harvard.edu/abs/2012MNRAS.423.1485S} {423, 1485}
 
 \bibitem[\protect\citeauthoryear{Stephens}{Stephens}{1974}]{10.2307/2286009}
 Stephens M.~A.,  1974, Journal of the American Statistical Association, 69, 730

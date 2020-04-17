@@ -24,13 +24,13 @@ Fourier analysis in one- and two-dimensions (as performed by \citealt{2019arXiv1
 \subsection{The Galaxy Sample}
 The galaxies analysed in this paper are the 198 galaxies from \Lingard. These are a subset of the \textit{stellar mass-complete sample} in \citet{2017MNRAS.472.2263H}, a sample of low-redshift face-on spiral galaxies selected using data from the NASA-Sloan Atlas \citep{2011AJ....142...31B} and Galaxy Zoo 2 \citep{Willett2013:1308.3496v2}.
 
-Some galaxies in \Lingard were shown to volunteers again in a repeat \textit{validation subset} in order to create a second aggregate model used to test internal consistency. We combine the classifications of galaxies in this \textit{validation subset} with the original classifications. Clustering of drawn spiral arms and cleaning of points was then performed as detailed in \Lingard. We remove any galaxies for which fewer than two spiral arms were identified, as these do not provide our model with any information about inter-arm scatter. This results in a hierarchical data structure of 91 galaxies, 211 spiral arms and 215,678 points.
+Some galaxies in \Lingard were shown to volunteers again in a repeat \textit{validation subset} in order to create a second aggregate model used to test internal consistency. We combine the classifications of galaxies in this \textit{validation subset} with the original classifications. Clustering of drawn spiral arms and cleaning of points was then performed as detailed in \Lingard. We remove any galaxies for which no spiral arms were identified, resulting in a hierarchical data structure of 139 galaxies, 261 spiral arms and 239,947 points.
 
 Spiral arm points are deprojected to a face-on orientation using the disk inclination and position angle obtained through photometric model fitting performed in \Lingard. Arms are individually corrected to all have the same chirality (a pitch angle greater than or equal to zero) using the logarithmic spiral fit in \Lingard.
 
 \subsection{Bayesian modelling of spiral arms in \textit{Galaxy Builder}}
 
-We assume that a galaxy has a single value for pitch angle, $\phi_\mathrm{gal}$, and that the pitch angles of spiral arms in this galaxy, $\phi_\mathrm{arm}$, are constants (giving logarithmic spirals) drawn from a normal distribution centred on $\phi_\mathrm{gal}$, with some spread $\sigma_\mathrm{gal}$ common to all galaxies. We truncate this normal distribution between the physical limits of {0\degree} (a ring) and {90\degree} (a ``spoke''), giving
+We assume that a galaxy has a single value for pitch angle, $\phi_\mathrm{gal}$, and that the pitch angles of spiral arms in the galaxy, $\phi_\mathrm{arm}$, are constant (giving logarithmic spirals) and drawn from a normal distribution centred on $\phi_\mathrm{gal}$, with some spread $\sigma_\mathrm{gal}$ common to all galaxies. We truncate this normal distribution between the physical limits of {0\degree} (a ring) and {90\degree} (a ``spoke''), giving
 
 \begin{equation}
 \phi_\mathrm{arm} \sim \mathrm{TruncatedNormal}(\phi_\mathrm{gal}, \sigma_\mathrm{gal}, \mathrm{min}=0, \mathrm{max}=90).
@@ -53,7 +53,7 @@ We choose hyperpriors over $\phi_\mathrm{gal}$, $\sigma_\mathrm{gal}$, $c_\mathr
   \sigma_r &\sim \mathrm{InverseGamma}(\alpha=2, \beta=0.5).
 \end{align}
 
-The inverse gamma distribution is used to aid the convergence of the Hamiltonian Monte Carlo algorithm used (discussed later). The Cauchy distirbution is equivalent to the Student's t-distribution with one degree of freedom, and was chosen due to its fatter tails than the normal distribution. Our likelihood function for $N$ arms, each of which with $n_\mathrm{arm}$ points is
+The inverse gamma distribution is used to aid the convergence of the Hamiltonian Monte Carlo (HMC) algorithm used (discussed later). The Cauchy distirbution is equivalent to the Student's t-distribution with one degree of freedom, and was chosen due to its fatter tails than the normal distribution. Our likelihood function for $N$ arms, each of which with $n_\mathrm{arm}$ points is
 
 \begin{equation}
   \mathcal{L} = \prod_{\mathrm{arm}=1}^{N}\left(2\pi\sigma_r^2\right)^{-n_\mathrm{arm}/2}
