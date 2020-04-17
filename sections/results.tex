@@ -8,7 +8,7 @@ Our hierarchical model identifies the pitch angle of individual arms ($\phi_\mat
 
 where $\sigma_\mathrm{gal}$ is our measure of inter-arm variability of pitch angle and has a posterior distribution of $11.0^\circ\pm 0.9^\circ$. This variability is similar to the finding of \citet{2014ApJ...790...87D} and emphaises the need for fitting algorithms to not assume all arms have the same pitch angle.
 
-\comment{what about for one-armed galaxies? (A: 9.86\degree)}
+% for one-armed galaxies = {9.86\degree}
 
 \subsection{Dependence of pitch angle on Galaxy Morphology}
 \label{section:morphology_comparision}
@@ -28,25 +28,21 @@ We see no correlation between galaxy pitch angle derived from the hierarchical m
 
 We separate our sample into galaxies with weaker bulges ($B_\mathrm{avg} < 0.28$, 83 galaxies) and those with stronger bulges ($B_\mathrm{avg} \ge 0.28$, 54 galaxies), in order to test whether their pitch angles could be drawn from significantly different distributions. A marginalized two-sample Anderson-Darling test comparing the distributions of $\phi_\mathrm{gal}$ for the samples does not find evidence that galaxy pitch angles were drawn from different distributions: we reject the null hypothesis at the 1\% level for only 1\% of the samples. Similarly comparing arm pitch angles for galaxies in the different samples results in not rejecting the null hypothesis at the 1\% level for any of the samples. The distributions of Anderson-Darling test statistic for $\phi_\mathrm{gal}$ and $\phi_\mathrm{arm}$ are shown in the upper panel of Figure \ref{fig:ad-morphology-test} in blue and orange respectively.
 
-These results may be caused by the galaxy sample not containing many galaxies with dominant bulges: $B_\mathrm{avg}$ only varied from 0.09 to 0.75 (the allowed maximum being 1.0), with only four galaxies having $B_\mathrm{avg} > 0.5$. The split point of 0.28 was also chosen to produce evenly sized comparison samples rather than from some physical motivation. However, the lack of any form of correlation strongly suggests that there is no evidence in our data for the link between bulge size and pitch angle observed in other studies.
+These results may be caused by the galaxy sample not containing many galaxies with dominant bulges: $B_\mathrm{avg}$ only varied from 0.09 to 0.75 (the allowed maximum being 1.0), with only four galaxies having $B_\mathrm{avg} > 0.5$. The split point of 0.28 was also chosen to produce evenly sized comparison samples rather than from some physical motivation. However, the lack of any form of correlation implies that there is no evidence in our data for the link between bulge size and pitch angle predicted by the Hubble sequence and observed in other studies.
 
 \subsubsection{Pitch angle vs. Bar Strength}
 
 One of the predictions of Manifold theory is that pitch angle increases with bar strength \citep{2009MNRAS.400.1706A}. In order to investigate this relationship in our data, we make use of Galaxy Zoo 2's bar fraction (\textit{pbar}), which is widely viewed as a good measure of bar strength (\citealt{2012MNRAS.423.1485S}, \citealt{2012MNRAS.424.2180M}) and therefore a measure of the torque applied on the disc gas.
 
-We do not observe a correlation between \textit{pbar} and $E[\phi_\mathrm{gal}]$ (Pearson correlation coefficient of -0.05). Following \citet{2012MNRAS.424.2180M} and \citet{2012MNRAS.423.1485S}, we separate the sample into galaxies without a bar ($\mathrm{\textit{pbar}} < 0.2$), weakly-barred galaxies ($0.2 \le \mathrm{\textit{pbar}} \le 0.5$) and strongly-barred galaxies ($\mathrm{\textit{pbar}} > 0.5$).
-
-A marginalized k-sample Anderson-Darling tests on the distributions of $\phi_\mathrm{gal}$ and $\phi_\mathrm{arm}$ does not find that pitch angles ($\phi_\mathrm{gal}$ or $\phi_\mathrm{arm}$) of galaxies with different bar strengths were drawn from different distributions; we do not reject the null hypothesis at the 1\% level for any of samples for either the test of $\phi_\mathrm{gal}$ or the test of $\phi_\mathrm{arm}$. The distributions of Anderson-Darling test statistic is shown in the lower panel of Figure \ref{fig:ad-morphology-test}.
-
-\comment{this paragraph is quite clunky, can we rephrase it?}
+We do not observe a correlation between \textit{pbar} and $E[\phi_\mathrm{gal}]$ (Pearson correlation coefficient of -0.05). Following \citet{2012MNRAS.424.2180M} and \citet{2012MNRAS.423.1485S}, we separate the sample into galaxies without a bar ($\mathrm{\textit{pbar}} < 0.2$), with a weak bar ($0.2 \le \mathrm{\textit{pbar}} \le 0.5$) and with a strong bar ($\mathrm{\textit{pbar}} > 0.5$). Performing marginalized three-sample Anderson-Darling tests does not find that pitch angles ($\phi_\mathrm{gal}$ or $\phi_\mathrm{arm}$) of galaxies with different bar strengths were drawn from different distributions; we do not reject the null hypothesis at the 1\% level for any samples for the test of $\phi_\mathrm{gal}$, and at the 10\% level for the test of $\phi_\mathrm{arm}$. The distributions of Anderson-Darling test statistic is shown in the lower panel of Figure \ref{fig:ad-morphology-test}.
 
 \begin{figure*}
   \includegraphics[width=17.7cm]{plots/bulge_bar_test_results.pdf}
-  \caption{The results of marginalized two-sample Anderson-Darling tests examining whether pitch angles ($\phi_\mathrm{gal}$ in blue and $\phi_\mathrm{gal}$ in orange) for galaxies with $B_\mathrm{avg} < 0.28$ and $B_\mathrm{avg} \ge 0.28$ are drawn from the same distribution (top panel), and the results for strongly-barred vs unbarred galaxies (bottom panel).}
+  \caption{The results of marginalized two-sample Anderson-Darling tests examining whether pitch angles ($\phi_\mathrm{gal}$ in blue and $\phi_\mathrm{gal}$ in orange) for galaxies with $B_\mathrm{avg} < 0.28$ and $B_\mathrm{avg} \ge 0.28$ are drawn from the same distribution (top panel), and the results of marginalized three-sample Anderson-Darling tests for galaxies with no bar ($\mathrm{\textit{pbar}} < 0.2$), a weak bar ($0.2 \le \mathrm{\textit{pbar}} \le 0.5$) and a strong bar ($\mathrm{\textit{pbar}} > 0.5$) (bottom panel). Confidence intervals are shown, with moving rightwards indicating more confidence in rejecting the null hypothesis.}
   \label{fig:ad-morphology-test}
 \end{figure*}
 
-We do not correct for variation in bulge size in this work, however predictions from Manifold theory should not be affected as bulges do not provide a strong non-axisymmetric focing. The fact that we do not find any link between bar strength and pitch angle suggests that the primary mechanism driving the evolution of the spirals in our sample is not Manifold theory.
+We do not correct for variation in bulge size in this work, however predictions from Manifold theory should not be affected as bulges do not provide a strong non-axisymmetric focing. The fact that we do not find any link between bar strength and pitch angle suggests that the primary mechanism driving the evolution of the spirals in our sample is not Manifold theory. \comment{This is possibly too strong a statement?}
 
 \subsection{Spiral Winding}
 \label{section:spiral_winding}

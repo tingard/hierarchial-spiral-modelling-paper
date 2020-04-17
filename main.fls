@@ -429,6 +429,7 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/ae/aeti7.tfm
 INPUT plots/bulge_bar_test_results.pdf
 INPUT ./plots/bulge_bar_test_results.pdf
 INPUT ./plots/bulge_bar_test_results.pdf
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/ae/aeti7.tfm
 INPUT plots/combined_cot_uniform_marginalized_tests.pdf
 INPUT ./plots/combined_cot_uniform_marginalized_tests.pdf
 INPUT ./plots/combined_cot_uniform_marginalized_tests.pdf

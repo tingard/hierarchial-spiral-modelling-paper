@@ -60,4 +60,6 @@ The inverse gamma distribution is used to aid the convergence of the Hamiltonian
   \exp\left(\frac{||\widevec{r_\mathrm{arm}}\,-\,\widetilde{r_\mathrm{arm}}||^2}{2\sigma_r^2}\right).
 \end{equation}
 
+We assume that the radial error is Gaussian for simplicity of analysis, Shapiro-Wilk tests on the residuals of the logarithmic spirals fit in {\Lingard} suggest that this is not a good assumption, and a more robust likelihood (such as the Student's t-distirbution) would possibly more appropriate.
+
 To perform inference, we make use of the No-U-Turn-Sampler (NUTS, \citealt{2011arXiv1111.4246H}), implemented in PYMC3\footnote{\url{https://docs.pymc.io/}}, an open source probabilistic programming framework written in python \citep{pymc3_paper}. To aid the convergence of MC chains, we scale the radii of deprojected points to have unit variance.
