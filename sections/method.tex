@@ -28,9 +28,11 @@ Some galaxies in \Lingard were shown to volunteers again in a repeat \textit{val
 
 Spiral arm points are deprojected to a face-on orientation using the disk inclination and position angle obtained through photometric model fitting performed in \Lingard. Arms are individually corrected to all have the same chirality (a pitch angle greater than or equal to zero) using the logarithmic spiral fit in \Lingard.
 
+{\comment{KLM: Need to talk about individual arms}}
+
 \subsection{Bayesian modelling of spiral arms in \textit{Galaxy Builder}}
 
-We assume that a galaxy has a single value for pitch angle, $\phi_\mathrm{gal}$, and that the pitch angles of spiral arms in the galaxy, $\phi_\mathrm{arm}$, are constant (giving logarithmic spirals) and drawn from a normal distribution centred on $\phi_\mathrm{gal}$, with some spread $\sigma_\mathrm{gal}$ common to all galaxies. We truncate this normal distribution between the physical limits of {0\degree} (a ring) and {90\degree} (a ``spoke''), giving
+We assume that a galaxy has a single value for pitch angle, $\phi_\mathrm{gal}$, and that the pitch angles of spiral arms in the galaxy, $\phi_\mathrm{arm}$, are constant with radius (giving logarithmic spirals) and drawn from a normal distribution centred on $\phi_\mathrm{gal}$, with some spread $\sigma_\mathrm{gal}$ common to all galaxies. We truncate this normal distribution between the physical limits of {0\degree} (a ring) and {90\degree} (a ``spoke''), giving
 
 \begin{equation}
 \phi_\mathrm{arm} \sim \mathrm{TruncatedNormal}(\phi_\mathrm{gal}, \sigma_\mathrm{gal}, \mathrm{min}=0, \mathrm{max}=90).

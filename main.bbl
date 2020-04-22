@@ -65,6 +65,14 @@ p.~155
 {Buta} R.~J.,  et~al., 2015, VizieR Online Data Catalog, \href
   {https://ui.adsabs.harvard.edu/abs/2015yCat..22170032B} {p. J/ApJS/217/32}
 
+\bibitem[\protect\citeauthoryear{{Cedr{\'e}s}, {Cepa}, {Bongiovanni},
+  {Casta{\~n}eda}, {S{\'a}nchez-Portal}  \& {Tomita}}{{Cedr{\'e}s}
+  et~al.}{2013}]{2013A&A...560A..59C}
+{Cedr{\'e}s} B.,  {Cepa} J.,  {Bongiovanni} {\'A}.,  {Casta{\~n}eda} H.,
+  {S{\'a}nchez-Portal} M.,   {Tomita} A.,  2013, \mn@doi [\aap]
+  {10.1051/0004-6361/201321588}, \href
+  {https://ui.adsabs.harvard.edu/abs/2013A&A...560A..59C} {560, A59}
+
 \bibitem[\protect\citeauthoryear{{Davis} \& {Hayes}}{{Davis} \&
   {Hayes}}{2014}]{2014ApJ...790...87D}
 {Davis} D.~R.,  {Hayes} W.~B.,  2014, \mn@doi [\apj]
@@ -98,10 +106,21 @@ p.~155
   M.,  2019, arXiv e-prints, \href
   {https://ui.adsabs.harvard.edu/abs/2019arXiv190804246D} {p. arXiv:1908.04246}
 
+\bibitem[\protect\citeauthoryear{{Dobbs}}{{Dobbs}}{2014}]{2014IAUS..298..221D}
+{Dobbs} C.~L.,  2014, in {Feltzing} S.,  {Zhao} G.,  {Walton} N.~A.,
+  {Whitelock} P.,  eds,  IAU Symposium Vol. 298, Setting the scene for Gaia and
+  LAMOST. pp 221--227 (\mn@eprint {arXiv} {1307.7133}),
+  \mn@doi{10.1017/S1743921313006406}
+
 \bibitem[\protect\citeauthoryear{{Dobbs} \& {Baba}}{{Dobbs} \&
   {Baba}}{2014}]{2014PASA...31...35D}
 {Dobbs} C.,  {Baba} J.,  2014, \mn@doi [\pasa] {10.1017/pasa.2014.31}, \href
   {https://ui.adsabs.harvard.edu/abs/2014PASA...31...35D} {31, e035}
+
+\bibitem[\protect\citeauthoryear{{Elmegreen}}{{Elmegreen}}{2011}]{2011EAS....51...19E}
+{Elmegreen} B.~G.,  2011, in {Charbonnel} C.,  {Montmerle} T.,  eds,  EAS
+  Publications Series Vol. 51, EAS Publications Series. pp 19--30 (\mn@eprint
+  {arXiv} {1101.3109}), \mn@doi{10.1051/eas/1151002}
 
 \bibitem[\protect\citeauthoryear{{Elmegreen} et~al.,}{{Elmegreen}
   et~al.}{2011}]{2011ApJ...737...32E}
@@ -122,11 +141,6 @@ p.~155
 {Goldreich} P.,  {Lynden-Bell} D.,  1965, \mn@doi [\mnras]
   {10.1093/mnras/130.2.125}, \href
   {https://ui.adsabs.harvard.edu/abs/1965MNRAS.130..125G} {130, 125}
-
-\bibitem[\protect\citeauthoryear{{Graham} \& {Driver}}{{Graham} \&
-  {Driver}}{2007}]{2007ApJ...655...77G}
-{Graham} A.~W.,  {Driver} S.~P.,  2007, \mn@doi [\apj] {10.1086/509758}, \href
-  {https://ui.adsabs.harvard.edu/abs/2007ApJ...655...77G} {655, 77}
 
 \bibitem[\protect\citeauthoryear{{Grand}, {Kawata}  \& {Cropper}}{{Grand}
   et~al.}{2012}]{2012MNRAS.426..167G}
