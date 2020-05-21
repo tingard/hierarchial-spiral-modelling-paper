@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex main"] 1589303035 "main.aux" "main.bbl" "main" 1589364776
+["bibtex main"] 1589893086 "main.aux" "main.bbl" "main" 1589893129
   "./mnras.bst" 1569414143 43376 8463aa2cc1948e346d5641ca59bb4619 ""
-  "bibliography.bib" 1587723937 46113 292f2ab63865b03e510d3992853b3af5 ""
-  "main.aux" 1589364775 14720 e34b0b0f333f536f8100221de8e8970b ""
+  "bibliography.bib" 1589893016 46803 f421cb3c515b2d6d2b74544585d358bb ""
+  "main.aux" 1589893129 14823 ece7e4feb04294e999a71200f951068e ""
   "main.bcf" 0 -1 0 ""
   (generated)
-  "main.bbl"
   "main.blg"
-["pdflatex"] 1589364774 "main.tex" "main.pdf" "main" 1589364776
+  "main.bbl"
+["pdflatex"] 1589893127 "main.tex" "main.pdf" "main" 1589893129
   "/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc" 1422827479 2083 60e36f8eac802fcaf19eabe2633b406e ""
@@ -261,8 +261,8 @@
   "/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1486052417 1888048 f2c5faed5981a516f406b2ccc20bff71 ""
   "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1486052463 3873396 e46673161f712a56df5b0cf95926fdd1 ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
-  "main.aux" 1589364775 14720 e34b0b0f333f536f8100221de8e8970b ""
-  "main.bbl" 1589303035 16010 6608cc103a39609e2a963da354a77561 "bibtex main"
+  "main.aux" 1589893129 14823 ece7e4feb04294e999a71200f951068e ""
+  "main.bbl" 1589893086 16234 298fe62f9cf4d354af0910244e420da9 "bibtex main"
   "main.tex" 1587486851 5453 a7e247e0bdb1a0a699b51fdfdeb9018c ""
   "mnras.cls" 1569414143 62270 584b1996e2ad3b6232713ae7357cb18e ""
   "plots/arm_pa_spread.pdf" 1588590210 26444 7ef76868a3d495843f3364eacec66b56 ""
@@ -275,9 +275,9 @@
   "sections/discussion.tex" 1589302339 3245 97ebaa9a74dac1abdbb3551493ea9999 ""
   "sections/introduction.tex" 1587724161 7747 81deb42fea838a2af4f66715f3c57fa7 ""
   "sections/method.tex" 1589302020 7937 b0997d6b55bf41ba33b20397f402bc91 ""
-  "sections/results.tex" 1587557341 12864 bf21561f7957eb56ec272a7430bb0841 ""
+  "sections/results.tex" 1589893127 12896 3af0775098b0581a83bf9bfba0ccf323 ""
   "subfiles.sty" 1569414143 651 24cb2017a923f4735b1190eecb80faeb ""
   (generated)
   "main.aux"
-  "main.log"
   "main.pdf"
+  "main.log"

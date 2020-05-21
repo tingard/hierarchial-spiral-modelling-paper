@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.2)  13 MAY 2020 11:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.2)  19 MAY 2020 13:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1340,7 +1340,7 @@ Underfull \hbox (badness 7030) in paragraph at lines 171--173
  []
 
 
-Underfull \hbox (badness 6396) in paragraph at lines 236--238
+Underfull \hbox (badness 6396) in paragraph at lines 240--242
 []\T1/aer/m/n/8 Pringle J. E., Dobbs C. L., 2019, arXiv e-prints, p.
  []
 
@@ -1364,17 +1364,17 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 176.
  ) 
 Here is how much of TeX's memory you used:
- 10604 strings out of 493014
- 147843 string characters out of 6133352
- 249208 words of memory out of 5000000
- 13787 multiletter control sequences out of 15000+600000
+ 10607 strings out of 493014
+ 147924 string characters out of 6133352
+ 249250 words of memory out of 5000000
+ 13790 multiletter control sequences out of 15000+600000
  115991 words of font info for 243 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,17n,35p,1278b,542s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/l
 ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/newtx/rntxmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/newtx/rtxmi5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/newtx/rtxmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2016/texmf-d
 ist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/newtx/txex-bar.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/txfonts/txmia.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (8 pages, 660630 bytes).
+Output written on main.pdf (8 pages, 660672 bytes).
 PDF statistics:
  281 PDF objects out of 1000 (max. 8388607)
  146 compressed objects within 2 object streams

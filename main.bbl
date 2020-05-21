@@ -185,6 +185,10 @@ Jones E.,  Oliphant T.,  Peterson P.,   et~al., 2001, SciPy: Open source
 {Julian} W.~H.,  {Toomre} A.,  1966, \mn@doi [\apj] {10.1086/148957}, \href
   {https://ui.adsabs.harvard.edu/abs/1966ApJ...146..810J} {146, 810}
 
+\bibitem[\protect\citeauthoryear{{Kennicutt}}{{Kennicutt}}{1981}]{1981AJ.....86.1847K}
+{Kennicutt} R.~C. J.,  1981, \mn@doi [\aj] {10.1086/113064}, \href
+  {https://ui.adsabs.harvard.edu/abs/1981AJ.....86.1847K} {86, 1847}
+
 \bibitem[\protect\citeauthoryear{{Kormendy} \& {Kennicutt}}{{Kormendy} \&
   {Kennicutt}}{2004}]{2004ARA&A..42..603K}
 {Kormendy} J.,  {Kennicutt} Robert~C. J.,  2004, \mn@doi [\araa]
