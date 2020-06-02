@@ -352,9 +352,6 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/public/newtx/ntxmi5.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/newtx/rtxmi5.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/newtx/rntxmi5.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/ae/aeti9.tfm
-INPUT sections/method.tex
-INPUT sections/method.tex
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/ae/aecsc10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/ae/aer12.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/ae/aeti12.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/public/ae/aer12.vf
@@ -388,6 +385,9 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/txfonts/rtxr.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/public/ae/aeti9.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmti9.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmsl9.tfm
+INPUT sections/method.tex
+INPUT sections/method.tex
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/ae/aecsc10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/ae/aebxti10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/public/ae/aecsc10.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
@@ -420,8 +420,6 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/txfonts/rtxr.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/public/ae/aebxti10.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbxsl10.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/public/newtx/ntxsy.vf
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/txfonts/txsy.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/ae/t1aett.fd
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/ae/t1aett.fd
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/ae/aett8.tfm
@@ -430,6 +428,8 @@ INPUT sections/results.tex
 INPUT plots/arm_pa_spread.pdf
 INPUT ./plots/arm_pa_spread.pdf
 INPUT ./plots/arm_pa_spread.pdf
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/public/newtx/ntxsy.vf
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/txfonts/txsy.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/public/ae/aett8.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/ae/aer7.tfm

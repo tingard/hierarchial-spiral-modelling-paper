@@ -9,7 +9,6 @@ Repeated entry---line 433 of file bibliography.bib
 I'm skipping whatever remains of this entry
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Warning--empty publisher in 1987gady.book.....B
 Warning--can't use both author and editor fields in 1989gadv.book..151B
 Warning--empty publisher in 1989gadv.book..151B
 Warning--can't use both author and editor fields in 2013seg..book..155B
@@ -25,43 +24,43 @@ while executing---line 1822 of file mnras.bst
 Warning--empty publisher in 1991rc3..book.....D
 You've used 56 entries,
             2881 wiz_defined-function locations,
-            1219 strings with 23130 characters,
-and the built_in function-call counts, 28452 in all, are:
-= -- 2397
-> -- 1910
+            1223 strings with 23241 characters,
+and the built_in function-call counts, 28479 in all, are:
+= -- 2417
+> -- 1904
 < -- 167
-+ -- 839
++ -- 833
 - -- 272
-* -- 3336
+* -- 3344
 := -- 4295
 add.period$ -- 0
 call.type$ -- 56
 change.case$ -- 112
 chr.to.int$ -- 55
-cite$ -- 64
-duplicate$ -- 1452
-empty$ -- 1422
+cite$ -- 63
+duplicate$ -- 1448
+empty$ -- 1412
 format.name$ -- 468
-if$ -- 5115
+if$ -- 5124
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 60
+missing$ -- 59
 newline$ -- 183
 num.names$ -- 402
-pop$ -- 310
+pop$ -- 299
 preamble$ -- 1
 purify$ -- 224
 quote$ -- 0
-skip$ -- 1000
+skip$ -- 1002
 stack$ -- 0
-substring$ -- 1697
-swap$ -- 883
+substring$ -- 1717
+swap$ -- 885
 text.length$ -- 237
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 489
-warning$ -- 8
-while$ -- 424
+type$ -- 492
+warning$ -- 7
+while$ -- 426
 width$ -- 0
-write$ -- 572
+write$ -- 573
 (There were 3 error messages)

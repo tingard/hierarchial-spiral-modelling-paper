@@ -42,10 +42,6 @@
   {10.1088/0004-637X/763/1/46}, \href
   {https://ui.adsabs.harvard.edu/abs/2013ApJ...763...46B} {763, 46}
 
-\bibitem[\protect\citeauthoryear{{Binney} \& {Tremaine}}{{Binney} \&
-  {Tremaine}}{1987}]{1987gady.book.....B}
-{Binney} J.,  {Tremaine} S.,  1987, {Galactic dynamics}
-
 \bibitem[\protect\citeauthoryear{{Blanton}, {Kazin}, {Muna}, {Weaver}  \&
   {Price-Whelan}}{{Blanton} et~al.}{2011}]{2011AJ....142...31B}
 {Blanton} M.~R.,  {Kazin} E.,  {Muna} D.,  {Weaver} B.~A.,   {Price-Whelan} A.,
@@ -239,6 +235,12 @@ Jones E.,  Oliphant T.,  Peterson P.,   et~al., 2001, SciPy: Open source
   {Dobbs}}{2019}]{2019arXiv190910291P}
 {Pringle} J.~E.,  {Dobbs} C.~L.,  2019, arXiv e-prints, \href
   {https://ui.adsabs.harvard.edu/abs/2019arXiv190910291P} {p. arXiv:1909.10291}
+
+\bibitem[\protect\citeauthoryear{{Ringermacher} \& {Mead}}{{Ringermacher} \&
+  {Mead}}{2009}]{2009MNRAS.397..164R}
+{Ringermacher} H.~I.,  {Mead} L.~R.,  2009, \mn@doi [\mnras]
+  {10.1111/j.1365-2966.2009.14950.x}, \href
+  {https://ui.adsabs.harvard.edu/abs/2009MNRAS.397..164R} {397, 164}
 
 \bibitem[\protect\citeauthoryear{{Rodriguez-Fernandez} \&
   {Combes}}{{Rodriguez-Fernandez} \& {Combes}}{2008}]{2008A&A...489..115R}
