@@ -42,6 +42,10 @@
   {10.1088/0004-637X/763/1/46}, \href
   {https://ui.adsabs.harvard.edu/abs/2013ApJ...763...46B} {763, 46}
 
+\bibitem[\protect\citeauthoryear{{Binney} \& {Tremaine}}{{Binney} \&
+  {Tremaine}}{1987}]{1987gady.book.....B}
+{Binney} J.,  {Tremaine} S.,  1987, {Galactic dynamics}
+
 \bibitem[\protect\citeauthoryear{{Blanton}, {Kazin}, {Muna}, {Weaver}  \&
   {Price-Whelan}}{{Blanton} et~al.}{2011}]{2011AJ....142...31B}
 {Blanton} M.~R.,  {Kazin} E.,  {Muna} D.,  {Weaver} B.~A.,   {Price-Whelan} A.,
@@ -112,6 +116,12 @@ p.~155
   {Baba}}{2014}]{2014PASA...31...35D}
 {Dobbs} C.,  {Baba} J.,  2014, \mn@doi [\pasa] {10.1017/pasa.2014.31}, \href
   {https://ui.adsabs.harvard.edu/abs/2014PASA...31...35D} {31, e035}
+
+\bibitem[\protect\citeauthoryear{{Dobbs}, {Theis}, {Pringle}  \&
+  {Bate}}{{Dobbs} et~al.}{2010}]{2010MNRAS.403..625D}
+{Dobbs} C.~L.,  {Theis} C.,  {Pringle} J.~E.,   {Bate} M.~R.,  2010, \mn@doi
+  [\mnras] {10.1111/j.1365-2966.2009.16161.x}, \href
+  {https://ui.adsabs.harvard.edu/abs/2010MNRAS.403..625D} {403, 625}
 
 \bibitem[\protect\citeauthoryear{{Elmegreen}}{{Elmegreen}}{2011}]{2011EAS....51...19E}
 {Elmegreen} B.~G.,  2011, in {Charbonnel} C.,  {Montmerle} T.,  eds,  EAS
@@ -190,6 +200,11 @@ Jones E.,  Oliphant T.,  Peterson P.,   et~al., 2001, SciPy: Open source
 {Kormendy} J.,  {Kennicutt} Robert~C. J.,  2004, \mn@doi [\araa]
   {10.1146/annurev.astro.42.053102.134024}, \href
   {https://ui.adsabs.harvard.edu/abs/2004ARA&A..42..603K} {42, 603}
+
+\bibitem[\protect\citeauthoryear{{Kruk} et~al.,}{{Kruk}
+  et~al.}{2018}]{2018MNRAS.473.4731K}
+{Kruk} S.~J.,  et~al., 2018, \mn@doi [\mnras] {10.1093/mnras/stx2605}, \href
+  {https://ui.adsabs.harvard.edu/abs/2018MNRAS.473.4731K} {473, 4731}
 
 \bibitem[\protect\citeauthoryear{{Lin} \& {Shu}}{{Lin} \&
   {Shu}}{1964}]{1964ApJ...140..646L}
@@ -300,6 +315,12 @@ Scholz F.~W.,  Stephens M.~A.,  1987, \mn@doi [Journal of the American
 {Seigar} M.~S.,  {Kennefick} D.,  {Kennefick} J.,   {Lacy} C. H.~S.,  2008,
   \mn@doi [\apjl] {10.1086/588727}, \href
   {https://ui.adsabs.harvard.edu/abs/2008ApJ...678L..93S} {678, L93}
+
+\bibitem[\protect\citeauthoryear{{Semczuk}, {{\L}okas}  \& {del
+  Pino}}{{Semczuk} et~al.}{2017}]{2017ApJ...834....7S}
+{Semczuk} M.,  {{\L}okas} E.~L.,   {del Pino} A.,  2017, \mn@doi [\apj]
+  {10.3847/1538-4357/834/1/7}, \href
+  {https://ui.adsabs.harvard.edu/abs/2017ApJ...834....7S} {834, 7}
 
 \bibitem[\protect\citeauthoryear{{Skibba} et~al.,}{{Skibba}
   et~al.}{2012}]{2012MNRAS.423.1485S}
