@@ -3,10 +3,6 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: mnras.bst
 Database file #1: bibliography.bib
-Repeated entry---line 512 of file bibliography.bib
- : @article{2013MNRAS.436.1074S
- :                             ,
-I'm skipping whatever remains of this entry
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty publisher in 1987gady.book.....B
@@ -25,43 +21,43 @@ while executing---line 1822 of file mnras.bst
 Warning--empty publisher in 1991rc3..book.....D
 You've used 61 entries,
             2881 wiz_defined-function locations,
-            1262 strings with 24923 characters,
-and the built_in function-call counts, 31092 in all, are:
-= -- 2654
-> -- 2058
-< -- 176
-+ -- 905
+            1261 strings with 24907 characters,
+and the built_in function-call counts, 30617 in all, are:
+= -- 2571
+> -- 2062
+< -- 175
++ -- 909
 - -- 290
-* -- 3637
-:= -- 4657
+* -- 3619
+:= -- 4629
 add.period$ -- 0
 call.type$ -- 61
 change.case$ -- 122
 chr.to.int$ -- 60
 cite$ -- 69
-duplicate$ -- 1596
-empty$ -- 1550
+duplicate$ -- 1564
+empty$ -- 1533
 format.name$ -- 504
-if$ -- 5616
+if$ -- 5479
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 65
+missing$ -- 64
 newline$ -- 198
 num.names$ -- 434
 pop$ -- 333
 preamble$ -- 1
 purify$ -- 244
 quote$ -- 0
-skip$ -- 1113
+skip$ -- 1065
 stack$ -- 0
-substring$ -- 1889
-swap$ -- 976
-text.length$ -- 258
+substring$ -- 1809
+swap$ -- 941
+text.length$ -- 257
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 534
 warning$ -- 8
-while$ -- 460
+while$ -- 458
 width$ -- 0
 write$ -- 622
-(There were 3 error messages)
+(There were 2 error messages)
