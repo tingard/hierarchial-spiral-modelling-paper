@@ -60,11 +60,6 @@ p.~151
 {Buta} R.~J.,  2013, {Galaxy Morphology}.
 p.~155
 
-\bibitem[\protect\citeauthoryear{{Buta} et~al.,}{{Buta}
-  et~al.}{2015}]{2015yCat..22170032B}
-{Buta} R.~J.,  et~al., 2015, VizieR Online Data Catalog, \href
-  {https://ui.adsabs.harvard.edu/abs/2015yCat..22170032B} {p. J/ApJS/217/32}
-
 \bibitem[\protect\citeauthoryear{{Cedr{\'e}s}, {Cepa}, {Bongiovanni},
   {Casta{\~n}eda}, {S{\'a}nchez-Portal}  \& {Tomita}}{{Cedr{\'e}s}
   et~al.}{2013}]{2013A&A...560A..59C}
@@ -132,6 +127,12 @@ p.~155
   et~al.}{2011}]{2011ApJ...737...32E}
 {Elmegreen} D.~M.,  et~al., 2011, \mn@doi [\apj] {10.1088/0004-637X/737/1/32},
   \href {https://ui.adsabs.harvard.edu/abs/2011ApJ...737...32E} {737, 32}
+
+\bibitem[\protect\citeauthoryear{{Fisher} \& {Drory}}{{Fisher} \&
+  {Drory}}{2010}]{2010ApJ...716..942F}
+{Fisher} D.~B.,  {Drory} N.,  2010, \mn@doi [\apj]
+  {10.1088/0004-637X/716/2/942}, \href
+  {https://ui.adsabs.harvard.edu/abs/2010ApJ...716..942F} {716, 942}
 
 \bibitem[\protect\citeauthoryear{{Gadotti}}{{Gadotti}}{2009}]{2009MNRAS.393.1531G}
 {Gadotti} D.~A.,  2009, \mn@doi [\mnras] {10.1111/j.1365-2966.2008.14257.x},

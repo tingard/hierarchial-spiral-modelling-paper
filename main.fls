@@ -450,9 +450,6 @@ INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/ae/t1aett.fd
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/ae/aett8.tfm
 INPUT sections/results.tex
 INPUT sections/results.tex
-INPUT plots/example-spiral-fits.pdf
-INPUT ./plots/example-spiral-fits.pdf
-INPUT ./plots/example-spiral-fits.pdf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/public/newtx/ntxsy.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/txfonts/txsy.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/public/ae/aebxti10.vf
@@ -460,6 +457,9 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbxsl10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/public/ae/aett8.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
+INPUT plots/example-spiral-fits.pdf
+INPUT ./plots/example-spiral-fits.pdf
+INPUT ./plots/example-spiral-fits.pdf
 INPUT plots/arm_pa_spread.pdf
 INPUT ./plots/arm_pa_spread.pdf
 INPUT ./plots/arm_pa_spread.pdf
@@ -489,8 +489,8 @@ INPUT sections/appendix.tex
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/public/ae/aett9.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmtt9.tfm
 INPUT main.aux
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb

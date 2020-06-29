@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.2)  28 JUN 2020 12:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.2)  29 JUN 2020 14:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1064,11 +1064,7 @@ Now handling font encoding LMX ...
    defining Unicode char U+2423 (decimal 9251)
 ))
 Package hyperref Info: Option `draft' set `true' on input line 114.
- (./main.aux
-
-LaTeX Warning: Label `fig:example-spiral-fits' multiply defined.
-
-)
+ (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 117.
@@ -1275,10 +1271,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-
-LaTeX Warning: Reference `fig:pitch-angle-example' on page 2 undefined on input line 17.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  <plots/pitch-angle-explanation.pdf, id=23, 426.39299pt x 426.39299pt>
@@ -1295,23 +1287,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2 <./plots/galaxy_types.png>])
-Underfull \hbox (badness 10000) in paragraph at lines 34--143
+Underfull \hbox (badness 10000) in paragraph at lines 35--143
 []\T1/aer/m/n/9 Where ne-ces-sary, we make use of $\OML/ntxmi/m/it/9 H[] \U/ntxmia/m/it/9 =
  []
 
-(./sections/method.tex
-Underfull \vbox (badness 7722) has occurred while \output is active []
-
- [3 <./plots/pitch-angle-explanation.pdf>]
+(./sections/method.tex [3 <./plots/pitch-angle-explanation.pdf>]
 LaTeX Font Info:    Try loading font information for T1+aett on input line 71.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
-)) (./sections/results.tex <plots/example-spiral-fits.pdf, id=75, 857.18504pt x 860.01299pt>
+)) (./sections/results.tex [4] <plots/example-spiral-fits.pdf, id=82, 857.18504pt x 860.01299pt>
 File: plots/example-spiral-fits.pdf Graphic file (type pdf)
  <use plots/example-spiral-fits.pdf>
 Package pdftex.def Info: plots/example-spiral-fits.pdf used on input line 7.
 (pdftex.def)             Requested size: 503.61368pt x 505.2905pt.
- [4] <plots/arm_pa_spread.pdf, id=83, 925.95313pt x 320.06766pt>
+ <plots/arm_pa_spread.pdf, id=83, 925.95313pt x 320.06766pt>
 File: plots/arm_pa_spread.pdf Graphic file (type pdf)
  <use plots/arm_pa_spread.pdf>
 Package pdftex.def Info: plots/arm_pa_spread.pdf used on input line 18.
@@ -1319,23 +1308,17 @@ Package pdftex.def Info: plots/arm_pa_spread.pdf used on input line 18.
  <plots/bulge_bar_phigal_distribution.pdf, id=84, 858.64264pt x 425.5979pt>
 File: plots/bulge_bar_phigal_distribution.pdf Graphic file (type pdf)
  <use plots/bulge_bar_phigal_distribution.pdf>
-Package pdftex.def Info: plots/bulge_bar_phigal_distribution.pdf used on input line 42.
+Package pdftex.def Info: plots/bulge_bar_phigal_distribution.pdf used on input line 43.
 (pdftex.def)             Requested size: 503.61368pt x 249.62642pt.
  <plots/bulge_bar_test_results.pdf, id=85, 860.04877pt x 426.0605pt>
 File: plots/bulge_bar_test_results.pdf Graphic file (type pdf)
  <use plots/bulge_bar_test_results.pdf>
-Package pdftex.def Info: plots/bulge_bar_test_results.pdf used on input line 58.
+Package pdftex.def Info: plots/bulge_bar_test_results.pdf used on input line 60.
 (pdftex.def)             Requested size: 503.61368pt x 249.48817pt.
  [5]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [6 <./plots/example-spiral-fits.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7 <./plots/arm_pa_spread.pdf> <./plots/bulge_bar_phigal_distribution.pdf
@@ -1344,12 +1327,12 @@ pdfTeX warning: pdflatex (file ./plots/bulge_bar_phigal_distribution.pdf): PDF i
 >] <plots/phi_distribution_comparison.pdf, id=337, 722.3236pt x 269.31491pt>
 File: plots/phi_distribution_comparison.pdf Graphic file (type pdf)
  <use plots/phi_distribution_comparison.pdf>
-Package pdftex.def Info: plots/phi_distribution_comparison.pdf used on input line 96.
+Package pdftex.def Info: plots/phi_distribution_comparison.pdf used on input line 98.
 (pdftex.def)             Requested size: 503.61368pt x 187.77122pt.
  <plots/combined_cot_uniform_marginalized_tests.pdf, id=338, 860.07951pt x 236.60081pt>
 File: plots/combined_cot_uniform_marginalized_tests.pdf Graphic file (type pdf)
  <use plots/combined_cot_uniform_marginalized_tests.pdf>
-Package pdftex.def Info: plots/combined_cot_uniform_marginalized_tests.pdf used on input line 103.
+Package pdftex.def Info: plots/combined_cot_uniform_marginalized_tests.pdf used on input line 105.
 (pdftex.def)             Requested size: 503.61368pt x 138.53906pt.
 ) (./sections/summary.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1376,17 +1359,12 @@ Underfull \hbox (badness 2277) in paragraph at lines 6--159
  []
 
 (./main.bbl
-Underfull \hbox (badness 1152) in paragraph at lines 65--67
-[]\T1/aer/m/n/8 Buta R. J., et al., 2015, Viz-ieR On-line Data Cata-log, p.
- []
-
-
-Underfull \hbox (badness 7030) in paragraph at lines 177--179
+Underfull \hbox (badness 7030) in paragraph at lines 178--180
 []\T1/aer/m/n/8 Hoffman M. D., Gel-man A., 2011, arXiv e-prints, p.
  []
 
 
-Underfull \hbox (badness 6396) in paragraph at lines 256--258
+Underfull \hbox (badness 6396) in paragraph at lines 257--259
 []\T1/aer/m/n/8 Pringle J. E., Dobbs C. L., 2019, arXiv e-prints, p.
  []
 
@@ -1405,26 +1383,20 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
  ) 
 Here is how much of TeX's memory you used:
- 10659 strings out of 493014
- 149264 string characters out of 6133352
- 251737 words of memory out of 5000000
- 13824 multiletter control sequences out of 15000+600000
+ 10661 strings out of 493014
+ 149337 string characters out of 6133352
+ 252269 words of memory out of 5000000
+ 13826 multiletter control sequences out of 15000+600000
  115570 words of font info for 255 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,17n,35p,1318b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/l
+ 36i,17n,35p,1351b,379s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/l
 ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/newtx/rntxmi5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/newtx/rntxmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/newtx/rtxmi5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/newtx/rtxmi7.pfb></usr/local/texlive/2016/texmf-
 dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/newtx/txex-bar.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/txfonts/txmia.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (10 pages, 3282672 bytes).
+Output written on main.pdf (10 pages, 3285238 bytes).
 PDF statistics:
  589 PDF objects out of 1000 (max. 8388607)
  258 compressed objects within 3 object streams
