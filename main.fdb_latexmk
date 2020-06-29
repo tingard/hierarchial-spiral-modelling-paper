@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex main"] 1593436895 "main.aux" "main.bbl" "main" 1593436900
+["bibtex main"] 1593448210 "main.aux" "main.bbl" "main" 1593448214
   "./mnras.bst" 1569414143 43376 8463aa2cc1948e346d5641ca59bb4619 ""
   "bibliography.bib" 1593343482 52606 f9d9e310c998014e6c070563351ca989 ""
-  "main.aux" 1593436897 21208 0711624dee649ebef711c20f4147a953 ""
+  "main.aux" 1593448212 21208 bdb207027ffe63fd37253e97f9e941b2 ""
   "main.bcf" 0 -1 0 ""
   (generated)
   "main.blg"
   "main.bbl"
-["pdflatex"] 1593436896 "main.tex" "main.pdf" "main" 1593436900
+["pdflatex"] 1593448210 "main.tex" "main.pdf" "main" 1593448214
   "/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc" 1422827479 2083 60e36f8eac802fcaf19eabe2633b406e ""
@@ -261,8 +261,8 @@
   "/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1486052417 1888048 f2c5faed5981a516f406b2ccc20bff71 ""
   "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1486052463 3873396 e46673161f712a56df5b0cf95926fdd1 ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
-  "main.aux" 1593436897 21208 0711624dee649ebef711c20f4147a953 ""
-  "main.bbl" 1593436896 17666 32378c5c99b36037d06b839d1c30415c "bibtex main"
+  "main.aux" 1593448212 21208 bdb207027ffe63fd37253e97f9e941b2 ""
+  "main.bbl" 1593448210 17666 32378c5c99b36037d06b839d1c30415c "bibtex main"
   "main.tex" 1593342405 5853 680ec96e280d9a8582fbd6dc17c83bd4 ""
   "mnras.cls" 1569414143 62270 584b1996e2ad3b6232713ae7357cb18e ""
   "plots/arm_pa_spread.pdf" 1592909142 25950 6cf8d161307c2d19c88354b888b0bb04 ""
@@ -273,15 +273,15 @@
   "plots/galaxy_types.png" 1591966704 2343949 623c6ed3e434dcecdab24dcd21e809c7 ""
   "plots/phi_distribution_comparison.pdf" 1592920582 19952 e47e934d5bbd220cf6f1d446f99c4991 ""
   "plots/pitch-angle-explanation.pdf" 1593168837 13930 851068a1096bef1d61ef280c42558803 ""
-  "sections/abstract.tex" 1593342432 1057 171e48d066fd815a6fc8a5bf84049883 ""
+  "sections/abstract.tex" 1593447877 1068 be7599737853a5ad937b4433f610484d ""
   "sections/acknowledgements.tex" 1585815654 1223 35f07f9d88dac1d2fe97c711df61e145 ""
   "sections/appendix.tex" 1592553899 26 6db21e7e7896f4a70175887f23932374 ""
-  "sections/introduction.tex" 1593420177 8525 cbe1f7e745a5e02bf7310f20b941cc72 ""
-  "sections/method.tex" 1593422766 9704 826efc28b5db6c8b6be835b389b59765 ""
-  "sections/results.tex" 1593432181 15481 625ea25a4fc1017dd944d50e0a6dad9b ""
-  "sections/summary.tex" 1593420571 3570 8efe4a4abdb8954ee4ab212682385d9d ""
+  "sections/introduction.tex" 1593447955 8508 f462f73b931345b3167b0a8a43e688e0 ""
+  "sections/method.tex" 1593448057 9680 c971d27315b5a1946fda3e19c0375165 ""
+  "sections/results.tex" 1593448204 15444 0a01ab246e7d62b20c4f5776e3638897 ""
+  "sections/summary.tex" 1593448204 3552 aaea253a08b8aea38b2959e81667fa92 ""
   "subfiles.sty" 1569414143 651 24cb2017a923f4735b1190eecb80faeb ""
   (generated)
-  "main.log"
-  "main.pdf"
   "main.aux"
+  "main.pdf"
+  "main.log"
