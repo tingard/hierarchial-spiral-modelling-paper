@@ -20,6 +20,14 @@ where $\sigma_\mathrm{gal}$ is our measure of inter-arm variability of pitch ang
   \label{fig:arm-pa-spread}
 \end{figure*}
 
+\textbf{In Figure \ref{fig:stellar-mass-phigal} we present the stellar mass distribution of the sample, and investigate how the global galaxy pitch angle depends on this parameter. The majority of our sample has stellar masses $9.5 < \log(M_* / M_\odot) < 10.0$, and galaxy average pitch angles 10$^\circ$--20$^\circ$. This should be remembered in our physical interpretation of other results. We observe no significant trend of the global pitch angle with mass, although there is a hint that more massive spirals may on average have more tightly wound arms. }
+
+\begin{figure}
+  \includegraphics[width=9cm]{plots/stellar_mass_phigal_distribution.pdf}
+  \caption{The stellar mass distribution of the sample and the galaxy average pitch angle distribution shown as a 2D histogram (centre) and also projected along each axis. }
+  \label{fig:stellar-mass-phigal}
+\end{figure}
+
 % for one-armed galaxies = {9.86\degree}
 
 \subsection{Dependence of pitch angle on Galaxy Morphology}
@@ -30,7 +38,7 @@ To test the possible progenitor distribution of our estimated arm pitch angles, 
 \subsubsection{Pitch angle vs. Bulge size}
 \label{section:morphology-comparison-bulge}
 
-Morphological classification commonly links bulge size to spiral tightness, and such a link is implied by the Hubble Sequence (\citealt{2005ARA&A..43..581S}, \citealt{2009MNRAS.393.1531G}, \citealt{2013seg..book..155B}). Some studies have indeed reported a link between measured spiral galaxy pitch angle and bulge size (i.e. \citealt{2017MNRAS.472.2263H}, \citealt{2019ApJ...873...85D}), while others have not found any significant correlation \citep{2019MNRAS.487.1808M}. We investigate this relationship here using a measure of bulge prominence from Galaxy Zoo 2, as Equation 3 in \citet{2019MNRAS.487.1808M}:
+Morphological classification commonly links bulge size to spiral tightness, and such a link is implied by the Hubble Sequence (\citealt{2005ARA&A..43..581S}, \citealt{2009MNRAS.393.1531G}, \citealt{2013seg..book..155B}), \textbf{although small bulge Sa galaxies have been noted for decades (e.g. for a review see \citet{2005ARA&A..43..581S}; this is also noted in \citealt{2019MNRAS.487.1808M})}. Some recent studies have indeed reported a link between measured spiral galaxy pitch angle and bulge size (i.e. \citealt{2019ApJ...873...85D}), while others have not found any significant correlation \citep{2019MNRAS.487.1808M}. \textbf{The differing results of this may depend on the details of how both the bulge size, and spiral pitch angles are measured and suggest further investigation is needed.} We investigate this relationship here using a measure of bulge prominence from Galaxy Zoo 2, as Equation 3 in \citet{2019MNRAS.487.1808M}:
 
 \begin{equation}
   B_\mathrm{avg} = 0.2\times p_\mathrm{just\ noticeable} + 0.8\times p_\mathrm{obvious} + 1.0\times p_\mathrm{dominant},
@@ -52,7 +60,7 @@ One limitation of this result is that our sample does not contain many galaxies 
 \subsubsection{Pitch angle vs. Bar Strength}
 \label{section:morphology-comparison-bar}
 
-One of the predictions of Manifold theory is that pitch angle increases with bar strength \citep{2009MNRAS.400.1706A}. To investigate this relationship in our data, we make use of Galaxy Zoo 2's bar fraction ($p_\mathrm{bar}$), which has been demonstrated to be a good measure of bar length \citep{Willett2013:1308.3496v2} and bar strength \citep{2012MNRAS.423.1485S,2012MNRAS.424.2180M,2018MNRAS.473.4731K} and therefore a good measure of the torque applied on the disc gas.
+One of the predictions of Manifold theory is that pitch angle increases with bar strength \citep{2009MNRAS.400.1706A}. \textbf{In this work we do not have any direct measurement of bar strength; nor are there significant numbers of barred galaxies in our sample. However in an attempt to} investigate this relationship in our data, we make use of Galaxy Zoo 2's bar fraction ($p_\mathrm{bar}$), which has been demonstrated to be a good measure of bar length \citep{Willett2013:1308.3496v2} and bar strength \citep{2012MNRAS.423.1485S,2012MNRAS.424.2180M,2018MNRAS.473.4731K} and therefore a good measure of the torque applied on the disc gas.
 
 We do not observe a correlation between $p_\mathrm{bar}$ and $E[\phi_\mathrm{gal}]$ (Pearson correlation coefficient of -0.05, with a p-value of 0.54). Following \citet{2012MNRAS.424.2180M} and \citet{2012MNRAS.423.1485S}, we separate the sample into galaxies without a bar ($p_\mathrm{bar} < 0.2$), with a weak bar ($0.2 \le p_\mathrm{bar} \le 0.5$) and with a strong bar ($p_\mathrm{bar} > 0.5$). Performing marginalized three-sample Anderson-Darling tests does not find that pitch angles ($\phi_\mathrm{gal}$ or $\phi_\mathrm{arm}$) of galaxies with different bar strengths were drawn from different distributions; we do not reject the null hypothesis at the 1\% level for any samples for the test of $\phi_\mathrm{gal}$, and at the 10\% level for the test of $\phi_\mathrm{arm}$. The distributions of Anderson-Darling test statistic is shown in the lower panel of Figure \ref{fig:ad-morphology-test}.
 
@@ -62,7 +70,7 @@ We do not observe a correlation between $p_\mathrm{bar}$ and $E[\phi_\mathrm{gal
   \label{fig:ad-morphology-test}
 \end{figure*}
 
-The fact that we do not find any link between bar strength and pitch angle suggests that the primary mechanism driving the evolution of the spirals in our sample is not Manifold theory.
+The fact that we do not find any link between \textbf{our measure of bar strength (based on the prominance of the bar in Galaxy Zoo 2) and pitch angle is suggestive that their is actually no link between bar strength and pitch angle, which would exclude Manifold theory as the primary mechanism driving the evolution of the spirals in our sample. However since we use only a proxy for bar strength, which has not been well tested, this is not conclusive.}
 
 \subsection{Spiral Winding}
 \label{section:spiral_winding}
@@ -83,7 +91,7 @@ We perform a similar test in this work, using our sample and methods. We will ma
 
 \subsubsection{Galaxy Pitch angle}
 
-Testing the uniformity of $\cot\phi_\mathrm{gal}$ between {15\degree} and {50\degree} using a marginalized Anderson-Darling test results in rejecting the null hypothesis at the 1\% level for just 5\% of samples, with a large spread in observed test values. The full distribution of Anderson-Darling statistics can be seen in the upper panel of Figure \ref{fig:ad-cot-test}. The large spread in results is caused by the large uncertainties in $\phi_\mathrm{gal}$.
+Testing the uniformity of $\cot\phi_\mathrm{gal}$ between {15\degree} and {50\degree} using a marginalized Anderson-Darling test results in rejecting the null hypothesis at the 1\% level for just 5\% of samples, with a large spread in observed test values. The full distribution of Anderson-Darling statistics can be seen in Figure \ref{fig:ad-cot-test}. The large spread in results is caused by the large uncertainties in $\phi_\mathrm{gal}$.
 
 This result suggests that we cannot rule out a cot-uniform source distribution for galaxy pitch angle, but the large uncertainty in $\phi_\mathrm{gal}$ makes it difficult to make any conclusive statements. This result is also highly sensitive to the lower limit of $\phi$: decreasing it to {10\degree} results in us rejecting the cot-uniform model at greater than the 0.1\% level for 96\% of the posterior samples. As we have no information available on the selection biases present for classification of extremely loose or tight spiral arms in \textit{Galaxy Builder}, we choose to keep the less strict limit of {15\degree}.
 

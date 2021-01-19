@@ -55,203 +55,95 @@ We have added text to make it clearer that different arms can have different pit
 
 > On page 3 it is written: "A common assumption  when  measuring  galaxy pitch angle is that observed spiral arms have a constant pitch angle with radius (e.g. Davis et al. 2012;.... " This is repated a number of times in other parts of the paper. Yet this is wrong, as first duscussed by Considere and Athanassoula (who introduced the 2DFFT method) and as stressed further in Davis et al 2012.
 
-Davis et al. 2012 say that the inclusion of non-logarithmic spirals (with kinks) can negatively impact measurements using 2D FFT.
+> Davis et al say in their paper: "As pointed out by Considere &  Athanassoula (1988), this  method does  not  assume  that observed spiral structures are logarithmic. It only decomposes the observed distributions into a superposition of logarithmic spirals of different pitch angles and number of arms, which can be thought of as building blocks." The authors should read the Considere & Athanassoula paper carefully, as well as the Davis et al (2012) paper and change accordingly all parts of the paper where they make use of this assumption, or find a different way to justify it.
 
-Davis et al say in their paper: "As pointed out by Considere &  Athanassoula
-(1988), this  method does  not  assume  that observed spiral structures are
-logarithmic. It only decomposes the observed distributions into a superposition
-of logarithmic spirals of different pitch angles and number of arms, which can
-be thought of as building blocks." The authors should read the Considere &
-Athanassoula paper carefully, as well as the Davis et al (2012) paper and change
-accordingly all parts of the paper where they make use of this assumption, or
-find a different way to justify it.
+We thank the referee for bringing Considere & Athanassoula 1988 back to our attention. We have reviewed the paper again, and added a citation. In that paper it is very clear the method does not assume logarithmic spirals. However the first line of the abstract of Davis et al (2012) is *"A logarithmic spiral is a prominent feature appearing in a majority of observed galaxies"*, and they clearly say (Section 4.3.2) that the inclusion of non-logarithmic spirals (with significant variation of pitch angle with radius) can negatively impact measurements using 2DFFT. They also say "In general, logarithmic spirals are good approximations of the shape of galactic spiral arms". We think there is evidence in the literature that the assumption of logarithmic spirals is widespread, even if it's clear this method can in principle discover radial variation in phi. 
 
-The first line of the abstract of Davis et al (2012) is *"A logarithmic spiral is a prominent feature appearing in a majority of observed galaxies"*. What more justification for their use would you want?
+> Some of the assumptions made in this paper come without much/any justification. The authors should discuss the effects of each of the assumptions for which they offer no justification. E.g. is it reasonable to assume that the spread sigma_[gal] is constant? What do results from 2DFFT give? Some *quantitative* analysis of results from previous work would be useful here. If this assumption is simply based on lack of any better knowledge, the effect of this assumption should be tested numerically and discussed. But the authors could first check the literature whether there is better knowledge from previous 2DFFT work.
 
-Some of the assumptions made in this paper come without much/any justification.
-The authors should discuss the effects of each of the assumptions for which they
-offer no justification. E.g. is it reasonable to assume that the spread sigma_[gal]
-is constant? What do results from 2DFFT give? Some *quantitative* analysis of
-results from previous work would be useful here. If this assumption is simply
-based on lack of any better knowledge, the effect of this assumption should be
-tested numerically and discussed. But the authors could first check the literature
-whether there is better knowledge from previous 2DFFT work.
+We have added more discussion of the assumptions which were made. The specific question about sigma_[gal] is interesting. We have found two previous attempts to measure this, which did not note any significant variation between galaxies, however sample sizes are small. We note this as an interesting followup question for larger samples. 
 
-An ANTI-TODO. I don’t think we should do this (apply P2DFFT). “this is definitely valid, and wasn't done originally due to time constraints. I'm not sure how easy it is to apply P2DFFT, but will investigate:
+*** TODO: Check more if anyone has measured typical inter-arm variation in pitch angle ***
 
-Section 2.2
+> Section 2.2
 
-This section is rather sparse in information. However, there are 198 galaxies
-considered, of which 98 galaxies were shown twice to volunteers. In Lingard
-et al. 2020, the Galaxy Builder paper - GBpaper for short - the stellar masses
-are shown in Figure 4. For 120 galaxies the stellar mass log M_* is between
-9.45 and 10.03, and there after there are fewer galaxies up until the upper
-mass range of 11.0. Please provide a Figure with the histogram of stellar
-masses of the galaxies studied here. This sample is skewed towards galaxies
-with lower stellar mass: a quick analysis of the galaxies in Kennicutt (1981)
-which are also in S4G shows very few galaxies in the range of log M_* between
-9.45 and 10.03. Please indicate what the consequences are of this selection
-effect for the general conclusions.
+> This section is rather sparse in information. However, there are 198 galaxies considered, of which 98 galaxies were shown twice to volunteers. In Lingard et al. 2020, the Galaxy Builder paper - GBpaper for short - the stellar masses are shown in Figure 4. For 120 galaxies the stellar mass log M_* is between 9.45 and 10.03, and there after there are fewer galaxies up until the upper mass range of 11.0. Please provide a Figure with the histogram of stellar masses of the galaxies studied here. This sample is skewed towards galaxies with lower stellar mass: a quick analysis of the galaxies in Kennicutt (1981) which are also in S4G shows very few galaxies in the range of log M_* between 9.45 and 10.03. Please indicate what the consequences are of this selection effect for the general conclusions.
 
-Histogram added (hoping Tim has done this). 
+We have added a histogram, and an investigation of how pitch angle varies with stellar mass in Section 3.1. 
 
-Since a sample of 98 galaxies were shown twice to (different?) volunteers, it
-is of interest to compare the results for the same galaxies: did the resulting
-pitch angles, number of arms, etc. all agree ? One of the data files available
-on the GitHub website indicates that this is not the case, but that website is
-poorly documented.
+> Since a sample of 98 galaxies were shown twice to (different?) volunteers, it is of interest to compare the results for the same galaxies: did the resulting pitch angles, number of arms, etc. all agree ? One of the data files available on the GitHub website indicates that this is not the case, but that website is poorly documented.
 
-TODO: Compare spiral arms for validation subset
+*** TODO: Compare spiral arms for validation subset *** 
 
-From Figure 10 of the GBpaper, it follows that 16 out of 98 galaxies have
-p_bar .ge. 0.5, of which 8 out 98 galaxies have p_bar .ge. 0.55, with none of
-them exceeding p_bar = 0.75. Thus there are few really barred galaxies in this
-sample. This statistics can be repeated for the other sample of 100 galaxies.
-This information is necessary to be able to judge how many barred galaxies are
-considered. If only 16% of the galaxies are barred, there is not much you can
-do to test hypotheses concerning barred galaxies.
- We agree. Our statistical analysis incorporates this (which is one of the reasons we don't find anything significant). No changes made (or asked for). 
+> From Figure 10 of the GBpaper, it follows that 16 out of 98 galaxies have p_bar .ge. 0.5, of which 8 out 98 galaxies have p_bar .ge. 0.55, with none of them exceeding p_bar = 0.75. Thus there are few really barred galaxies in this sample. This statistics can be repeated for the other sample of 100 galaxies. This information is necessary to be able to judge how many barred galaxies are considered. If only 16% of the galaxies are barred, there is not much you can do to test hypotheses concerning barred galaxies. 
 
-3. Section 3.1
+We agree. Our statistical analysis incorporates this (which is one of the reasons we don't find anything significant). No changes made (or asked for). 
 
-You report a final sample of 139 galaxies with 261 spiral arms, i.e. less than
-2 arms per galaxy. Please give details of why this is so. Please also list how
-many of the galaxies are multiarmed, and state the number of arms.
+> 3. Section 3.1
 
-Tim working on this. 
+> You report a final sample of 139 galaxies with 261 spiral arms, i.e. less than 2 arms per galaxy. Please give details of why this is so. Please also list how many of the galaxies are multiarmed, and state the number of arms.
 
-In Figure 4 I count about 40 1-armed spirals, 22 3-armed spirals, 14 4-armed
-spirals, and about 63 2-armed spirals (more difficult to count). Why are there
-so many 1-armed spirals, and why for these, for pitch angles below about 14
-degrees, is PHI_arm not equal to PHI_gal ?
+** Tim working on this. ** 
 
-Tim says: Probably due to Aggregation. **Need to check**
+> In Figure 4 I count about 40 1-armed spirals, 22 3-armed spirals, 14 4-armed spirals, and about 63 2-armed spirals (more difficult to count). Why are there so many 1-armed spirals, and why for these, for pitch angles below about 14 degrees, is PHI_arm not equal to PHI_gal ?
 
-4. Section 3.2.1
+** Tim says: Probably due to Aggregation. Need to check this **
 
-I quote: "Morphological classification commonly links bulge size to spiral
-tightness, and such a link is implied by the Hubble Sequence (Sandage 2005,
-Gadotti 2009, Buta 2013). Some studies have indeed reported a link between
-measured spiral galaxy pitch angle and bulge size (i.e. Hart et al. 2017,
-Davis et al. 2019), while others have not found any significant correlation
-(Masters et al. 2019).
+> 4. Section 3.2.1
 
-Now there is a large overlap in authors between Hart et al. (2017) and Masters
-et al. (2019): 7 people, 5 of which are also co-authors of this paper. Surely
-these 5 people should be able to explain WHY they found no link between pitch
-angle and bulge size in one paper, and found a link in another one ??
-Answering this is not in the scope of this paper. 
+> I quote: "Morphological classification commonly links bulge size to spiral tightness, and such a link is implied by the Hubble Sequence (Sandage 2005, Gadotti 2009, Buta 2013). Some studies have indeed reported a link between measured spiral galaxy pitch angle and bulge size (i.e. Hart et al. 2017, Davis et al. 2019), while others have not found any significant correlation (Masters et al. 2019).
 
-Note to point out this is one of the ethical issues with this report. 
+> Now there is a large overlap in authors between Hart et al. (2017) and Masters et al. (2019): 7 people, 5 of which are also co-authors of this paper. Surely these 5 people should be able to explain WHY they found no link between pitch angle and bulge size in one paper, and found a link in another one ?? 
 
-Sandage (2005) reiterates that there are Sa galaxies with small bulges, so he
-knew that there was a tension between the pitch angle criterion and the one
-concerning the importance of the bulge. This is well explained in his 1961
-Hubble Atlas of Galaxies. Please take this into account in your explanations.
+This isn't really in the scope of this paper. The Hart et al. (2017) result really showed that pitch angle depended on disc mass more than bulge size (but more massive discs tend to have larger bulges. In the interest of keeping to the point of this paper, we have removed that citation, but also note that these correlation results can depend on both how bulge size and pitch angles are measured. 
 
-We have added a citation. 
+> Sandage (2005) reiterates that there are Sa galaxies with small bulges, so he knew that there was a tension between the pitch angle criterion and the one concerning the importance of the bulge. This is well explained in his 1961 Hubble Atlas of Galaxies. Please take this into account in your explanations.
 
-5. Section 3.2.2
+We have added a citation. Thanks. 
 
-Here it is asserted that "To investigate this relationship in our data, we make
-use of Galaxy Zoo 2's bar fraction (pbar), which has been demonstrated to be a
-good measure of bar length (Willett et al. 2013) and bar strength (Skibba et
-al. 2012; Masters et al. 2012; Kruk et al. 2018) and therefore a good measure
-of the torque applied on the disc gas." In Athanassoula et al. (2009, MNRAS
-394, 67) the bar strength is evaluated as the torque at the Lagrangian point:
-Q_t,L1. Their figure 7 shows a sketch of the parameter R_D, which is the ratio
-of the radius of the orbits in the crest in the outer ring to the radius of the
-curve of zero velocity. A proxy could have been constructed from this Figure
-for a measurement by citizen scientists by having them measure the radius of
-the outer (pseudo-) ring to the radius of the L_4 point in the dark "banana"
-part of the image. In any case in their figure 8 a correlation is found between
-R_D and the bar strength. This figure is also shown in a different way as
-Figure 5 of Athanassoula et al. (2009, MNRAS 400, 1706), the paper which the
-authors cite.
+> 5. Section 3.2.2
 
-Nothing asked for? 
+> Here it is asserted that "To investigate this relationship in our data, we make use of Galaxy Zoo 2's bar fraction (pbar), which has been demonstrated to be a good measure of bar length (Willett et al. 2013) and bar strength (Skibba et al. 2012; Masters et al. 2012; Kruk et al. 2018) and therefore a good measure of the torque applied on the disc gas." In Athanassoula et al. (2009, MNRAS 394, 67) the bar strength is evaluated as the torque at the Lagrangian point: Q_t,L1. Their figure 7 shows a sketch of the parameter R_D, which is the ratio of the radius of the orbits in the crest in the outer ring to the radius of the curve of zero velocity. A proxy could have been constructed from this Figure for a measurement by citizen scientists by having them measure the radius of the outer (pseudo-) ring to the radius of the L_4 point in the dark "banana" part of the image. In any case in their figure 8 a correlation is found between R_D and the bar strength. This figure is also shown in a different way as Figure 5 of Athanassoula et al. (2009, MNRAS 400, 1706), the paper which the authors cite.
 
-The manifold theory could be tested if Q_t,L1 can be suitably either mesured or
-replaced by an appropriate proxy. As R_D can not be used (see discussion above)
-the authors argue that Galaxy Zoo 2's bar fraction (pbar) is a good measure of
-the bar strength. This, however, is not sufficient for the problem in question,
-because not any measure of the bar strength may do, as Athanassoula et al. (2009,
-MNRAS, 400, 1706) show in their figures 7 and 8, where a correlation is shown
-with Qt,L1, but is practically lost if Qb is used instead. This could be because
-Qt,L1 contains information on the bar strength, as well as on the bar pattern
-speed which is also linked to the bar strength. Since pbar presumably does not
-include information on the pattern speed it is possibly a better proxy for Qb
-than for Qt,L1. This, however, together with a number of other points discussed
-above remains to be shown. The authors could have consulted the volunteers with
-in a more appropriate way so as to obtain answers for the question under
-consideration. But, as it is, section 3.2.2 can not reach any conclusion. Thus,
-either the whole of 3.2.2 should be omitted, or the last paragraph
-should be reworded to explain that no conclusion could be reached.
+> The manifold theory could be tested if Q_t,L1 can be suitably either mesured or replaced by an appropriate proxy. As R_D can not be used (see discussion above) the authors argue that Galaxy Zoo 2's bar fraction (pbar) is a good measure of the bar strength. This, however, is not sufficient for the problem in question, because not any measure of the bar strength may do, as Athanassoula et al. (2009, MNRAS, 400, 1706) show in their figures 7 and 8, where a correlation is shown with Qt,L1, but is practically lost if Qb is used instead. This could be because Qt,L1 contains  nformation on the bar strength, as well as on the bar pattern speed which is also linked to the bar strength. Since pbar presumably does not include information on the pattern speed it is possibly a better proxy for Qb than for Qt,L1. This, however, together with a number of other points discussed above remains to be shown. The authors could have consulted the volunteers with in a more appropriate way so as to obtain answers for the question under consideration. But, as it is, section 3.2.2 can not reach any conclusion. Thus, either the whole of 3.2.2 should be omitted, or the last paragraph should be reworded to explain that no conclusion could be reached.
 
-We are reporting what we have asked the volunteers. We thank the referee for these suggestions for any potential future version of the site.  We can either make this more explicit, or try and find a better measurement. This is fair, and we should not be making specific claims regarding Manifold theory (it is still valid that we find no link between pitch angle and our measure of bar strength, which should be reported).
+We are reporting what we have asked the volunteers. We thank the referee for these suggestions for any potential future version of the site.  We agree we cannot make any strong claims regarding Manifold theory, however it is still valid that we find no link between pitch angle and our measure of bar strength, which we feel should be reported. Edits have been made to the text. 
 
-6. Section 3.3.3
+> 6. Section 3.3.3
 
-Figure 8 has only one panel, so the sentences referring to the upper and lower
-panels of this figure should be rephrased.
+> Figure 8 has only one panel, so the sentences referring to the upper and lower panels of this figure should be rephrased.
 
-Corrected. 
+This error has been corrected. 
 
-The range of values of PHI_gal is from 8 to about 50 degrees, and there is no
-indication that the lower limit in the pitch angle is poorly determined. Note
-that Kennicutt (1981) find a lower limit of 0 degrees. Setting the lower limit
-to 15 degrees, so as just to be able to conclude that a uniform cot PHI_gal or
-cot PHI_arm distribution cannot be excluded is thus completely arbitrary. It
-would be best to display in a second panel the distribution of cot PHI_gal or
-cot PHI_arm with a lower limit of 8 degrees, so as to alert the reader to the
-strong influence of this assumption.
+> The range of values of PHI_gal is from 8 to about 50 degrees, and there is no indication that the lower limit in the pitch angle is poorly determined. Note that Kennicutt (1981) find a lower limit of 0 degrees. Setting the lower limit to 15 degrees, so as just to be able to conclude that a uniform cot PHI_gal or cot PHI_arm distribution cannot be excluded is thus completely arbitrary. It would be best to display in a second panel the distribution of cot PHI_gal or cot PHI_arm with a lower limit of 8 degrees, so as to alert the reader to the strong influence of this assumption.
 
-We believe the supporting text is sufficient to explain this. And have added some directly to the caption. 
+*** Do we though??? The should think about this point *** We believe the supporting text is sufficient to explain this. And have added some directly to the caption. 
 
-Obviously, the abstract and the conclusions should be toned down as well,
-since a hurried reader would only retain your (possibly erroneous) conclusion.
+> Obviously, the abstract and the conclusions should be toned down as well, since a hurried reader would only retain your (possibly erroneous) conclusion.
 
-We have toned down the abstract and conclusions. 
+** TDOD: *** We have toned down the abstract and conclusions. 
 
-7. Section 4
+> 7. Section 4
 
-I quote: "We do not find any link between bar strength and pitch angle suggests
-that the primary mechanism driving the evolution of the spirals in our sample
-is not Manifold theory (see Section 3.2.2). Just in case you reach a conclusion
-in that section, and want to mention it in this conclusion section, could you
-please formulate this in proper English? With so many native English/American
-speakers on the list of authors this ought not to be too much asked, and would
-help the reader understand better, as well as save considerable work for the
-copy editor.
+> I quote: "We do not find any link between bar strength and pitch angle suggests that the primary mechanism driving the evolution of the spirals in our sample is not Manifold theory (see Section 3.2.2). Just in case you reach a conclusion in that section, and want to mention it in this conclusion section, could you please formulate this in proper English? With so many native English/American speakers on the list of authors this ought not to be too much asked, and would help the reader understand better, as well as save considerable work for the copy editor.
 
 We have reworded this section. 
-This seems unnecessarily rude. 
 
-Another quote: "In this work, we assume that spiral arms are equally likely to
-be identified and recovered at all pitch angles." OK, but then you should NOT
-arbitrarely discard low pitch angle values when testing the Pringle & Dobbs
-2019 hypothesis.
+> Another quote: "In this work, we assume that spiral arms are equally likely to be identified and recovered at all pitch angles." OK, but then you should NOT arbitrarely discard low pitch angle values when testing the Pringle & Dobbs 2019 hypothesis.
 
 We assume no selection bias in galaxy builder results, which is not necessarily valid, however the requirement for a lower limit of pitch angle is needed for the test.
 
-The last two paragraphs contain more advertisements for the work, rather than
-Conclusions.
+> The last two paragraphs contain more advertisements for the work, rather than Conclusions.
 
 We have reworded this section. 
 
 
-8. Data availibility
+> 8. Data availibility
 
-The GitHub references refer to poorly documented working directories, and an
-interested researcher needs to make a considerable effort to start finding the
-basic information. It would be much more helpful to provide the most relevant
-information about the only several 100s of galaxies in machine readable tables,
-which can be stored at e.g. the CDS.
+> The GitHub references refer to poorly documented working directories, and an interested researcher needs to make a considerable effort to start finding the basic information. It would be much more helpful to provide the most relevant information about the only several 100s of galaxies in machine readable tables, which can be stored at e.g. the CDS.
 
-Tim TODO - checking with him. 
+*** Tim TODO - might just need a better README ***
 
-To sum up: There are a number of problems with this paper, and a major revision
-should be made, so as to rescue the valuable results provided by the volunteers,
-and present them in a proper context.
+>To sum up: There are a number of problems with this paper, and a major revision should be made, so as to rescue the valuable results provided by the volunteers, and present them in a proper context.
 
-We are happy the referee is convinced our experimental design is sound, and are positive about the annotations obtained. We also agree it needs to be published and presented to fully make use of the valuable results the volunteers provided. 
+We are happy the referee is convinced our experimental design is sound, and are positive about the annotations obtained. We are happy to agree this work should be published and presented to fully make use of the valuable results the volunteers provided. 
