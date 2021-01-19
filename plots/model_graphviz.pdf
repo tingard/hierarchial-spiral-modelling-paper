@@ -1,0 +1,26 @@
+digraph {
+	subgraph cluster139 {
+		phi_gal [label="phi_gal ~ Uniform"]
+		label=139 labeljust=r labelloc=b style=rounded
+	}
+	sigma_gal [label="sigma_gal ~ InverseGamma"]
+	nu [label="nu ~ Uniform"]
+	sigma_r [label="sigma_r ~ InverseGamma"]
+	subgraph cluster261 {
+		c [label="c ~ Cauchy"]
+		phi_arm [label="phi_arm ~ TruncatedNormal"]
+		label=261 labeljust=r labelloc=b style=rounded
+	}
+	subgraph "cluster239,947" {
+		Likelihood [label="Likelihood ~ StudentT" style=filled]
+		r [label="r ~ Deterministic" shape=box]
+		label="239,947" labeljust=r labelloc=b style=rounded
+	}
+	sigma_gal -> phi_arm
+	phi_gal -> phi_arm
+	c -> r
+	phi_arm -> r
+	r -> Likelihood
+	nu -> Likelihood
+	sigma_r -> Likelihood
+}
