@@ -1,5 +1,7 @@
 % !TEX root = ../main.tex
-\subsection{Measuring galaxy pitch angle}
+\label{section:method}
+
+\subsection{Measuring galaxy pitch angle} 
 Many methodologies have been proposed and implemented to measure spiral arm properties, including visual inspection (\citealt{2015A&A...582A..86H}), Fourier analysis (i.e. \textsc{2DFFT}, \citealt{2012ApJS..199...33D}), texture analysis (i.e. SpArcFiRe, \citealt{2014ApJ...790...87D}), and combinations of automated methods and human classifiers (\citealt{2017MNRAS.472.2263H}, \citealt{2020MNRAS.493.3854H}). One potentially underused method of obtaining measurements of spirals is through photometric fitting of spiral structure, as possible using tools such as \textsc{GALFIT} \citep{2010AJ....139.2097P} and \textit{Galaxy Builder} \citep{2020arXiv200610450L}. These methods attempt to separate light from an image of a galaxy into distinct subcomponents, such as a galaxy disc, bulge, bar and spiral arms, generally finding the optimum solution using computational optimization. This optimization process, however, is often not robust for complex, many-component models and requires significant supervision to converge to a physically meaningful result \citep{Gao2017:1709.00746v1}. \citet{2020arXiv200610450L} proposed a solution to this problem through the use of citizen science to provide priors on parameters used in computational fitting.
 
 A common assumption when measuring galaxy pitch angle is that observed spiral arms have a constant pitch angle with radius (e.g. \citealt{2012ApJS..199...33D,2013MNRAS.436.1074S,2014ApJ...790...87D}. Spirals of this kind are known as logarithmic spirals and are described by
@@ -9,7 +11,7 @@ A common assumption when measuring galaxy pitch angle is that observed spiral ar
 r = A\,e^{\theta\tan\phi},
 \end{equation}
 %
-where $\phi$ is the arm's pitch angle, $A$ is an amplitude coefficient and $\theta$ is the polar coordinate. One method used to obtain a pitch angle of a galaxy is to fit logarithmic spirals to individually identified arm segments and take the weighted mean of their pitch angles (which often vary by upwards of $10^\circ$, \citealt{2014ApJ...790...87D}). Weighting is determined by the length of the arc segment, with longer being assigned higher weights, i.e. for a galaxy where we have identified $N$ arm segments, each with length $L_i$ and pitch angle $\phi_i$
+where $\phi$ is the arm's pitch angle, $A$ is an amplitude coefficient and $\theta$ is the polar coordinate. \textbf{Different arms in a galaxy could have different values of $\phi$, however for each arm, $\phi$ is assumed to constant with radius}. One method used to obtain a pitch angle of a galaxy is to fit logarithmic spirals to individually identified arm segments and take the weighted mean of their pitch angles (which often vary by upwards of $10^\circ$, \citealt{2014ApJ...790...87D}). Weighting is determined by the length of the arc segment, with longer being assigned higher weights, i.e. for a galaxy where we have identified $N$ arm segments, each with length $L_i$ and pitch angle $\phi_i$
 
 \begin{equation}
   \phi_\mathrm{gal} = \left(\sum_{i=1}^{N}L_i\right)^{-1}\sum_{i=1}^{N}L_i \phi_i.

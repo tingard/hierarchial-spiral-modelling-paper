@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2016)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: mnras.bst
 Database file #1: bibliography.bib
@@ -19,45 +19,45 @@ Warning--empty journal in Willett2013:1308.3496v2
 ---they aren't the same literal types for entry Willett2013:1308.3496v2
 while executing---line 1822 of file mnras.bst
 Warning--empty publisher in 1991rc3..book.....D
-You've used 62 entries,
+You've used 64 entries,
             2881 wiz_defined-function locations,
-            1272 strings with 24773 characters,
-and the built_in function-call counts, 30874 in all, are:
-= -- 2571
-> -- 2104
-< -- 182
-+ -- 923
-- -- 298
-* -- 3677
-:= -- 4701
+            1289 strings with 25225 characters,
+and the built_in function-call counts, 32025 in all, are:
+= -- 2670
+> -- 2171
+< -- 192
++ -- 953
+- -- 306
+* -- 3793
+:= -- 4870
 add.period$ -- 0
-call.type$ -- 62
-change.case$ -- 124
-chr.to.int$ -- 61
-cite$ -- 70
-duplicate$ -- 1562
-empty$ -- 1540
-format.name$ -- 520
-if$ -- 5490
+call.type$ -- 64
+change.case$ -- 128
+chr.to.int$ -- 63
+cite$ -- 72
+duplicate$ -- 1622
+empty$ -- 1610
+format.name$ -- 536
+if$ -- 5712
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 65
-newline$ -- 201
-num.names$ -- 446
-pop$ -- 328
+missing$ -- 67
+newline$ -- 207
+num.names$ -- 464
+pop$ -- 344
 preamble$ -- 1
-purify$ -- 248
+purify$ -- 256
 quote$ -- 0
-skip$ -- 1049
+skip$ -- 1092
 stack$ -- 0
-substring$ -- 1798
-swap$ -- 940
-text.length$ -- 260
+substring$ -- 1878
+swap$ -- 976
+text.length$ -- 269
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 543
+type$ -- 561
 warning$ -- 8
-while$ -- 468
+while$ -- 486
 width$ -- 0
-write$ -- 632
+write$ -- 652
 (There were 2 error messages)

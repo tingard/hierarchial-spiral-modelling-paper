@@ -1,108 +1,59 @@
 # Referee Response
 
+The authors thank the referee for a careful reading, with useful suggestions for additional citations. We respond in line below to specific points. Major additions to the text are hi-lighted in bold, while major removals are shown with strike-through.
+
 > Assistant Editor's Comments:
+
 > Please remove the references from your abstract.
 
+This has been done. 
 
-Reviewer's Comments:
+> Reviewer's Comments:
 
-Report on the paper "Galaxy Zoo Builder: Morphological Dependence of Spiral
-Galaxy Pitch Angle, by Timothy Lingard, Karen L. Masters, Coleman Krawczyk,
-Chris Lintott, Sandor Kruk, Brooke SImmons, William Keel; Robert C. Nichol,
-and Elisabeth Baeten.
+> This paper uses data from the Galaxy Zoo project to address the problem of the pitch angle of spiral arms in disc galaxies. It uses citizen science data products of the Galaxy Builder project, in particular those on the pitch angle of spiral galaxies. Interesting results are obtained from data supplied by volunteers, which eventually should be published. However, the paper is not yet very satisfactory, and I recommend that a major revision should be made. I am willing to see the revised version again.
 
-This paper uses data from the Galaxy Zoo project to address the problem of
-the pitch angle of spiral arms in disc galaxies. It uses citizen science data
-products of the Galaxy Builder project, in particular those on the pitch
-angle of spiral galaxies. Interesting results are obtained from data supplied
-by volunteers, which eventually should be published. However, the paper is not
-yet very satisfactory, and I recommend that a major revision should be made.
-I am willing to see the revised version again.
-
-1. Introduction
-
-The introduction shows already some problems: in Figure 1 examples are shown
-of grand design spirals, multi-arm spirals and flocculent spirals. However,
-it is easy to show that the spirals shown at the right column of Figure 1
-are not flocculent, by rotating their image by 180°, and overlaying them on
-the original with 50% transparency: this shows that the top-right spiral has
-two arms in the central parts, and is multi-armed in the outer parts, while
-the bottom-right image is that of a barred spiral with predominantly two arms.
-
-TODO:  change to caption: 
-Examples of the different types of spiral galaxy present in the sky. The left column shows grand design spirals with two smooth arms, the middle and right show many-armed spirals - either with smooth arms, or  more flocculent arms. Images were taken with the Sloan Digital Sky Survey Telescope. 
-Or just use example galaxies from Elmegreen et al. 2011 (bonus you can put the whirlpool galaxy in your paper). Did you do that already? If so that’s the response to the ref (and put the names of the galaxies in the caption). 
+We are pleased the referee thinks our results are interesting and should be published. 
 
 
-Another problem concerns the Hubble classification, which for spirals is aptly
-summarized by Sandage (2005), who writes "It was simplicity itself with wide
-classification bins that merged seamlessly into one another according to three
-criteria of size of the central bulge, the degree of resolution into
-condensations (in the language of Reynolds 1920b, 1927a,b), and the openness
-of the spiral arms." It is very problematic that the authors think they can
-replace the criterion of "the degree of resolution into condensations" by
-"how obvious spiral patterns are". Sandage was consistent in his write-ups,
-and the same criterion of the degree of resolution can be found in his 1961
-"Hubble Atlas of Galaxies". He mentions in his 2005 paper that the Elmegreen
-& Elmegreen spiral arm classes are "important for the physics, but need not be
-made general in the [classification] notation".
+> 1. Introduction
 
-Just change language on Hubble classification. That was a long paragraph to ask for a simple language change:  
-OLD: The Hubble classification scheme (Hubble 1926) and its revisions and expansions (Sandage 1961; de Vaucouleurs et al. 1991) contain detailed variations of different types of spiral galaxy, divided by the presence of a bar and ordered by how obvious spiral arm pat- terns are, how tightly they are wound and the prominence of a central bulge. 
-NEW: The Hubble classification scheme (Hubble 1926) and its revisions and expansions (Sandage 1961; de Vaucouleurs et al. 1991) contain detailed variations of different types of spiral galaxy, divided by the presence of a bar and ordered by the degree of resolution of the spiral arms (how ``patchy” they are), how tightly wound they are and the prominence of a central bulge.
+> The introduction shows already some problems: in Figure 1 examples are shown of grand design spirals, multi-arm spirals and flocculent spirals. However, it is easy to show that the spirals shown at the right column of Figure 1 are not flocculent, by rotating their image by 180°, and overlaying them on the original with 50% transparency: this shows that the top-right spiral has two arms in the central parts, and is multi-armed in the outer parts, while the bottom-right image is that of a barred spiral with predominantly two arms.
 
-OK, this was the 1st paragraph in the Introduction. The second paragraph is
-hardly better: A first sentence discusses "a majority of the population of
-young stars ..." but switches subject to spiral arms: they may trigger star
-formation, though their main role maybe sweeping up material ... The second
-sentence asserts that "this rearrangement of) disc gas can lead to the formation
-of disc-like bulges (... pseudobulges ...), which are prevalent in most spiral
-galaxies (Kruk et al. 2018). However, in the latter paper this rearrangement
-of gas is attributed to the bar, and not to the spiral arms…
+The figure and caption has been updated. 
 
-TODO: edit this paragraph. Both bars and spiral arms do restribute gas and stars in galaxies. Kruk 2018 attributes pseudobulge formation to the bar not the spiral arms.
 
-Let me point out that the motivation for the Lin & Shu (1964) paper was to
-overcome the 'winding dilemma' posed by differentially rotating spirals such
-as M31 and NGC 5055 (Prendergast & Burbidge 1960, Oort 1962), and that the
-statement of preferentially m = 2 armed spirals is in direct contradiction
-with the numbers given in Figure 1.
+> Another problem concerns the Hubble classification, which for spirals is aptly summarized by Sandage (2005), who writes "It was simplicity itself with wide classification bins that merged seamlessly into one another according to three criteria of size of the central bulge, the degree of resolution into condensations (in the language of Reynolds 1920b, 1927a,b), and the openness of the spiral arms." It is very problematic that the authors think they can replace the criterion of "the degree of resolution into condensations" by "how obvious spiral patterns are". Sandage was consistent in his write-ups, and the same criterion of the degree of resolution can be found in his 1961 "Hubble Atlas of Galaxies". He mentions in his 2005 paper that the Elmegreen & Elmegreen spiral arm classes are "important for the physics, but need not be made general in the [classification] notation".
 
-Furthermore, the mechanisms of wave amplification are not the same as those
-behind the assumption of quasi stationary density wave theory. The term
-"swing amplification" was coined by Toomre (1981), even though he relied on
-the Goldreich and Lynden-Bell (1965) work.
+We have scaled down the mention of Elmegreen & Elmegreen spiral classes, and now use the traditional language of "degree of resolution" in the description the Hubble spiral sequence. 
 
-I **meant** that one way to counteract the short lifetime of stellar density waves is through amplification mechanisms such as WASER and swing amplification, but yes that is incorrect.
+> OK, this was the 1st paragraph in the Introduction. The second paragraph is hardly better: A first sentence discusses "a majority of the population of young stars ..." but switches subject to spiral arms: they may trigger star formation, though their main role maybe sweeping up material ... The second sentence asserts that "this rearrangement of) disc gas can lead to the formation of disc-like bulges (... pseudobulges ...), which are prevalent in most spiral galaxies (Kruk et al. 2018). However, in the latter paper this rearrangement of gas is attributed to the bar, and not to the spiral arms…
 
-What to make of the sentence "Larger bulges and more massive central black
-holes have both correlated with more tightly wound spiral arms" (p3, left
-column, line 47). They don't correlate anymore?
+There is evidence that both bars and spirals do rearrange disc material - this paragraph is intended to act as a short summary of the impact spirals have on galaxies. It has been reworded. 
 
-This was a grammatical error. It has been fixed. 
+> Let me point out that the motivation for the Lin & Shu (1964) paper was to overcome the 'winding dilemma' posed by differentially rotating spirals such as M31 and NGC 5055 (Prendergast & Burbidge 1960, Oort 1962), and that the statement of preferentially m = 2 armed spirals is in direct contradiction with the numbers given in Figure 1.
 
-The next paragraph then jumps to "Section 3.2 examines ...", and "Section 3.3
-investigates ...", without explaining what is to come in Section 2 and 3.1…
+We have removed both the mention of m=2, and the numbers from Figure 1. Neither of these are central to the point of our paper. 
+
+> Furthermore, the mechanisms of wave amplification are not the same as those behind the assumption of quasi stationary density wave theory. The term "swing amplification" was coined by Toomre (1981), even though he relied on the Goldreich and Lynden-Bell (1965) work.
+
+We have added a clarification to this point. 
+
+> What to make of the sentence "Larger bulges and more massive central black holes have both correlated with more tightly wound spiral arms" (p3, left column, line 47). They don't correlate anymore?
+
+This was a grammatical error. Thank you for bring it to our attention. It has been fixed. 
+
+> The next paragraph then jumps to "Section 3.2 examines ...", and "Section 3.3 investigates ...", without explaining what is to come in Section 2 and 3.1…
 
 We have fixed this omission. 
 
-Section 2.1
+> Section 2.1
 
-The authors say: "We assume that a galaxy has some value for pitch angle,
-\phi_{gal}, and that the pitch angles of spiral arms in that galaxy, \phi_{arm},
-are constant with radius (giving logarithmic spirals)" This is very unclear.
-If the pitch angle is constant with radius, then in all the segments \phi_{i} in
-eq. (2) will be the same and \phi_{gal}=\phi_{arm}. So why introduce \phi_{gal}?
-Why introduce two different definitions of the pitch angle, if there is only one
-value? How does this hypothesis influence the results in this paper?   
+> The authors say: "We assume that a galaxy has some value for pitch angle, \phi_{gal}, and that the pitch angles of spiral arms in that galaxy, \phi_{arm},
+are constant with radius (giving logarithmic spirals)" This is very unclear. If the pitch angle is constant with radius, then in all the segments \phi_{i} in eq. (2) will be the same and \phi_{gal}=\phi_{arm}. So why introduce \phi_{gal}? Why introduce two different definitions of the pitch angle, if there is only one value? How does this hypothesis influence the results in this paper?   
 
-Be more explicit that different arms can have different pitch angles
+We have added text to make it clearer that different arms can have different pitch angles, even if in a single arm pitch angle may be constant with radius. 
 
-On page 3 it is written: "A common assumption  when  measuring  galaxy pitch
-angle is that observed spiral arms have a constant pitch angle with radius (e.g.
-Davis et al. 2012;.... " This is repated a number of times in other parts of the
-paper. Yet this is wrong, as first duscussed by Considere and Athanassoula (who
-introduced the 2DFFT method) and as stressed further in Davis et al 2012.
+> On page 3 it is written: "A common assumption  when  measuring  galaxy pitch angle is that observed spiral arms have a constant pitch angle with radius (e.g. Davis et al. 2012;.... " This is repated a number of times in other parts of the paper. Yet this is wrong, as first duscussed by Considere and Athanassoula (who introduced the 2DFFT method) and as stressed further in Davis et al 2012.
 
 Davis et al. 2012 say that the inclusion of non-logarithmic spirals (with kinks) can negatively impact measurements using 2D FFT.
 

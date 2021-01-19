@@ -129,6 +129,12 @@ p.~155
   Publications Series Vol. 51, EAS Publications Series. pp 19--30 (\mn@eprint
   {arXiv} {1101.3109}), \mn@doi{10.1051/eas/1151002}
 
+\bibitem[\protect\citeauthoryear{{Elmegreen} \& {Elmegreen}}{{Elmegreen} \&
+  {Elmegreen}}{1982}]{1982MNRAS.201.1021E}
+{Elmegreen} D.~M.,  {Elmegreen} B.~G.,  1982, \mn@doi [\mnras]
+  {10.1093/mnras/201.4.1021}, \href
+  {https://ui.adsabs.harvard.edu/abs/1982MNRAS.201.1021E} {201, 1021}
+
 \bibitem[\protect\citeauthoryear{{Elmegreen} et~al.,}{{Elmegreen}
   et~al.}{2011}]{2011ApJ...737...32E}
 {Elmegreen} D.~M.,  et~al., 2011, \mn@doi [\apj] {10.1088/0004-637X/737/1/32},
@@ -337,6 +343,10 @@ Scholz F.~W.,  Stephens M.~A.,  1987, \mn@doi [Journal of the American
 
 \bibitem[\protect\citeauthoryear{Stephens}{Stephens}{1974}]{10.2307/2286009}
 Stephens M.~A.,  1974, Journal of the American Statistical Association, 69, 730
+
+\bibitem[\protect\citeauthoryear{{Toomre}}{{Toomre}}{1981}]{Toomre1981}
+{Toomre} A.,  1981, in {Fall} S.~M.,  {Lynden-Bell} D.,  eds, Structure and
+  Evolution of Normal Galaxies. pp 111--136
 
 \bibitem[\protect\citeauthoryear{Willett et~al.,}{Willett
   et~al.}{2013}]{Willett2013:1308.3496v2}
