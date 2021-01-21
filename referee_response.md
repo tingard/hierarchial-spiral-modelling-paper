@@ -144,6 +144,9 @@ We have reworded this section.
 
 *** Tim TODO - might just need a better README ***
 
+We apologise, we mistakenly linked a working respository, rather than the planned public one, which is available at https://github.com/tingard/hierarchical-modelling-of-spiral-pitch-angle
+
+
 >To sum up: There are a number of problems with this paper, and a major revision should be made, so as to rescue the valuable results provided by the volunteers, and present them in a proper context.
 
 We are happy the referee is convinced our experimental design is sound, and are positive about the annotations obtained. We are happy to agree this work should be published and presented to fully make use of the valuable results the volunteers provided. 
