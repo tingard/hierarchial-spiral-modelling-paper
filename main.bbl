@@ -195,6 +195,12 @@ p.~155
 {Hoffman} M.~D.,  {Gelman} A.,  2011, arXiv e-prints, \href
   {https://ui.adsabs.harvard.edu/abs/2011arXiv1111.4246H} {p. arXiv:1111.4246}
 
+\bibitem[\protect\citeauthoryear{{Honig} \& {Reid}}{{Honig} \&
+  {Reid}}{2015}]{HonigRead2015}
+{Honig} Z.~N.,  {Reid} M.~J.,  2015, \mn@doi [\apj]
+  {10.1088/0004-637X/800/1/53}, \href
+  {https://ui.adsabs.harvard.edu/abs/2015ApJ...800...53H} {800, 53}
+
 \bibitem[\protect\citeauthoryear{{Hubble}}{{Hubble}}{1926}]{1926ApJ....64..321H}
 {Hubble} E.~P.,  1926, \mn@doi [\apj] {10.1086/143018}, \href
   {https://ui.adsabs.harvard.edu/abs/1926ApJ....64..321H} {64, 321}
@@ -352,6 +358,10 @@ Stephens M.~A.,  1974, Journal of the American Statistical Association, 69, 730
 \bibitem[\protect\citeauthoryear{{Toomre}}{{Toomre}}{1981}]{Toomre1981}
 {Toomre} A.,  1981, in {Fall} S.~M.,  {Lynden-Bell} D.,  eds, Structure and
   Evolution of Normal Galaxies. pp 111--136
+
+\bibitem[\protect\citeauthoryear{Vall\'ee}{Vall\'ee}{2015}]{Vallee2015}
+Vall\'ee J.~P.,  2015, \mn@doi [Monthly Notices of the Royal Astronomical
+  Society] {10.1093/mnras/stv862}, 450, 4277
 
 \bibitem[\protect\citeauthoryear{Willett et~al.,}{Willett
   et~al.}{2013}]{Willett2013:1308.3496v2}
