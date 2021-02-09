@@ -75,6 +75,8 @@ We have added a histogram (which was previously published in Lingard et al. 2020
 
 *** TODO: Compare pitch angles for validation subset *** 
 
+*** TODO: what did we do with this set in Lingard et al. 2020? *** 
+
 > From Figure 10 of the GBpaper, it follows that 16 out of 98 galaxies have p_bar .ge. 0.5, of which 8 out 98 galaxies have p_bar .ge. 0.55, with none of them exceeding p_bar = 0.75. Thus there are few really barred galaxies in this sample. This statistics can be repeated for the other sample of 100 galaxies. This information is necessary to be able to judge how many barred galaxies are considered. If only 16% of the galaxies are barred, there is not much you can do to test hypotheses concerning barred galaxies. 
 
 We agree. Our statistical analysis incorporates this (which is one of the reasons we don't find anything significant). No changes made (or asked for). 
