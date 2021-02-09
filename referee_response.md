@@ -83,11 +83,17 @@ We agree. Our statistical analysis incorporates this (which is one of the reason
 
 > You report a final sample of 139 galaxies with 261 spiral arms, i.e. less than 2 arms per galaxy. Please give details of why this is so. Please also list how many of the galaxies are multiarmed, and state the number of arms.
 
-** Tim working on this. ** 
+When we looked into this we found this needed to be updated to 129 galaxies with 247 spiral arms which is closer to two arms per galaxy (1.9). We are unsure of the reason for this discrepancy, it may have been a typo, or left over from an earlier run. 
+
+** TODO - list how many of the galaxies are multiarmed, and state the number of arms.
+
+ We have found that in some cases, while volunteers drew two arms, the clustering/aggregation code was unable to cluster them, so the final method reported a single arm. This happened in **TODO** cases, and is expected behaviour when clustering noisy data. The presence of this fraction of single armed galaxies drives the average number of arms per galaxy down below the real value. 
 
 > In Figure 4 I count about 40 1-armed spirals, 22 3-armed spirals, 14 4-armed spirals, and about 63 2-armed spirals (more difficult to count). Why are there so many 1-armed spirals, and why for these, for pitch angles below about 14 degrees, is PHI_arm not equal to PHI_gal ?
 
-** Tim says: Probably due to Aggregation. Need to check this **
+** TO ANSWER: Why are there so many 1-armed spirals *** 
+
+We have added to the explanation of why PHI_gal is consistently below PHI_gal at low values of pitch angle for a single arm at the end of section 3.1 to make clearer the point that it's related to finding the mean of a broad, but skewed (truncated at zero) distribution. 
 
 > 4. Section 3.2.1
 
