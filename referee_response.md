@@ -71,7 +71,9 @@ We have added a histogram (which was previously published in Lingard et al. 2020
 
 > Since a sample of 98 galaxies were shown twice to (different?) volunteers, it is of interest to compare the results for the same galaxies: did the resulting pitch angles, number of arms, etc. all agree ? One of the data files available on the GitHub website indicates that this is not the case, but that website is poorly documented.
 
-*** TODO: Compare spiral arms for validation subset *** 
+ In this set of 98 galaxies, we find that 93% have the number of arms the same within +/-1 (53% have exactly the same number of arms). 
+
+*** TODO: Compare pitch angles for validation subset *** 
 
 > From Figure 10 of the GBpaper, it follows that 16 out of 98 galaxies have p_bar .ge. 0.5, of which 8 out 98 galaxies have p_bar .ge. 0.55, with none of them exceeding p_bar = 0.75. Thus there are few really barred galaxies in this sample. This statistics can be repeated for the other sample of 100 galaxies. This information is necessary to be able to judge how many barred galaxies are considered. If only 16% of the galaxies are barred, there is not much you can do to test hypotheses concerning barred galaxies. 
 
