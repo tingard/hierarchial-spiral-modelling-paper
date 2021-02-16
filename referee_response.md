@@ -137,11 +137,13 @@ This error has been corrected.
 
 > The range of values of PHI_gal is from 8 to about 50 degrees, and there is no indication that the lower limit in the pitch angle is poorly determined. Note that Kennicutt (1981) find a lower limit of 0 degrees. Setting the lower limit to 15 degrees, so as just to be able to conclude that a uniform cot PHI_gal or cot PHI_arm distribution cannot be excluded is thus completely arbitrary. It would be best to display in a second panel the distribution of cot PHI_gal or cot PHI_arm with a lower limit of 8 degrees, so as to alert the reader to the strong influence of this assumption.
 
-*** Do we though??? The should think about this point *** We believe the supporting text is sufficient to explain this. And have added some directly to the caption. 
+ The issue here is that the model itself includes an arbitrary lower pitch angle - Pringle & Dobbs (2019) make no attempt to give any physical motivation for what that minimum angle should be, and in their test against data chose 11.5 degrees as the limit - largely because that's where inspection of the distribution of cot(pitch angle) in the sample they investigate deviates from constant. 
+
+ We think the referee makes and excellent point that the previous explanation was a little confusing. What we have really done is to say this model fits the data IF the minimum pitch angle for winding spirals is around 15 degrees. It cannot be as low as 10 degrees. That's a specific observations that any more detailed model based on the simple ideas of Pringle & Dobbs (2019) would have to explain. We have made edits to the text to make this point. 
 
 > Obviously, the abstract and the conclusions should be toned down as well, since a hurried reader would only retain your (possibly erroneous) conclusion.
 
-** TDOD: *** We have toned down the abstract and conclusions. 
+We have made edits in both the abstract and conclusions. 
 
 > 7. Section 4
 
