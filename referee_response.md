@@ -98,9 +98,9 @@ Here is the complete breakdown of number of arms per galaxy:
  38  galaxies had 1 arm(s)
  68  galaxies had 2 arm(s)
  19  galaxies had 3 arm(s)
- 4   galaxies had 4 arm(s)```
+ 4   galaxies had 4 arm(s)
 
-This has been entered into the text. 
+This has been entered into the text.```
 
 
 > In Figure 4 I count about 40 1-armed spirals, 22 3-armed spirals, 14 4-armed spirals, and about 63 2-armed spirals (more difficult to count). Why are there so many 1-armed spirals, and why for these, for pitch angles below about 14 degrees, is PHI_arm not equal to PHI_gal ?
