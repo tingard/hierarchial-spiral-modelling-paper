@@ -91,15 +91,14 @@ When we looked into this we found this needed to be updated to 129 galaxies with
 
 Here is the complete breakdown of number of arms per galaxy: 
 
-159 total galaxies, 129 of which with identified spiral arms
+```159 total galaxies, 129 of which with identified spiral arms
 247 total spiral arms
 238,433 total points
-----------------------------------------------------------------------
  30  galaxies had 0 arm(s)
  38  galaxies had 1 arm(s)
  68  galaxies had 2 arm(s)
  19  galaxies had 3 arm(s)
- 4   galaxies had 4 arm(s)
+ 4   galaxies had 4 arm(s)```
 
 This has been entered into the text. 
 
