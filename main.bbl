@@ -237,8 +237,8 @@ Jones E.,  Oliphant T.,  Peterson P.,   et~al., 2001, SciPy: Open source
 
 \bibitem[\protect\citeauthoryear{{Lingard} et~al.,}{{Lingard}
   et~al.}{2020}]{2020arXiv200610450L}
-{Lingard} T.~K.,  et~al., 2020, {Galaxy Zoo Builder: Four Component Photometric
-  decomposition of Spiral Galaxies Guided by Citizen Science}, (in press)
+{Lingard} T.~K.,  et~al., 2020, \mn@doi [\apj] {10.3847/1538-4357/ab9d83},
+  \href {https://ui.adsabs.harvard.edu/abs/2020ApJ...900..178L} {900, 178}
 
 \bibitem[\protect\citeauthoryear{{Lintott} et~al.,}{{Lintott}
   et~al.}{2008}]{2008MNRAS.389.1179L}

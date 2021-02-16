@@ -21,43 +21,43 @@ while executing---line 1822 of file mnras.bst
 Warning--empty publisher in 1991rc3..book.....D
 You've used 67 entries,
             2881 wiz_defined-function locations,
-            1317 strings with 25941 characters,
-and the built_in function-call counts, 33388 in all, are:
-= -- 2790
-> -- 2258
+            1320 strings with 25971 characters,
+and the built_in function-call counts, 33436 in all, are:
+= -- 2806
+> -- 2252
 < -- 204
-+ -- 992
++ -- 986
 - -- 316
-* -- 3953
-:= -- 5082
+* -- 3963
+:= -- 5081
 add.period$ -- 0
 call.type$ -- 67
 change.case$ -- 134
 chr.to.int$ -- 66
 cite$ -- 75
-duplicate$ -- 1689
-empty$ -- 1676
+duplicate$ -- 1688
+empty$ -- 1675
 format.name$ -- 560
-if$ -- 5950
+if$ -- 5966
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 70
+missing$ -- 71
 newline$ -- 216
 num.names$ -- 486
-pop$ -- 353
+pop$ -- 348
 preamble$ -- 1
 purify$ -- 268
 quote$ -- 0
-skip$ -- 1137
+skip$ -- 1140
 stack$ -- 0
-substring$ -- 1960
-swap$ -- 1014
+substring$ -- 1978
+swap$ -- 1016
 text.length$ -- 281
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 588
 warning$ -- 8
-while$ -- 510
+while$ -- 512
 width$ -- 0
 write$ -- 682
 (There were 2 error messages)

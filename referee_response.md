@@ -73,9 +73,11 @@ We have added a histogram (which was previously published in Lingard et al. 2020
 
  In this set of 98 galaxies, we find that 93% have the number of arms the same within +/-1 (53% have exactly the same number of arms). 
 
-*** TODO: Compare pitch angles for validation subset *** 
+ We have expanded the reasons why we sometimes miss arms (generally in the clustering part of the process) below. 
 
-*** TODO: what did we do with this set in Lingard et al. 2020? *** 
+ Because of the Bayesian method used to obtain the final pitch angles, running this twice for the validation set, while potentially interesting, is not something we are able to do at this time. We are confident that the errors we report on the pitch angles capture this potential variation. 
+
+** TODO CONFIRM THE ABOVE **
 
 > From Figure 10 of the GBpaper, it follows that 16 out of 98 galaxies have p_bar .ge. 0.5, of which 8 out 98 galaxies have p_bar .ge. 0.55, with none of them exceeding p_bar = 0.75. Thus there are few really barred galaxies in this sample. This statistics can be repeated for the other sample of 100 galaxies. This information is necessary to be able to judge how many barred galaxies are considered. If only 16% of the galaxies are barred, there is not much you can do to test hypotheses concerning barred galaxies. 
 
@@ -87,15 +89,26 @@ We agree. Our statistical analysis incorporates this (which is one of the reason
 
 When we looked into this we found this needed to be updated to 129 galaxies with 247 spiral arms which is closer to two arms per galaxy (1.9). We are unsure of the reason for this discrepancy, it may have been a typo, or left over from an earlier run. 
 
-** TODO - list how many of the galaxies are multiarmed, and state the number of arms.
+Here is the complete breakdown of number of arms per galaxy: 
 
- We have found that in some cases, while volunteers drew two arms, the clustering/aggregation code was unable to cluster them, so the final method reported a single arm. This happened in **TODO** cases, and is expected behaviour when clustering noisy data. The presence of this fraction of single armed galaxies drives the average number of arms per galaxy down below the real value. 
+159 total galaxies, 129 of which with identified spiral arms
+247 total spiral arms
+238,433 total points
+----------------------------------------------------------------------
+ 30  galaxies had 0 arm(s)
+ 38  galaxies had 1 arm(s)
+ 68  galaxies had 2 arm(s)
+ 19  galaxies had 3 arm(s)
+ 4   galaxies had 4 arm(s)
+
+This has been entered into the text. 
+
 
 > In Figure 4 I count about 40 1-armed spirals, 22 3-armed spirals, 14 4-armed spirals, and about 63 2-armed spirals (more difficult to count). Why are there so many 1-armed spirals, and why for these, for pitch angles below about 14 degrees, is PHI_arm not equal to PHI_gal ?
 
-** TO ANSWER: Why are there so many 1-armed spirals *** 
+ We have found that in some cases, while volunteers drew two arms, the clustering/aggregation code was unable to cluster them, so the final method reported a single arm. This happened in **TODO** cases, and is expected behaviour when clustering noisy data. The presence of this fraction of single armed galaxies drives the average number of arms per galaxy down below the real value, and because the most common number of actual arms is two, it is particularly notable in resulting in reports of one-armed galaxies. 
 
-We have added to the explanation of why PHI_gal is consistently below PHI_gal at low values of pitch angle for a single arm at the end of section 3.1 to make clearer the point that it's related to finding the mean of a broad, but skewed (truncated at zero) distribution. 
+We have added to the previously existing explanation of why PHI_gal is consistently below PHI_gal at low values of pitch angle for a single arm at the end of section 3.1 to make clearer the point that it's related to finding the mean of a broad, but skewed (truncated at zero) distribution. 
 
 > 4. Section 3.2.1
 
