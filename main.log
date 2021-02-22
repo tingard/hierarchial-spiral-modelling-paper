@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.14)  16 FEB 2021 15:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.14)  22 FEB 2021 16:36
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1215,8 +1215,14 @@ File: plots/stellarmass.png Graphic file (type png)
 <use plots/stellarmass.png>
 Package pdftex.def Info: plots/stellarmass.png  used on input line 30.
 (pdftex.def)             Requested size: 503.61368pt x 165.18964pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 5036) has occurred while \output is active []
+
  [4]
-LaTeX Font Info:    Try loading font information for T1+aett on input line 79.
+LaTeX Font Info:    Try loading font information for T1+aett on input line 80.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
@@ -1244,6 +1250,9 @@ Overfull \hbox (16.0748pt too wide) in paragraph at lines 26--27
  []
 
 [5 <./plots/stellarmass.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6 <./plots/example-spiral-fits.pdf>]
@@ -1291,7 +1300,7 @@ Package pdftex.def Info: plots/combined_cot_uniform_marginalized_tests.pdf  use
 d on input line 113.
 (pdftex.def)             Requested size: 503.61368pt x 138.53906pt.
 ) (./sections/summary.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5504) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1337,6 +1346,9 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 186.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 186.
  ) 
 Here is how much of TeX's memory you used:
@@ -1367,7 +1379,7 @@ xlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2
 f-dist/fonts/type1/public/txfonts/txmia.pfb></usr/local/texlive/2018/texmf-dist
 /fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2018/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on main.pdf (11 pages, 1008111 bytes).
+Output written on main.pdf (11 pages, 1008180 bytes).
 PDF statistics:
  584 PDF objects out of 1000 (max. 8388607)
  232 compressed objects within 3 object streams
