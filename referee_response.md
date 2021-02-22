@@ -77,8 +77,6 @@ We have added a histogram (which was previously published in Lingard et al. 2020
 
  Because of the Bayesian method used to obtain the final pitch angles, running this twice for the validation set, while potentially interesting, is not something we are able to do at this time. We are confident that the errors we report on the pitch angles capture this potential variation. 
 
-** TODO CONFIRM THE ABOVE **
-
 > From Figure 10 of the GBpaper, it follows that 16 out of 98 galaxies have p_bar .ge. 0.5, of which 8 out 98 galaxies have p_bar .ge. 0.55, with none of them exceeding p_bar = 0.75. Thus there are few really barred galaxies in this sample. This statistics can be repeated for the other sample of 100 galaxies. This information is necessary to be able to judge how many barred galaxies are considered. If only 16% of the galaxies are barred, there is not much you can do to test hypotheses concerning barred galaxies. 
 
 We agree. Our statistical analysis incorporates this (which is one of the reasons we don't find anything significant). No changes made (or asked for). 
@@ -105,7 +103,7 @@ This has been entered into the text.
 
 > In Figure 4 I count about 40 1-armed spirals, 22 3-armed spirals, 14 4-armed spirals, and about 63 2-armed spirals (more difficult to count). Why are there so many 1-armed spirals, and why for these, for pitch angles below about 14 degrees, is PHI_arm not equal to PHI_gal ?
 
- We have found that in some cases, while volunteers drew two arms, the clustering/aggregation code was unable to cluster them, so the final method reported a single arm. This happened in **TODO** cases, and is expected behaviour when clustering noisy data. The presence of this fraction of single armed galaxies drives the average number of arms per galaxy down below the real value, and because the most common number of actual arms is two, it is particularly notable in resulting in reports of one-armed galaxies. 
+ We have found that in some cases, while volunteers drew two arms, the clustering/aggregation code was unable to cluster them, so the final method reported a single arm. This happened in 35 cases (the majority of the 1 arm galaxies), and is expected behaviour when clustering noisy data. The presence of this fraction of single armed galaxies drives the average number of arms per galaxy down below the real value, and because the most common number of actual arms is two, it is particularly notable in resulting in reports of one-armed galaxies. We have added some text explaining this, and cautioning against over interpreting our reports on the number of arms. We believe this should not significantly impact the results on pitch angle. 
 
 We have added to the previously existing explanation of why PHI_gal is consistently below PHI_gal at low values of pitch angle for a single arm at the end of section 3.1 to make clearer the point that it's related to finding the mean of a broad, but skewed (truncated at zero) distribution. 
 
