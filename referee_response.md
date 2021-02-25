@@ -18,46 +18,37 @@ We are pleased the referee thinks our results are interesting and should be publ
 > 1. Introduction
 
 > The introduction shows already some problems: in Figure 1 examples are shown of grand design spirals, multi-arm spirals and flocculent spirals. However, it is easy to show that the spirals shown at the right column of Figure 1 are not flocculent, by rotating their image by 180°, and overlaying them on the original with 50% transparency: this shows that the top-right spiral has two arms in the central parts, and is multi-armed in the outer parts, while the bottom-right image is that of a barred spiral with predominantly two arms.
-
-The figure and caption has been updated. 
-
-
 > Another problem concerns the Hubble classification, which for spirals is aptly summarized by Sandage (2005), who writes "It was simplicity itself with wide classification bins that merged seamlessly into one another according to three criteria of size of the central bulge, the degree of resolution into condensations (in the language of Reynolds 1920b, 1927a,b), and the openness of the spiral arms." It is very problematic that the authors think they can replace the criterion of "the degree of resolution into condensations" by "how obvious spiral patterns are". Sandage was consistent in his write-ups, and the same criterion of the degree of resolution can be found in his 1961 "Hubble Atlas of Galaxies". He mentions in his 2005 paper that the Elmegreen & Elmegreen spiral arm classes are "important for the physics, but need not be made general in the [classification] notation".
-
-We have scaled down the mention of Elmegreen & Elmegreen spiral classes, and now use the traditional language of "degree of resolution" in the description the Hubble spiral sequence. 
-
 > OK, this was the 1st paragraph in the Introduction. The second paragraph is hardly better: A first sentence discusses "a majority of the population of young stars ..." but switches subject to spiral arms: they may trigger star formation, though their main role maybe sweeping up material ... The second sentence asserts that "this rearrangement of) disc gas can lead to the formation of disc-like bulges (... pseudobulges ...), which are prevalent in most spiral galaxies (Kruk et al. 2018). However, in the latter paper this rearrangement of gas is attributed to the bar, and not to the spiral arms…
-
-There is evidence that both bars and spirals do rearrange disc material - this paragraph is intended to act as a short summary of the impact spirals have on galaxies. It has been reworded. 
-
 > Let me point out that the motivation for the Lin & Shu (1964) paper was to overcome the 'winding dilemma' posed by differentially rotating spirals such as M31 and NGC 5055 (Prendergast & Burbidge 1960, Oort 1962), and that the statement of preferentially m = 2 armed spirals is in direct contradiction with the numbers given in Figure 1.
-
-We have removed both the mention of m=2, and the numbers from Figure 1. Neither of these are central to the point of our paper. 
-
 > Furthermore, the mechanisms of wave amplification are not the same as those behind the assumption of quasi stationary density wave theory. The term "swing amplification" was coined by Toomre (1981), even though he relied on the Goldreich and Lynden-Bell (1965) work.
-
-We have added a clarification to this point. 
-
 > What to make of the sentence "Larger bulges and more massive central black holes have both correlated with more tightly wound spiral arms" (p3, left column, line 47). They don't correlate anymore?
-
-This was a grammatical error. Thank you for bring it to our attention. It has been fixed. 
-
 > The next paragraph then jumps to "Section 3.2 examines ...", and "Section 3.3 investigates ...", without explaining what is to come in Section 2 and 3.1…
 
-We have fixed this omission. 
+
+We have rewritten the first two paragraphs to more carefully reflect the state of the field. These changes do not alter the scientific substance of our paper, but they do make the paper clearer and we thank the referee for their corrections. Specifically, we have: 
+
+1. Updated Figure 1 and caption,
+2. Scaled down the mention of Elmegreen & Elmegreen spiral classes, and now use the traditional language of "degree of resolution" in the description the Hubble spiral sequence. 
+3. Reworded the second paragraph, which was intended to act as a short summary of the impact spirals have on galaxies. There is evidence that both bars and spirals do rearrange disc material 
+4. Removed both the mention of m=2, and the numbers from Figure 1. Neither of these are central to the point of our paper. 
+5. Added a clarification about quasi stationary density wave theory and swing amplification. 
+6. Corrected the grammatical error the referee noted on p3, left column, line 47
+7. Added an explanation of Section 2 and 3.1. 
+
 
 > Section 2.1
 
 > The authors say: "We assume that a galaxy has some value for pitch angle, \phi_{gal}, and that the pitch angles of spiral arms in that galaxy, \phi_{arm},
 are constant with radius (giving logarithmic spirals)" This is very unclear. If the pitch angle is constant with radius, then in all the segments \phi_{i} in eq. (2) will be the same and \phi_{gal}=\phi_{arm}. So why introduce \phi_{gal}? Why introduce two different definitions of the pitch angle, if there is only one value? How does this hypothesis influence the results in this paper?   
 
-We have added text to make it clearer that different arms can have different pitch angles, even if in a single arm pitch angle may be constant with radius. 
+We have added text to make it clearer that different arms can have different pitch angles, even if in a single arm, pitch angle may be constant with radius. 
 
 > On page 3 it is written: "A common assumption  when  measuring  galaxy pitch angle is that observed spiral arms have a constant pitch angle with radius (e.g. Davis et al. 2012;.... " This is repated a number of times in other parts of the paper. Yet this is wrong, as first duscussed by Considere and Athanassoula (who introduced the 2DFFT method) and as stressed further in Davis et al 2012.
 
 > Davis et al say in their paper: "As pointed out by Considere &  Athanassoula (1988), this  method does  not  assume  that observed spiral structures are logarithmic. It only decomposes the observed distributions into a superposition of logarithmic spirals of different pitch angles and number of arms, which can be thought of as building blocks." The authors should read the Considere & Athanassoula paper carefully, as well as the Davis et al (2012) paper and change accordingly all parts of the paper where they make use of this assumption, or find a different way to justify it.
 
-We thank the referee for bringing Considere & Athanassoula 1988 back to our attention. We have reviewed the paper again, and added a citation. In that paper it is very clear the method does not assume logarithmic spirals. However the first line of the abstract of Davis et al (2012) is *"A logarithmic spiral is a prominent feature appearing in a majority of observed galaxies"*, and they clearly say (Section 4.3.2) that the inclusion of non-logarithmic spirals (with significant variation of pitch angle with radius) can negatively impact measurements using 2DFFT. They also say "In general, logarithmic spirals are good approximations of the shape of galactic spiral arms". We think there is evidence in the literature that the assumption of logarithmic spirals is widespread, even if it's clear the 2DFFT method can in principle discover radial variation in phi. 
+We thank the referee for bringing Considere & Athanassoula 1988 back to our attention. We have reviewed the paper again, and added a citation. In that paper it is very clear the method does not assume logarithmic spirals. However the first line of the abstract of Davis et al (2012) is *"A logarithmic spiral is a prominent feature appearing in a majority of observed galaxies"*, and they clearly say (Section 4.3.2) that the inclusion of non-logarithmic spirals (with significant variation of pitch angle with radius) can negatively impact measurements using 2DFFT. They also say "In general, logarithmic spirals are good approximations of the shape of galactic spiral arms". In the face of these comments, which show that the assumption of logarithmic spirals is made despite the more general applicability of the method of Considere & Athanassoula (1988) we think there is evidence in the literature that the assumption of logarithmic spirals is widespread, even if it's clear the 2DFFT method can in principle discover radial variation in phi. 
 
 > Some of the assumptions made in this paper come without much/any justification. The authors should discuss the effects of each of the assumptions for which they offer no justification. E.g. is it reasonable to assume that the spread sigma_[gal] is constant? What do results from 2DFFT give? Some *quantitative* analysis of results from previous work would be useful here. If this assumption is simply based on lack of any better knowledge, the effect of this assumption should be tested numerically and discussed. But the authors could first check the literature whether there is better knowledge from previous 2DFFT work.
 
@@ -67,7 +58,7 @@ We have added more discussion of the assumptions which were made. The specific q
 
 > This section is rather sparse in information. However, there are 198 galaxies considered, of which 98 galaxies were shown twice to volunteers. In Lingard et al. 2020, the Galaxy Builder paper - GBpaper for short - the stellar masses are shown in Figure 4. For 120 galaxies the stellar mass log M_* is between 9.45 and 10.03, and there after there are fewer galaxies up until the upper mass range of 11.0. Please provide a Figure with the histogram of stellar masses of the galaxies studied here. This sample is skewed towards galaxies with lower stellar mass: a quick analysis of the galaxies in Kennicutt (1981) which are also in S4G shows very few galaxies in the range of log M_* between 9.45 and 10.03. Please indicate what the consequences are of this selection effect for the general conclusions.
 
-We have added a histogram (which was previously published in Lingard et al. 2020) as a new Figure 3 in Section 2.2. There is also a histogram, and an investigation of how pitch angle varies with stellar mass in Section 3.1. 
+We have added a histogram (which was previously published in Lingard et al. 2020) as a new Figure 3 in Section 2.2. We have also added a histogram, and an investigation of how pitch angle varies with stellar mass in Section 3.1 in response to another request below. 
 
 > Since a sample of 98 galaxies were shown twice to (different?) volunteers, it is of interest to compare the results for the same galaxies: did the resulting pitch angles, number of arms, etc. all agree ? One of the data files available on the GitHub website indicates that this is not the case, but that website is poorly documented.
 
@@ -75,35 +66,35 @@ We have added a histogram (which was previously published in Lingard et al. 2020
 
  We have expanded the reasons why we sometimes miss arms (generally in the clustering part of the process) below. 
 
- Because of the Bayesian method used to obtain the final pitch angles, running this twice for the validation set, while potentially interesting, is not something we are able to do at this time. We are confident that the errors we report on the pitch angles capture this potential variation. 
+ Because of the Bayesian method used to obtain the final pitch angles, running this twice for the validation set, while potentially interesting for a future project, is not something we are able to do at this time. We are confident that the errors we report on the pitch angles capture this potential variation. 
 
 > From Figure 10 of the GBpaper, it follows that 16 out of 98 galaxies have p_bar .ge. 0.5, of which 8 out 98 galaxies have p_bar .ge. 0.55, with none of them exceeding p_bar = 0.75. Thus there are few really barred galaxies in this sample. This statistics can be repeated for the other sample of 100 galaxies. This information is necessary to be able to judge how many barred galaxies are considered. If only 16% of the galaxies are barred, there is not much you can do to test hypotheses concerning barred galaxies. 
 
-We agree. Our statistical analysis incorporates this (which is one of the reasons we don't find anything significant). No changes made (or asked for). 
+We agree. Our statistical analysis incorporates this (which is one of the reasons we don't find anything significant). No changes have been made (or asked for). 
 
 > 3. Section 3.1
 
 > You report a final sample of 139 galaxies with 261 spiral arms, i.e. less than 2 arms per galaxy. Please give details of why this is so. Please also list how many of the galaxies are multiarmed, and state the number of arms.
 
-When we looked into this we found this needed to be updated to 129 galaxies with 247 spiral arms which is closer to two arms per galaxy (1.9). We are unsure of the reason for this discrepancy, it may have been a typo, or left over from an earlier run. 
+When we looked into this we found this needed to be updated to 129 galaxies with 247 spiral arms which is closer to two arms per galaxy (1.9). We are unsure of the reason for this discrepancy, it may have been as simple as a typo. 
 
 Here is the complete breakdown of number of arms per galaxy: 
 
-159 total galaxies, 129 of which with identified spiral arms
-247 total spiral arms
-238,433 total points
- 30  galaxies had 0 arm(s)
- 38  galaxies had 1 arm(s)
- 68  galaxies had 2 arm(s)
- 19  galaxies had 3 arm(s)
- 4   galaxies had 4 arm(s)
+* 159 total galaxies, 129 of which with identified spiral arms
+* 247 total spiral arms
+* 238,433 total points
+  *  30  galaxies had 0 arm(s)
+  *  38  galaxies had 1 arm(s)
+  *  68  galaxies had 2 arm(s)
+  *  19  galaxies had 3 arm(s)
+  *  4   galaxies had 4 arm(s)
 
 This has been entered into the text.
 
 
 > In Figure 4 I count about 40 1-armed spirals, 22 3-armed spirals, 14 4-armed spirals, and about 63 2-armed spirals (more difficult to count). Why are there so many 1-armed spirals, and why for these, for pitch angles below about 14 degrees, is PHI_arm not equal to PHI_gal ?
 
- We have found that in some cases, while volunteers drew two arms, the clustering/aggregation code was unable to cluster them, so the final method reported a single arm. This happened in 35 cases (the majority of the 1 arm galaxies), and is expected behaviour when clustering noisy data. The presence of this fraction of single armed galaxies drives the average number of arms per galaxy down below the real value, and because the most common number of actual arms is two, it is particularly notable in resulting in reports of one-armed galaxies. We have added some text explaining this, and cautioning against over interpreting our reports on the number of arms. We believe this should not significantly impact the results on pitch angle. 
+ We have found that in some cases, while volunteers drew two arms, the clustering/aggregation code was unable to cluster them, so the final method reported a single arm. This happened in 35 cases (the majority of the 1 arm galaxies), and is a consequence of clustering noisy data. Where arms are detected the pitch angles are reliable, and our method of calculating galaxy averages accounts for this possible bias. However the presence of this fraction of single-identified spiral arm galaxies drives the average number of arms per galaxy down below the real value, and because the most common number of actual arms is two, it is particularly notable in resulting in reports of one-armed galaxies. We have added some text explaining this, and cautioning against over interpreting our reports on the number of arms. We reiterate that this should not significantly impact the results on pitch angle. 
 
 We have added to the previously existing explanation of why PHI_gal is consistently below PHI_gal at low values of pitch angle for a single arm at the end of section 3.1 to make clearer the point that it's related to finding the mean of a broad, but skewed (truncated at zero) distribution. 
 
