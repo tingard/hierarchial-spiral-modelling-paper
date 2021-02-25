@@ -154,16 +154,14 @@ We assume no selection bias in galaxy builder results, which is not necessarily 
 
 We have reworded this section. 
 
-
 > 8. Data availibility
 
 > The GitHub references refer to poorly documented working directories, and an interested researcher needs to make a considerable effort to start finding the basic information. It would be much more helpful to provide the most relevant information about the only several 100s of galaxies in machine readable tables, which can be stored at e.g. the CDS.
 
-*** Tim TODO - might just need a better README ***
+We apologise, we mistakenly linked a working respository, rather than the planned public one, which is available at https://github.com/tingard/hierarchical-modelling-of-spiral-pitch-angle. 
 
-We apologise, we mistakenly linked a working respository, rather than the planned public one, which is available at https://github.com/tingard/hierarchical-modelling-of-spiral-pitch-angle
-
+Following this feedback, we have added (see at end of the README) a description of the contents of each of the Python Notebooks. 
 
 >To sum up: There are a number of problems with this paper, and a major revision should be made, so as to rescue the valuable results provided by the volunteers, and present them in a proper context.
 
-We are happy the referee is convinced our experimental design is sound, and are positive about the annotations obtained. We are happy to agree this work should be published and presented to fully make use of the valuable results the volunteers provided. 
+We are happy the referee is convinced our experimental design is sound, and are positive about the annotations obtained. We are happy to agree this work should be published and presented to fully make use of the valuable results the volunteers provided. We thank the referee for detailed comments which have improved the paper. 
