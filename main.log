@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.14)  25 FEB 2021 14:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.14)  25 FEB 2021 16:48
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1300,9 +1300,6 @@ Package pdftex.def Info: plots/combined_cot_uniform_marginalized_tests.pdf  use
 d on input line 113.
 (pdftex.def)             Requested size: 503.61368pt x 139.53474pt.
 ) (./sections/summary.tex
-Underfull \vbox (badness 5504) has occurred while \output is active []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9 <./plots/bulge_bar_test_results.pdf>]
@@ -1348,9 +1345,6 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 186.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 186.
  ) 
 Here is how much of TeX's memory you used:
@@ -1381,7 +1375,7 @@ xlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2
 f-dist/fonts/type1/public/txfonts/txmia.pfb></usr/local/texlive/2018/texmf-dist
 /fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2018/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on main.pdf (12 pages, 1012327 bytes).
+Output written on main.pdf (12 pages, 1012766 bytes).
 PDF statistics:
  586 PDF objects out of 1000 (max. 8388607)
  230 compressed objects within 3 object streams
