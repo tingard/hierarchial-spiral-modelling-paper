@@ -54,11 +54,11 @@ We have added text to make it clearer that different arms can have different pit
 
 > Davis et al say in their paper: "As pointed out by Considere &  Athanassoula (1988), this  method does  not  assume  that observed spiral structures are logarithmic. It only decomposes the observed distributions into a superposition of logarithmic spirals of different pitch angles and number of arms, which can be thought of as building blocks." The authors should read the Considere & Athanassoula paper carefully, as well as the Davis et al (2012) paper and change accordingly all parts of the paper where they make use of this assumption, or find a different way to justify it.
 
-We thank the referee for bringing Considere & Athanassoula 1988 back to our attention. We have reviewed the paper again, and added a citation. In that paper it is very clear the method does not assume logarithmic spirals. However the first line of the abstract of Davis et al (2012) is *"A logarithmic spiral is a prominent feature appearing in a majority of observed galaxies"*, and they clearly say (Section 4.3.2) that the inclusion of non-logarithmic spirals (with significant variation of pitch angle with radius) can negatively impact measurements using 2DFFT. They also say "In general, logarithmic spirals are good approximations of the shape of galactic spiral arms". In the face of these comments, which show that the assumption of logarithmic spirals is made despite the more general applicability of the method of Considere & Athanassoula (1988) we think there is evidence in the literature that the assumption of logarithmic spirals is widespread, even if it's clear the 2DFFT method can in principle discover radial variation in phi. 
+We thank the referee for bringing Considere & Athanassoula 1988 back to our attention. We have reviewed the paper again, and added a citation. In that paper it is very clear the method does not assume logarithmic spirals. However the first line of the abstract of Davis et al (2012) is *"A logarithmic spiral is a prominent feature appearing in a majority of observed galaxies"*, and they clearly say (Section 4.3.2) that the inclusion of non-logarithmic spirals (with significant variation of pitch angle with radius) can negatively impact measurements using 2DFFT. They also say "In general, logarithmic spirals are good approximations of the shape of galactic spiral arms". In the face of these comments, which show that the assumption of logarithmic spirals is made despite the more general applicability of the method of Considere & Athanassoula (1988), we think there is evidence in the literature that the assumption of logarithmic spirals is widespread, even if the 2DFFT method can in principle discover radial variation in phi. 
 
 > Some of the assumptions made in this paper come without much/any justification. The authors should discuss the effects of each of the assumptions for which they offer no justification. E.g. is it reasonable to assume that the spread sigma_[gal] is constant? What do results from 2DFFT give? Some *quantitative* analysis of results from previous work would be useful here. If this assumption is simply based on lack of any better knowledge, the effect of this assumption should be tested numerically and discussed. But the authors could first check the literature whether there is better knowledge from previous 2DFFT work.
 
-We have added more discussion of the assumptions which were made. The specific question about sigma_[gal] is interesting. We have added citations to work where arms in spirals are fit separately. All of them comment that pitch angles do vary between arms in spirals, but there is no discussion of how the variation changes between galaxies. In general sample sizes are small. We note this as an interesting followup question for larger samples, including potentially a large sample run through Galaxy Builder. 
+We have added more discussion of the assumptions which were made. The specific question about sigma_[gal] is interesting. We have added citations to work where arms in spirals are fit separately. All of them comment that pitch angles do vary between arms in spirals, but there is no discussion of how the variation changes between galaxies. In general sample sizes are small. We note this as an interesting followup question for larger samples, including potentially a larger sample run through a second phase of Galaxy Builder. 
 
 > Section 2.2
 
@@ -68,7 +68,7 @@ We have added a histogram (which was previously published in Lingard et al. 2020
 
 > Since a sample of 98 galaxies were shown twice to (different?) volunteers, it is of interest to compare the results for the same galaxies: did the resulting pitch angles, number of arms, etc. all agree ? One of the data files available on the GitHub website indicates that this is not the case, but that website is poorly documented.
 
- In this set of 98 galaxies, we find that 93% have the number of arms the same within +/-1 (53% have exactly the same number of arms). 
+ We added a line to point the reader to Lingard et al. (2020) where this is discussed, and also add a comment that in this set of 98 galaxies, we find that 93% have the number of arms the same within +/-1 (53% have exactly the same number of arms). 
 
  We have expanded the reasons why we sometimes miss arms (generally in the clustering part of the process) below. 
 
@@ -76,13 +76,13 @@ We have added a histogram (which was previously published in Lingard et al. 2020
 
 > From Figure 10 of the GBpaper, it follows that 16 out of 98 galaxies have p_bar .ge. 0.5, of which 8 out 98 galaxies have p_bar .ge. 0.55, with none of them exceeding p_bar = 0.75. Thus there are few really barred galaxies in this sample. This statistics can be repeated for the other sample of 100 galaxies. This information is necessary to be able to judge how many barred galaxies are considered. If only 16% of the galaxies are barred, there is not much you can do to test hypotheses concerning barred galaxies. 
 
-We agree. Our statistical analysis incorporates this (which is one of the reasons we don't find anything significant). No changes have been made (or asked for). 
+We agree. Our statistical analysis incorporates this (which is one of the reasons we don't find anything significant). We have made this clearer in the text. 
 
 > 3. Section 3.1
 
 > You report a final sample of 139 galaxies with 261 spiral arms, i.e. less than 2 arms per galaxy. Please give details of why this is so. Please also list how many of the galaxies are multiarmed, and state the number of arms.
 
-When we looked into this we found this needed to be updated to 129 galaxies with 247 spiral arms which is closer to two arms per galaxy (1.9). We are unsure of the reason for this discrepancy, it may have been as simple as a typo. 
+When we looked into this we found this needed to be updated to 129 galaxies with 247 spiral arms which is closer to two arms per galaxy (1.9). We are unsure of the reason for this discrepancy. All plots and numberical result have been updated. 
 
 Here is the complete breakdown of number of arms per galaxy: 
 
@@ -100,7 +100,7 @@ This has been entered into the text.
 
 > In Figure 4 I count about 40 1-armed spirals, 22 3-armed spirals, 14 4-armed spirals, and about 63 2-armed spirals (more difficult to count). Why are there so many 1-armed spirals, and why for these, for pitch angles below about 14 degrees, is PHI_arm not equal to PHI_gal ?
 
- We have found that in some cases, while volunteers drew two arms, the clustering/aggregation code was unable to cluster them, so the final method reported a single arm. This happened in 35 cases (the majority of the 1 arm galaxies), and is a consequence of clustering noisy data. Where arms are detected the pitch angles are reliable, and our method of calculating galaxy averages accounts for this possible bias of error caused by missing arms. However the presence of this fraction of single-identified spiral arm galaxies drives the average number of arms per galaxy down below the real value, and because the most common number of actual arms is two, it is particularly notable in resulting in reports of one-armed galaxies. We have added some text explaining this, and cautioning against over interpreting our reports on the number of arms. We reiterate that this should not significantly impact the results on pitch angle. 
+ We have found that in some cases, while most volunteers drew two arms, the clustering/aggregation code was unable to cluster them, so the final method reported a single arm. This happened in 35 cases (the majority of the 1 arm galaxies), and is a consequence of clustering noisy data. Where arms are detected the pitch angles are reliable, and our method of calculating galaxy averages accounts for this possible bias of error caused by missing arms. However the presence of this fraction of single-identified spiral arm galaxies drives the average number of arms per galaxy down below the real value, and because the most common number of actual arms is two, it is particularly notable in resulting in reports of one-armed galaxies. We have added some text explaining this, and cautioning against over interpreting our reports on the number of arms. We reiterate that this should not significantly impact the results on pitch angle. 
 
 We have added to the previously existing explanation of why PHI_gal is consistently below PHI_gal at low values of pitch angle for a single arm at the end of section 3.1 to make clearer the point that it's related to finding the mean of a broad, but skewed (truncated at zero) distribution. 
 
@@ -110,7 +110,7 @@ We have added to the previously existing explanation of why PHI_gal is consisten
 
 > Now there is a large overlap in authors between Hart et al. (2017) and Masters et al. (2019): 7 people, 5 of which are also co-authors of this paper. Surely these 5 people should be able to explain WHY they found no link between pitch angle and bulge size in one paper, and found a link in another one ?? 
 
-This isn't really in the scope of this paper. The Hart et al. (2017) result really showed that pitch angle depended on disc mass more than bulge size (but more massive discs tend to have larger bulges. In the interest of keeping to the point of this paper, we have removed that citation, but also note that these correlation results can depend on both how bulge size and pitch angles are measured. 
+We think addressing this, while interesting, is beyond the scope of this paper. The Hart et al. (2017) result really showed that pitch angle depended on disc mass more than bulge size (but more massive discs tend to have larger bulges). In the interest of keeping to the point of this paper, we have removed that citation, but also note that these correlation results can depend on both how bulge size and pitch angles are measured. 
 
 > Sandage (2005) reiterates that there are Sa galaxies with small bulges, so he knew that there was a tension between the pitch angle criterion and the one concerning the importance of the bulge. This is well explained in his 1961 Hubble Atlas of Galaxies. Please take this into account in your explanations.
 
@@ -122,7 +122,7 @@ We have added a citation. Thanks.
 
 > The manifold theory could be tested if Q_t,L1 can be suitably either mesured or replaced by an appropriate proxy. As R_D can not be used (see discussion above) the authors argue that Galaxy Zoo 2's bar fraction (pbar) is a good measure of the bar strength. This, however, is not sufficient for the problem in question, because not any measure of the bar strength may do, as Athanassoula et al. (2009, MNRAS, 400, 1706) show in their figures 7 and 8, where a correlation is shown with Qt,L1, but is practically lost if Qb is used instead. This could be because Qt,L1 contains  nformation on the bar strength, as well as on the bar pattern speed which is also linked to the bar strength. Since pbar presumably does not include information on the pattern speed it is possibly a better proxy for Qb than for Qt,L1. This, however, together with a number of other points discussed above remains to be shown. The authors could have consulted the volunteers with in a more appropriate way so as to obtain answers for the question under consideration. But, as it is, section 3.2.2 can not reach any conclusion. Thus, either the whole of 3.2.2 should be omitted, or the last paragraph should be reworded to explain that no conclusion could be reached.
 
-We are reporting what we have asked the volunteers. We thank the referee for these suggestions for any potential future version of the site.  We agree we cannot make any strong claims regarding Manifold theory, however it is still valid that we find no link between pitch angle and our measure of bar strength, which we feel should be reported. Edits have been made to the text. 
+We are reporting what we have asked the volunteers. We thank the referee for these suggestions for any potential future version of the site.  We agree we cannot make any strong claims regarding Manifold theory, however it is still valid that we find no link between pitch angle and our measure of bar strength, which we feel should be reported. Edits have been made to the text to note the limitations. 
 
 > 6. Section 3.3.3
 
@@ -134,7 +134,7 @@ This error has been corrected.
 
  The issue here is that the model itself includes an arbitrary lower pitch angle - Pringle & Dobbs (2019) make no attempt to give any physical motivation for what that minimum angle should be, and in their test against data chose 11.5 degrees as the limit - largely because that's where inspection of the distribution of cot(pitch angle) in the sample they investigate deviates from constant. 
 
- We think the referee makes an excellent point that the previous explanation was a little confusing. What we have really determined in our study here is that the cot(phi) uniform "model" fits the data well when the minimum pitch angle for winding spirals is around 15 degrees. We also determine that if the minimum pitch angle is 10 degrees the model cannot fit our data. This suggests that a minimum pitch angle for this model must be above 10 degrees,(e.g. 15 degrees). That's a specific observation that a more detailed model based on the simple model of Pringle & Dobbs (2019) would have to explain. We have made edits to the text to make this point. 
+ We think the referee makes an excellent point that the previous explanation was a little confusing. What we have really determined in our study here is that the cot(phi) uniform "model" fits the data well when the minimum pitch angle for winding spirals is around 15 degrees. We also determine that if the minimum pitch angle is 10 degrees the model cannot fit our data. This suggests that a minimum pitch angle for this model must be above 10 degrees,(e.g. 15 degrees). That's a specific observation that a more detailed model based on the simple model of Pringle & Dobbs (2019) would have to explain. We have made edits to the text to make this point, which we think is a really nice addition to the paper. 
 
 > Obviously, the abstract and the conclusions should be toned down as well, since a hurried reader would only retain your (possibly erroneous) conclusion.
 
@@ -148,7 +148,7 @@ We have reworded this section.
 
 > Another quote: "In this work, we assume that spiral arms are equally likely to be identified and recovered at all pitch angles." OK, but then you should NOT arbitrarely discard low pitch angle values when testing the Pringle & Dobbs 2019 hypothesis.
 
-We assume no selection bias in galaxy builder results, which is not necessarily valid, however the requirement for a lower limit of pitch angle is needed for the test.
+We assume no selection bias in Galaxy Builder results, which is not necessarily valid, however the requirement for a lower limit of pitch angle is needed for the test and we have added to the explanation of why in the text (also see comments above). 
 
 > The last two paragraphs contain more advertisements for the work, rather than Conclusions.
 
@@ -160,7 +160,7 @@ We have reworded this section.
 
 We apologise, we mistakenly linked a working respository, rather than the planned public one, which is available at https://github.com/tingard/hierarchical-modelling-of-spiral-pitch-angle. 
 
-Following this feedback, we have added (see at end of the README) a description of the contents of each of the Python Notebooks. 
+Following this feedback, we have additionally added (see at end of the README) a description of the contents of each of the Python Notebooks. 
 
 >To sum up: There are a number of problems with this paper, and a major revision should be made, so as to rescue the valuable results provided by the volunteers, and present them in a proper context.
 
