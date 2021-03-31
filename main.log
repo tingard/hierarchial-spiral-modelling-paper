@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.14)  31 MAR 2021 16:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.14)  31 MAR 2021 17:10
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1206,17 +1206,18 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (./sections/method.tex
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
 (Font)              scaled to size 9.0pt on input line 5.
- [3]
-<plots/stellarmass.png, id=62, 1193.45876pt x 391.4625pt>
-File: plots/stellarmass.png Graphic file (type png)
-<use plots/stellarmass.png>
-Package pdftex.def Info: plots/stellarmass.png  used on input line 30.
-(pdftex.def)             Requested size: 503.61368pt x 165.18964pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/it' in size <9> not available
-(Font)              Font shape `T1/ntxtlf/b/it' tried instead on input line 40.
+(Font)              Font shape `T1/ntxtlf/b/it' tried instead on input line 27.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
-(Font)              scaled to size 9.0pt on input line 40.
+(Font)              scaled to size 9.0pt on input line 27.
+ [3]
+<plots/stellar_mass_selection_plot.pdf, id=62, 858.15369pt x 281.0337pt>
+File: plots/stellar_mass_selection_plot.pdf Graphic file (type pdf)
+<use plots/stellar_mass_selection_plot.pdf>
+Package pdftex.def Info: plots/stellar_mass_selection_plot.pdf  used on input l
+ine 30.
+(pdftex.def)             Requested size: 503.61368pt x 164.92935pt.
  [4]
 LaTeX Font Info:    Try loading font information for T1+aett on input line 80.
 
@@ -1224,17 +1225,17 @@ LaTeX Font Info:    Try loading font information for T1+aett on input line 80.
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 ))
 (./sections/results.tex
-<plots/example-spiral-fits.pdf, id=68, 857.18504pt x 860.01299pt>
+<plots/example-spiral-fits.pdf, id=67, 857.18504pt x 860.01299pt>
 File: plots/example-spiral-fits.pdf Graphic file (type pdf)
 <use plots/example-spiral-fits.pdf>
 Package pdftex.def Info: plots/example-spiral-fits.pdf  used on input line 7.
 (pdftex.def)             Requested size: 503.61368pt x 505.2905pt.
-<plots/arm_pa_spread.pdf, id=69, 925.95313pt x 320.06766pt>
+<plots/arm_pa_spread.pdf, id=68, 925.95313pt x 320.06766pt>
 File: plots/arm_pa_spread.pdf Graphic file (type pdf)
 <use plots/arm_pa_spread.pdf>
 Package pdftex.def Info: plots/arm_pa_spread.pdf  used on input line 18.
 (pdftex.def)             Requested size: 503.61368pt x 174.07933pt.
-<plots/stellar_mass_phigal_distribution.pdf, id=70, 387.36595pt x 382.30016pt>
+<plots/stellar_mass_phigal_distribution.pdf, id=69, 387.36595pt x 382.30016pt>
 File: plots/stellar_mass_phigal_distribution.pdf Graphic file (type pdf)
 <use plots/stellar_mass_phigal_distribution.pdf>
 Package pdftex.def Info: plots/stellar_mass_phigal_distribution.pdf  used on in
@@ -1245,12 +1246,18 @@ Overfull \hbox (16.0748pt too wide) in paragraph at lines 26--27
 [][]
  []
 
-[5 <./plots/stellarmass.png>] [6 <./plots/example-spiral-fits.pdf>]
-<plots/bulge_bar_phigal_distribution.pdf, id=229, 858.70285pt x 425.5979pt>
+[5 <./plots/stellar_mass_selection_plot.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6 <./plots/example-spiral-fits.pdf>]
+<plots/bulge_bar_phigal_distribution.pdf, id=278, 858.70285pt x 425.5979pt>
 File: plots/bulge_bar_phigal_distribution.pdf Graphic file (type pdf)
 <use plots/bulge_bar_phigal_distribution.pdf>
 Package pdftex.def Info: plots/bulge_bar_phigal_distribution.pdf  used on input
- line 51.
+ line 53.
 (pdftex.def)             Requested size: 503.61368pt x 249.60693pt.
  [7 <./plots/arm_pa_spread.pdf> <./plots/stellar_mass_phigal_distribution.pdf
 
@@ -1258,44 +1265,42 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./plots/stellar_mass_phigal_
 distribution.pdf): PDF inclusion: multiple pdfs with page group included in a s
 ingle page
 >]
-<plots/bulge_bar_test_results.pdf, id=311, 860.04877pt x 426.0605pt>
+<plots/bulge_bar_test_results.pdf, id=359, 860.04877pt x 426.0605pt>
 File: plots/bulge_bar_test_results.pdf Graphic file (type pdf)
 <use plots/bulge_bar_test_results.pdf>
-Package pdftex.def Info: plots/bulge_bar_test_results.pdf  used on input line 6
-8.
+Package pdftex.def Info: plots/bulge_bar_test_results.pdf  used on input line 7
+0.
 (pdftex.def)             Requested size: 503.61368pt x 249.48817pt.
 
-Underfull \hbox (badness 1635) in paragraph at lines 88--89
+Underfull \hbox (badness 1635) in paragraph at lines 90--91
 []\T1/ntxtlf/m/n/9 To test this the-ory, Pringle & Dobbs (2019) used a
  []
 
 LaTeX Font Info:    Font shape `TS1/ntxtlf/bx/n' in size <9> not available
-(Font)              Font shape `TS1/ntxtlf/b/n' tried instead on input line 96.
+(Font)              Font shape `TS1/ntxtlf/b/n' tried instead on input line 98.
 
 LaTeX Font Info:    Font shape `TS1/ntxtlf/b/n' will be
-(Font)              scaled to size 9.0pt on input line 96.
+(Font)              scaled to size 9.0pt on input line 98.
 [8 <./plots/bulge_bar_phigal_distribution.pdf>]
-<plots/phi_distribution_comparison.pdf, id=377, 722.3236pt x 266.97804pt>
+<plots/phi_distribution_comparison.pdf, id=424, 722.3236pt x 266.97804pt>
 File: plots/phi_distribution_comparison.pdf Graphic file (type pdf)
 <use plots/phi_distribution_comparison.pdf>
 Package pdftex.def Info: plots/phi_distribution_comparison.pdf  used on input l
-ine 106.
+ine 108.
 (pdftex.def)             Requested size: 503.61368pt x 186.14192pt.
-<plots/combined_cot_uniform_marginalized_tests.pdf, id=378, 859.57948pt x 238.1
+<plots/combined_cot_uniform_marginalized_tests.pdf, id=425, 859.57948pt x 238.1
 5851pt>
 File: plots/combined_cot_uniform_marginalized_tests.pdf Graphic file (type pdf)
 
 <use plots/combined_cot_uniform_marginalized_tests.pdf>
 Package pdftex.def Info: plots/combined_cot_uniform_marginalized_tests.pdf  use
-d on input line 113.
+d on input line 115.
 (pdftex.def)             Requested size: 503.61368pt x 139.53474pt.
 ) (./sections/summary.tex
+[9 <./plots/bulge_bar_test_results.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9 <./plots/bulge_bar_test_results.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10 <./plots/phi_distribution_comparison.pdf> <./plots/combined_cot_uniform_ma
@@ -1304,7 +1309,7 @@ rginalized_tests.pdf
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./plots/combined_cot_uniform
 _marginalized_tests.pdf): PDF inclusion: multiple pdfs with page group included
  in a single page
->] (./sections/acknowledgements.tex)
+>]) (./sections/acknowledgements.tex)
 Underfull \hbox (badness 2057) in paragraph at lines 6--160
 \T1/ntxtlf/m/n/9 Award to Karen Mas-ters ($\T1/aett/m/n/9 https : / / ai . goog
 le / research /
@@ -1321,9 +1326,11 @@ Underfull \hbox (badness 7221) in paragraph at lines 162--163
 : / / github . com / tingard /
  []
 
-(./main.bbl) (./sections/appendix.tex)
+(./main.bbl [11]) (./sections/appendix.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
- [11]
+ [12
+
+]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
  (./main.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 186.
@@ -1339,13 +1346,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 186.
  ) 
 Here is how much of TeX's memory you used:
- 10650 strings out of 492649
- 151874 string characters out of 6129622
- 262118 words of memory out of 5000000
+ 10649 strings out of 492649
+ 151974 string characters out of 6129622
+ 262119 words of memory out of 5000000
  14218 multiletter control sequences out of 15000+600000
  128097 words of font info for 214 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,17n,37p,1860b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,17n,37p,1869b,630s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/
 local/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/usr/local/
 texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-sc.enc}{/usr/local/tex
@@ -1366,10 +1373,10 @@ xlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2
 f-dist/fonts/type1/public/txfonts/txmia.pfb></usr/local/texlive/2018/texmf-dist
 /fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2018/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on main.pdf (11 pages, 1008184 bytes).
+Output written on main.pdf (12 pages, 1083087 bytes).
 PDF statistics:
- 583 PDF objects out of 1000 (max. 8388607)
- 228 compressed objects within 3 object streams
+ 634 PDF objects out of 1000 (max. 8388607)
+ 237 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
