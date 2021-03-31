@@ -1,0 +1,188 @@
+% mnras_template.tex
+%
+% LaTeX template for creating an MNRAS paper
+%
+% v3.0 released 14 May 2015
+% (version numbers match those of mnras.cls)
+%
+% Copyright (C) Royal Astronomical Society 2015
+% Authors:
+% Keith T. Smith (Royal Astronomical Society)
+
+% Change log
+%
+% v3.0 May 2015
+%    Renamed to match the new package name
+%    Version number matches mnras.cls
+%    A few minor tweaks to wording
+% v1.0 September 2013
+%    Beta testing only - never publicly released
+%    First version: a simple (ish) template for creating an MNRAS paper
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Basic setup. Most papers should leave these options alone.
+\documentclass[fleqn,usenatbib]{mnras}
+
+% MNRAS is set in Times font. If you don't have this installed (most LaTeX
+% installations will be fine) or prefer the old Computer Modern fonts, comment
+% out the following line
+\usepackage{newtxtext,newtxmath}
+% Depending on your LaTeX fonts installation, you might get better results with one of these:
+%\usepackage{mathptmx}
+%\usepackage{txfonts}
+
+% Use vector fonts, so it zooms properly in on-screen viewing software
+% Don't change these lines unless you know what you are doing
+\usepackage[T1]{fontenc}
+\usepackage{ae,aecompl}
+
+
+%%%%% AUTHORS - PLACE YOUR OWN PACKAGES HERE %%%%%
+
+% Only include extra packages if you really need them. Common packages are:
+\usepackage{graphicx}	% Including figure files
+\usepackage{amsmath}	% Advanced maths commands
+\usepackage{gensymb}
+\usepackage{amssymb}	% Extra maths symbols
+\usepackage{ulem} 
+\usepackage{color} % Colour fonts
+\usepackage{subfiles} % allows defining sections in their own files
+\usepackage[british]{babel}
+\usepackage[utf8]{inputenc}
+
+\selectlanguage{british}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%% AUTHORS - PLACE YOUR OWN COMMANDS HERE %%%%%
+
+% Please keep new commands to a minimum, and use \newcommand not \def to avoid
+% overwriting existing commands. Example:
+%\newcommand{\pcm}{\,cm$^{-2}$}	% per cm-squared
+
+\definecolor{comment}{RGB}{200,0,0}
+\renewcommand{\comment}[2][comment]{{\color{#1}[[{\bf #2}]]}}
+
+\newcommand{\widevec}[1]{\overrightarrow{#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%% TITLE PAGE %%%%%%%%%%%%%%%%%%%
+
+% Title of the paper, and the short title which is used in the headers.
+% Keep the title short and informative.
+\title[Galaxy Zoo Builder: Morphological Dependence of Spiral galaxy Pitch Angle]{Galaxy Zoo Builder: Morphological Dependence of Spiral Galaxy Pitch Angle}
+
+% The list of authors, and the short list which is used in the headers.
+% If you need two or more lines of authors, add an extra line using \newauthor
+\author[T. Lingard et al.]{
+  Timothy Lingard$^{1}$\thanks{E-mail: tklingard@gmail.com}, % ORCID: 0000-0002-0529-7427
+  Karen L. Masters$^{2}$, % ORCID: 0000-0003-0846-9578
+  Coleman Krawczyk$^{1}$, % ORCID: 0000-0001-9233-2341
+  Chris Lintott$^{3}$, % ORCID: 0000-0001-5578-359X
+  \newauthor
+  Sandor Kruk$^{4}$, % ORCID: 0000-0001-8010-8879
+  Brooke Simmons$^{5}$, % ORCID: 0000-0001-5882-3323
+  William Keel$^{6}$, % ORCID: 0000-0002-6131-9539
+  % Steven Bamford,$^{4}$,
+  % Robert Simpson,$^{8}$,
+  % \newauthor
+  Robert C. Nichol,$^{1}$ % ORCID: 0000-0003-0939-6518
+  \newauthor
+  Elisabeth Baeten$^{7}$
+  \\
+  % List of institutions
+  $^{1}$Institute of Cosmology and Gravitation, University of Portsmouth, Dennis Sciama Building, Burnaby Road,\\
+  Portsmouth, PO1 3FX, UK\\
+  $^{2}$Haverford College, 370 Lancaster Ave., Haverford, PA 19041, USA\\
+  $^{3}$Oxford Astrophysics, Denys Wilkinson Building, Keble Road, Oxford, OX1 3RH, UK\\
+  $^{4}$European Space Agency, ESTEC, Keplerlaan 1, NL-2201 AZ, Noordwijk, The Netherlands\\
+  $^{5}$Physics Department, Lancaster University, Lancaster, LA1 4YB, UK\\
+  $^{6}$Department of Physics \& Astronomy, University of Alabama, Tuscaloosa, AL 35457-0324\\
+  $^{7}$Independent Zooniverse Volunteer\\
+  % $^{4}$Centre for Astronomy \& Particle Theory, School of Physics \& Astronomy, University of Nottingham, Nottingham, NG7 2RD, UK\\
+  % $^{8}$Google UK, Six, Pancras Square, London N1C 4AG\\
+  % $^{7}$\\
+}
+
+% These dates will be filled out by the publisher
+\date{Accepted XXX. Received YYY; in original form ZZZ}
+
+% Enter the current year, for the copyright statements etc.
+\pubyear{2021}
+
+% use this if getting \pdfendlink ended up in different nesting than \pdfstartlink
+\hypersetup{draft}
+
+% Don't change these lines
+\begin{document}
+\label{firstpage}
+\pagerange{\pageref{firstpage}--\pageref{lastpage}}
+\maketitle
+
+% Abstract of the paper
+\begin{abstract}
+\subfile{sections/abstract}
+\end{abstract}
+
+% Select between one and six entries from the list of approved keywords.
+% Don't make up new ones.
+\begin{keywords}
+galaxies: evolution -- galaxies: spiral -- galaxies: photometry
+\end{keywords}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%% BODY OF PAPER %%%%%%%%%%%%%%%%%%
+
+% \section*{Intro Lit review (to be removed)}
+% \input{sections/intro_reviews}
+
+\section{Introduction}
+\input{sections/introduction}
+% \newpage
+
+\section{Method}
+\input{sections/method}
+% \newpage
+
+\section{Results}
+\input{sections/results}
+% \newpage
+
+\section{Summary and Conclusions}
+\input{sections/summary}
+% \newpage
+
+\section{Acknowledgements}
+\input{sections/acknowledgements}
+% \newpage
+
+\section{Data Availability}
+The data and software analysis underlying this paper are available on GitHub at \url{https://github.com/tingard/gzbuilder_results} and \url{https://github.com/tingard/hierarchical-modelling-of-spiral-pitch-angle}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%% REFERENCES %%%%%%%%%%%%%%%%%%
+
+% The best way to enter references is to use BibTeX:
+\bibliographystyle{mnras}
+\bibliography{bibliography} % if your bibtex file is called example.bib
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%% APPENDICES %%%%%%%%%%%%%%%%%%%%%
+
+\appendix
+
+\subfile{sections/appendix}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% Don't change these lines
+\bsp	% typesetting comment
+\label{lastpage}
+\end{document}
+
+% End of mnras_template.tex
