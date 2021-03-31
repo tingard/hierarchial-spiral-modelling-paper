@@ -462,9 +462,9 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/boondox/zxxrl7z.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/public/txfonts/txr.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/txfonts/rtxptmr.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/txfonts/rtxr.tfm
-INPUT plots/stellarmass.png
-INPUT ./plots/stellarmass.png
-INPUT ./plots/stellarmass.png
+INPUT plots/stellar_mass_selection_plot.pdf
+INPUT ./plots/stellar_mass_selection_plot.pdf
+INPUT ./plots/stellar_mass_selection_plot.pdf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/public/newtx/ntxsy.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/txfonts/txsy.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/ae/t1aett.fd
@@ -502,10 +502,10 @@ INPUT sections/summary.tex
 INPUT sections/acknowledgements.tex
 INPUT sections/acknowledgements.tex
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/ae/aett9.tfm
+INPUT main.bbl
+INPUT main.bbl
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/public/ae/aett9.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmtt9.tfm
-INPUT main.bbl
-INPUT main.bbl
 INPUT sections/appendix.tex
 INPUT sections/appendix.tex
 INPUT main.aux
