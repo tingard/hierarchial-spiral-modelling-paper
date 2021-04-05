@@ -14,7 +14,7 @@ We have made edits to use the recommended language.
 
 > 2. In this context, it is striking that the authors now choose NGC 4689 as a example of a flocculent galaxy, even though spiral structure is visible, in particular the eastern arm. True, Elmegreen & Elmegreen (1987) list it as a class 3 spiral, i.e. in the same category as NGC 2841, but the spiral arms are clearly there in the 3.6 micron Spitzer image. I suggest using NGC 2841 as a good example for a flocculent galaxy, and note that for NGC 5055 there is a paper by Michele Thornley -  1996ApJ...469L..45T - pointing out that in the K'-band there is spiral structure seen, even though it is also listed as a prototype flocculent spiral in Elmegreen & Elmegreen (1987).
 
-We have edited to use NGC 2841 as the example of a flocculent galaxy ** TO DO - I put the SDSS image of it in the drive.  ** 
+We have edited to use NGC 2841 as the example of a flocculent galaxy. 
 
 > 3. The authors write on page 2 left side line 38: Spiral tightness is also observed to correlate with rotation curve shape (Seigar et al. 2005), with rising rotation curves creating more open spiral structure.
 
@@ -34,9 +34,13 @@ We have further toned down the conclusion on Manifold theory and believe it now 
 
 > 6. In the conclusions, page 11 left side lines 48-49, you suggest that the absence of galaxies with low pitch angles is not a selection effect. How does this square with the data of Kennicutt (1981), where nearly all Sa galaxies, as classified in the RSA catalogue, have pitch angles less than 10 degrees? Are you sure that you are not missing the tightly wound early type spiral galaxies?
 
-Our sample selection is quite different to Kennicutt (1981) which may be one factor. For example the most distant of the Kennicutt galaxies is at a similar redshift the lower limit of our sample. This means the mass range covered will be very different too.  It seems possibly that very tightly wound spirals may be more likely to be misidentified as smooth galaxies, and therefore not make it into the spiral sample in Galaxy Zoo at all. In addition a colleague compared Kennicutt (1981) pitch angles to those measured using the Spacfire software, and found that Sparcfire measured more open arms in general for the early type spirals. We have not run the Kennicutt sample through Galaxy Builder, so we cannot reliably comment if that would be an effect here, but will make sure to do that for the next phase of the project. 
+Our sample selection is quite different to Kennicutt (1981) which we suspect is the primary factor. For example the most distant of the Kennicutt galaxies is at a similar redshift the lower limit of our sample. This means the mass range covered will be very different too, with the Kennicutt sample likely weighted to lower mass galaxies. Another factor, is that we have found that very tightly wound spirals may be misidentified as smooth galaxies at larger distances, and therefore not make it into the spiral sample in Galaxy Zoo at all. In addition a co-author (BK) compared Kennicutt (1981) pitch angles to those measured using the Spacfire software, and found that Sparcfire measured more open arms in general for the early type spirals. We have not run the Kennicutt sample through Galaxy Builder, so we cannot reliably comment if that would be an effect here, but will make sure to do that for the next phase of the project. 
+
+ We have added some additional lines about sample selection. 
 
 > I did a cursory inspection of the early type spirals in the Yu & Ho (2018) sample, and find that most of the early type spirals (S0/a, Sa and Sab) are actually barred spirals when checking the classification in Hyperleda and displaying them in the legacysurvey viewer. Perhaps the authors can check the distribution of the results of Kennicutt (1981) in a diagram such as Figure 9, to see whether his sample is in agreement with the ideas of Pringle & Dobbs (2019)?
+
+ We did this, and the Kennicutt sample is peaked at lower pitch angle, so the agreement is not as good. We have added a note about this to the paper, including comments on sample selection, and we include the plot for the referee. 
 
 > Minor comments and typos:
 
