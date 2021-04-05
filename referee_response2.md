@@ -40,7 +40,7 @@ Our sample selection is quite different to Kennicutt (1981) which we suspect is 
 
 > I did a cursory inspection of the early type spirals in the Yu & Ho (2018) sample, and find that most of the early type spirals (S0/a, Sa and Sab) are actually barred spirals when checking the classification in Hyperleda and displaying them in the legacysurvey viewer. Perhaps the authors can check the distribution of the results of Kennicutt (1981) in a diagram such as Figure 9, to see whether his sample is in agreement with the ideas of Pringle & Dobbs (2019)?
 
- We did this, and the Kennicutt sample is peaked at lower pitch angle, so the agreement is not as good. We have added a note about this to the paper, including comments on sample selection, and we include the plot for the referee. 
+ We did this, and the Kennicutt sample is peaked at lower pitch angle, so the agreement is not as good. We have added a note about this to the paper, including comments on sample selection, and we include the plot for the referee. We also point the referee to Figure 9 of Kennicutt 1981 which illustrates the sample selection effects nicely, and hi-lights the point about missing spirals with open arms. 
 
 > Minor comments and typos:
 
